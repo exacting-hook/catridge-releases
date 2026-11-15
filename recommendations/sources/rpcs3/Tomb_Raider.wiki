@@ -1,0 +1,197 @@
+<!-- please read the wiki conventions page and documentation for templates before creating a new game page -->{{vginfobox
+|image     = [[File:{{#setmainimage:TombRaider2013.jpg}}|300px]]
+|developer = Crystal Dynamics
+|publisher = Square Enix
+|series    = Tomb Raider
+|date      = March 5, 2013
+|release   = Multi-platform<!-- Choose one of the following: PlayStation 3 exclusive, PlayStation exclusive, Console exclusive, Multi-platform -->
+|genre     = Action, Adventure
+|modes     = Single-player, Multiplayer<!-- Choose all relevant options: Single-player, Co-op, Multiplayer -->
+|gameid    = {{gameid|id=BLES01780, BLES01781, BLUS31036, BCAS20272, NPEB01298, NPUB31146, NPHB00547|oid=BLES01834, BLJM60557, NPEB01319, NPJB00283, NPHB00578|ird=Yes}}
+|wikipedia = https://en.wikipedia.org/wiki/Tomb_Raider_(2013_video_game)
+}}
+
+<!-- Give a brief description about the game -->
+
+==Configuration==
+<!-- Enter mandatory non-default settings to be used. Recommendatory or default settings can be entered only on exceptional basis. -->{{config
+<!-- CPU configuration -->
+|ppu decoder                           = <!-- Interpreter (static), Interpreter (dynamic), Recompiler (LLVM) -->
+|ppu decoder notes                     =
+|spu decoder                           = <!-- Interpreter (static), Interpreter (dynamic), Recompiler (ASMJIT), Recompiler (LLVM) -->
+|spu decoder notes                     =
+|preferred spu threads                 = <!-- Auto, Single digit between 1 to 6 (e.g. 3), Range between 1 to 6 (e.g. 1 - 3) -->
+|preferred spu threads notes           =
+|thread scheduler                      = <!-- Operating System, RPCS3 Scheduler, RPCS3 Alternative Scheduler -->
+|thread scheduler notes                =
+|enable spu loop detection             = <!-- On, Off -->
+|enable spu loop detection notes       =
+|spu xfloat accuracy                   = <!-- Accurate, Approximate, Relaxed -->
+|spu xfloat accuracy notes             =
+|spu block size                        = <!-- Safe, Mega, Giga -->
+|spu block size notes                  =
+|tsx instructions                      = <!-- Enabled, Disabled, Forced -->
+|tsx instructions notes                =
+<!-- GPU configuration -->
+|renderer                              = <!-- OpenGL, Vulkan, Disabled -->
+|renderer notes                        =
+|aspect ratio                          = <!-- 4:3, 16:9 -->
+|aspect ratio notes                    =
+|framelimit                            = <!-- Off, 50, 60, 30, Auto, PS3 Native, Infinite -->
+|framelimit notes                      =
+|anisotropic filter                    = <!-- Auto, 2x, 4x, 8x, 16x -->
+|anisotropic filter notes              =
+|anti-aliasing                         = <!-- Auto, Disabled -->
+|anti-aliasing notes                   =
+|zcull accuracy                        = <!-- Precise, Approximate, Relaxed -->
+|zcull accuracy notes                  =
+|shader quality                        = <!-- High, Low, Auto -->
+|shader quality notes                  =
+|3d rendering mode                     = <!-- Disabled, Anaglyph, Side-by-side, Over-under -->
+|3d rendering mode notes               =
+|default resolution                    = <!-- 1920x1080, 1280x720, 720x480, 720x576, 1600x1080, 1440x1080, 1280x1080, 960x1080 -->
+|default resolution notes              =
+|resolution scale                      = <!-- Value between 50% to 800% -->
+|resolution scale notes                =
+|resolution scale threshold            = <!-- Value between 1 to 1024 in the format 16 x 16 -->
+|resolution scale threshold notes      =
+|shader mode                           = <!-- Legacy (singlethreaded), Async (multithreaded), Async with Shader Interpreter, Shader Interpreter only -->
+|shader mode notes                     =
+|write color buffers                   = <!-- On, Off -->
+|write color buffers notes             =
+|strict rendering mode                 = <!-- On, Off -->
+|strict rendering mode notes           =
+|vsync                                 = <!-- On, Off -->
+|vsync notes                           =
+|stretch to display area               = <!-- On, Off -->
+|stretch to display area notes         =
+|multithreaded rsx                     = <!-- On, Off -->
+|multithreaded rsx notes               =
+|asynchronous texture streaming        = <!-- On, Off -->
+|asynchronous texture streaming notes  =
+<!-- Audio configuration -->
+|audio out windows                     = <!-- Cubeb, XAudio2, Disabled -->
+|audio out windows notes               =
+|audio out linux                       = <!-- Cubeb, FAudio, Disabled -->
+|audio out linux notes                 =
+|audio format                          = <!-- Stereo, Surround 5.1, Surround 7.1, Automatic, Manual -->
+|audio format notes                    =
+|dump to file                          = <!-- On, Off -->
+|dump to file notes                    =
+|convert to 16-bit                     = <!-- On, Off -->
+|convert to 16-bit notes               =
+|volume                                = <!-- Value between 0% to 200% -->
+|volume notes                          =
+|enable buffering                      = <!-- On, Off -->
+|enable buffering notes                =
+|audio buffer duration                 = <!-- Value between 20ms to 250ms -->
+|audio buffer duration notes           =
+|enable time stretching                = <!-- On, Off -->
+|enable time stretching notes          =
+|time stretching threshold             = <!-- Value between 0% to 100% -->
+|time stretching threshold notes       =
+|microphone type                       = <!-- Disabled, Standard, SingStar, Real SingStar, Rocksmith -->
+|microphone type notes                 =
+<!-- I/O configuration -->
+|keyboard handler                      = <!-- Null, Basic -->
+|keyboard handler notes                =
+|mouse handler                         = <!-- Null, Basic -->
+|mouse handler notes                   =
+|camera input                          = <!-- Unknown, EyeToy, PS Eye, UVC 1.1 -->
+|camera input notes                    =
+|camera settings                       = <!-- Null, Fake, Qt -->
+|camera settings notes                 =
+|move handler                          = <!-- Null, Fake, Mouse -->
+|move handler notes                    =
+<!-- Network configuration -->
+|network status                        = <!-- Disconnected, Connected -->
+|network status notes                  =
+|psn status                            = <!-- Disconnected, Simulated, RPCN -->
+|psn status notes                      =
+<!-- Advanced configuration -->
+|debug console mode                    = <!-- On, Off -->
+|debug console mode notes              =
+|accurate llvm dfma                    = <!-- On, Off -->
+|accurate llvm dfma notes              =
+|accurate getllar                      = <!-- On, Off -->
+|accurate getllar notes                =
+|accurate rsx reservation access       = <!-- On, Off -->
+|accurate rsx reservation access notes =
+|accurate spu dma                      = <!-- On, Off -->
+|accurate spu dma notes                =
+|ppu llvm accurate vector nans         = <!-- On, Off -->
+|ppu llvm accurate vector nans notes   =
+|ppu llvm java mode handling           = <!-- On, Off -->
+|ppu llvm java mode handling notes     =
+|silence all logs                      = <!-- On, Off -->
+|silence all logs notes                =
+|sleep timers accuracy                 = <!-- As Host, Usleep Only, All Timers -->
+|sleep timers accuracy notes           =
+|maximum spurs threads                 = <!-- Unlimited, Single digit between 0 to 5 (e.g. 3) -->
+|maximum spurs threads notes           =
+|firmware libraries                    = <!-- Mention the libraries to be selected here. Ensure that the full name of the library as shown in the emulator UI is mentioned. If multiple libraries need to be selected, please separate the libraries with a comma. -->
+|firmware libraries notes              =
+|read depth buffers                    = <!-- On, Off -->
+|read depth buffers notes              =
+|write depth buffers                   = <!-- On, Off -->
+|write depth buffers notes             =
+|read color buffers                    = On <!-- On, Off -->
+|read color buffers notes              = Resolves the black screen in the main menu and black screen due to weather effects. On BLES01834 01.00, the Disable MLAA patch fixes the main menu without this setting.
+|disable on-disk shader cache          = <!-- On, Off -->
+|disable on-disk shader cache notes    =
+|disable vertex cache                  = <!-- On, Off -->
+|disable vertex cache notes            =
+|rsx fifo accuracy                     = <!-- Fast, Atomic, Ordered & Atomic -->
+|rsx fifo accuracy notes               =
+|driver wake-up delay                  = <!-- Value between 0 to 7000 -->
+|driver wake-up delay notes            =
+|emulate special depth comparison       = On<!-- On, Off -->
+|emulate special depth comparison notes = Fixes flickering foliage.
+|vblank rate                           = <!-- Value between 1 to 500 -->
+|vblank rate notes                     =
+|vblank ntsc fixup                     = <!-- On, Off -->
+|vblank ntsc fixup notes               =
+|clocks scale                          = <!-- Value between 10 to 1000 -->
+|clocks scale notes                    =
+<!-- Debug configuration -->
+|disable zcull occlusion queries       = <!-- On, Off -->
+|disable zcull occlusion queries notes =
+|force cpu blit emulation              = <!-- On, Off -->
+|force cpu blit emulation notes        =
+|force gpu texture scaling             = <!-- On, Off -->
+|force gpu texture scaling notes       =
+|hook static functions                 = <!-- On, Off -->
+|hook static functions notes           =
+|accurate ppu 128 reservations         = <!-- Always Enabled, Disabled, Value between 1 to 8 -->
+|accurate ppu 128 reservations notes   =
+|ppu thread count                      = <!-- Value between 1 to 8 -->
+|ppu thread count notes                =
+<!-- Recommended patches -->
+|highly recommended patch              = Disable MLAA<!-- Mention patch names -->
+|highly recommended patch notes        = Fixes the black main menu without needing Read Color Buffers. Currently available for BLES01834 01.00 only.
+|recommended patch                     = <!-- Mention patch names -->
+|recommended patch notes               =
+}}
+
+==Known Issues==
+<!-- Mention any known issues relating to the game. Use the issue and PR template if necessary. If no notable issues are present, mention "There are no reported issues with this title." -->
+===Black main menu===
+The main menu is black except for rain unless Read Color Buffers is enabled. This is because the game applies MLAA anti-aliasing to the frame on the SPUs instead of on the RSX. On BLES01834 01.00, the Disable MLAA patch fixes this without Read Color Buffers.
+
+==Special Notes==
+<!-- Mention any additional notes if necessary. If no special notes are required, remove this section -->
+{{patch
+|type    = PPU
+|version = 1.2
+|content =
+PPU-a68bc0536f21f86b068a3f90983a47a0145f538c:
+  "Disable MLAA":
+    Games:
+      "Tomb Raider":
+        BLES01834: [ 01.00 ]
+    Author: "salem-5"
+    Notes: "Disables the SPU-based Edge MLAA post-processing.\nFixes the black main menu when Read Color Buffers is off.\nEdges are no longer smoothed by MLAA."
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x01081e30, 0x60000000 ]
+}}
