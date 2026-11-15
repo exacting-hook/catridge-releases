@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "X-Men Origins: Wolverine",
+  "page": "https://wiki.rpcs3.net/index.php?title=X-Men_Origins%3A_Wolverine",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30268",
+    "BLES00150",
+    "NPEB90154",
+    "NPUB90200"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "400",
+      "note": "This prevents dithering artifacts on bloom at higher resolutions."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "This allows the game to be played at 60FPS, increasing the Vblank rate further allows the game to run at a maximum of 62FPS but no higher, unfortunately."
+    }
+  ],
+  "patches": []
+}

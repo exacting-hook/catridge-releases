@@ -16,16 +16,15 @@
       "note": "Fixes screen being darker than usual"
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves Performance."
+    },
+    {
       "id": "rpcs3.rdb",
       "value": "true",
       "note": "Fixes black box around camera, visible wider areas and hallways"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

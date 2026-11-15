@@ -27,6 +27,11 @@
       "note": "Renders the skybox with correct colors"
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "160",
+      "note": "When using Resolution scaling above 100%, this must be set to 160x160. Otherwise bloom will appear pixelated."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required in some sections and the demo version."
@@ -79,12 +84,6 @@
         "BCKS15003",
         "BCUS98111"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "160 x 160"
     }
   ]
 }

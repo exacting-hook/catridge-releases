@@ -12,16 +12,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Required to properly scale bloom when using resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken brightness adjustment in the sky."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    }
-  ]
+  "patches": []
 }

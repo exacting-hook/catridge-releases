@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sonic the Fighters",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sonic_the_Fighters",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB01162",
+    "NPUB30927",
+    "NPJB00250",
+    "NPHB00515"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes the HUD rendering incorrectly during stage transitions."
+    }
+  ],
+  "patches": []
+}

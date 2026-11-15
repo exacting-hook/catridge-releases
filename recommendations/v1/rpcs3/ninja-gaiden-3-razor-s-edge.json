@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ninja Gaiden 3: Razor's Edge",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ninja_Gaiden_3%3A_Razor's_Edge",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31175",
+    "BLES01845",
+    "BLJM61010",
+    "NPUB31184",
+    "NPEB01327",
+    "NPUB90950",
+    "NPEB90491"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    }
+  ],
+  "patches": []
+}

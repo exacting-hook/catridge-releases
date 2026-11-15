@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "DmC Devil May Cry",
+  "page": "https://wiki.rpcs3.net/index.php?title=DmC_Devil_May_Cry",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01698",
+    "BLUS30723",
+    "BLJM60502",
+    "NPEB01020",
+    "NPUB30830",
+    "NPJB00278",
+    "NPEB90473",
+    "NPUB90929",
+    "NPJB90567",
+    "NPHB00531"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    },
+    {
+      "id": "rpcs3.getllar_spin_off",
+      "value": "true",
+      "note": "Fixes low performance"
+    }
+  ],
+  "patches": []
+}

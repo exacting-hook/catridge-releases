@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Cursed Crusade",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Cursed_Crusade",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01299",
+    "BLUS30641",
+    "BLJM60395",
+    "NPUB30683",
+    "BLKS20320",
+    "NPUB90676"
+  ],
+  "settings": [
+    {
+      "id": "video.renderer",
+      "value": "opengl",
+      "note": "Vulkan works until you reach Chapter 2. Once in Chapter 2 the game will randomly hang unless you use OpenGL."
+    }
+  ],
+  "patches": []
+}

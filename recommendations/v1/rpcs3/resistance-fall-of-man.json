@@ -14,7 +14,18 @@
     "NPEA90001",
     "NPUA98107"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "80",
+      "note": "Fixes bad vignette effect (gradient made of bars) in game and on menus visible if upscaling at 200% or above."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "To be used in combination with Whatcookie's \"Unlock FPS\" patch which will allow the game to run at 60 FPS. Warning: affects Bullseye trap physics, higher than 150 Hz will break them entirely."
+    }
+  ],
   "patches": [
     {
       "name": "Unlock FPS",
@@ -26,16 +37,6 @@
         "BCUS98107",
         "NPEA00430"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "80x80"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
     }
   ]
 }

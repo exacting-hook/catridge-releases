@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Borderlands 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Borderlands_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01684",
+    "BLJS10190",
+    "NPEB01144",
+    "NPUB30898",
+    "BLUS30982",
+    "NPJB00460",
+    "BLES01813",
+    "BLES01965",
+    "BLUS41046",
+    "BLJS10252"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Resolves graphical issues when resolution scaling is set above 100%."
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes missing font characters in menus"
+    }
+  ],
+  "patches": []
+}

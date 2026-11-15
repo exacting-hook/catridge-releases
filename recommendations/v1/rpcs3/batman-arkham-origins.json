@@ -19,24 +19,25 @@
       "note": "Needed if you're on an RTX 20/30/40/50 card only, workaround for {{issue|14113}}."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Values over 100 can cause serious graphical issues when using Detective Vision, especially when using non-integer values such as 150."
+    },
+    {
+      "id": "rpcs3.debug_console",
+      "value": "true",
+      "note": "Enable this if the game crashes on boot."
+    },
+    {
       "id": "rpcs3.wdb",
       "value": "true",
       "note": "Fixes broken graphics."
+    },
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes flickering in the main menu."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "debug console mode",
-      "value": "On"
-    },
-    {
-      "key": "disable vertex cache",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

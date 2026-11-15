@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sonic the Hedgehog 4 - Episode II",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sonic_the_Hedgehog_4_-_Episode_II",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00717",
+    "NPUB30581",
+    "NPJB00164",
+    "NPHB00459"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Properly scales shadows when using Resolution Scaling."
+    }
+  ],
+  "patches": []
+}

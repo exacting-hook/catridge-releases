@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Chivalry: Medieval Warfare",
+  "page": "https://wiki.rpcs3.net/index.php?title=Chivalry%3A_Medieval_Warfare",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB31526",
+    "NPEB02115"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    },
+    {
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Required to get ingame."
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Required to get ingame."
+    }
+  ],
+  "patches": []
+}

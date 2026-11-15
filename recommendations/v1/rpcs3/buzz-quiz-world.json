@@ -18,13 +18,12 @@
       "id": "rpcs3.xfloat",
       "value": "Relaxed",
       "note": "Gives a 7% performance boost"
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes visual issues when using resolution scale."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "512 x 512"
-    }
-  ]
+  "patches": []
 }

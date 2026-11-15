@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Payday 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Payday_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01902",
+    "BLUS31219",
+    "NPEB01784",
+    "NPUB31294",
+    "NPEB90503",
+    "NPUB90968"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    }
+  ],
+  "patches": []
+}

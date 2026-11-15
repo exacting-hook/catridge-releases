@@ -14,16 +14,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Properly scales bloom and shadows when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.strict",
       "value": "true",
       "note": "Fixes flickering bloom."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "512x512"
-    }
-  ]
+  "patches": []
 }

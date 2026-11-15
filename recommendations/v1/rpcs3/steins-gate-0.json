@@ -14,13 +14,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required for the thumbnails to save properly in the Save/Load Menu."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Required to properly play some videos"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
-    }
-  ]
+  "patches": []
 }

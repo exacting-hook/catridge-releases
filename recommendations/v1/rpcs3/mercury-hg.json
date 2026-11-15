@@ -19,13 +19,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Avoids black screen"
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Partially fixes blocky/pixilated graphics"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

@@ -24,13 +24,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Required for the game to not render as a black screen"
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Partially fixes broken visuals"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

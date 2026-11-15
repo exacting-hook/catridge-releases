@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Super Stardust HD",
+  "page": "https://wiki.rpcs3.net/index.php?title=Super_Stardust_HD",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00014",
+    "NPJA00012",
+    "NPUA80068",
+    "NPEA00238"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Game speed scales to framerate, and SS HD can easily reach >200 fps"
+    }
+  ],
+  "patches": []
+}

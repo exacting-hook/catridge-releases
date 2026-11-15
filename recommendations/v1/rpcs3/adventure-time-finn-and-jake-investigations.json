@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Adventure Time: Finn and Jake Investigations",
+  "page": "https://wiki.rpcs3.net/index.php?title=Adventure_Time%3A_Finn_and_Jake_Investigations",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31526",
+    "NPEB02234",
+    "NPUB31664",
+    "BLES02151"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves Performance."
+    }
+  ],
+  "patches": []
+}

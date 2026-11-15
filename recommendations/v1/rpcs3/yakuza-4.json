@@ -1,0 +1,31 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Yakuza 4",
+  "page": "https://wiki.rpcs3.net/index.php?title=Yakuza_4",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01081",
+    "BLUS30643",
+    "BLJM60208",
+    "NPEB02036",
+    "NPUB31510",
+    "NPEB90322",
+    "NPUB90512",
+    "NPHB00330"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Prevents screen borders from showing up."
+    },
+    {
+      "id": "rpcs3.ppu_event_delay",
+      "value": "35",
+      "note": "Fixes random crashes."
+    }
+  ],
+  "patches": []
+}

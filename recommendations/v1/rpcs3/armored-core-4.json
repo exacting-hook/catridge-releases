@@ -15,24 +15,25 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Values above 60FPS cause incorrect game logic. <br/>Menus will be sped up without the framelimit capped at 60 FPS. <br/>Explosion damage scales with framerate, so going above 60FPS will create game balance issues."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Aligns graphical effects when increasing resolution scale."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing AC graphics."
+    },
+    {
+      "id": "rpcs3.keyboard",
+      "value": "Basic",
+      "note": "Supports keyboard for multiplayer features."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    },
-    {
-      "key": "keyboard handler",
-      "value": "Basic"
-    }
-  ]
+  "patches": []
 }

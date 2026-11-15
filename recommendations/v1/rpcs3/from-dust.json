@@ -16,16 +16,15 @@
       "note": "May improve performance on weaker CPUs."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "1024",
+      "note": "Fixes blocky shadows when Resolution Scale is over 100%."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing graphics."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "1024 x 1024"
-    }
-  ]
+  "patches": []
 }

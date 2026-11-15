@@ -22,6 +22,11 @@
       "note": "Slightly improves performance without affecting stability."
     },
     {
+      "id": "rpcs3.frame_limit",
+      "value": "PS3 Native",
+      "note": "Anything other than PS3 Native may impact game speed/physics/audio etc."
+    },
+    {
       "id": "rpcs3.msaa",
       "value": "Disabled",
       "note": "\"Optional\" Game is very blurry with MSAA enabled."
@@ -37,9 +42,24 @@
       "note": "Improves performance slightly without affecting stability or causing graphical issues."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Use 100%, 200% or 300%. Non-integer values e.g 150% can pixelate menus."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "440",
+      "note": "Properly scales Depth of Field when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.async_textures",
       "value": "true",
       "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Slightly improves performance."
     },
     {
       "id": "rpcs3.spurs_threads",
@@ -69,24 +89,6 @@
         "NPEB01347",
         "NPUB31204"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "PS3 Native"
-    },
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "440x440"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
     }
   ]
 }

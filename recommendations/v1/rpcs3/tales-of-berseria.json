@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tales of Berseria",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tales_of_Berseria",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10330",
+    "NPJB00796"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "PS3 Native",
+      "note": "Game will runs too fast if on auto"
+    }
+  ],
+  "patches": []
+}

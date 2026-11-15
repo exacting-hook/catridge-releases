@@ -15,20 +15,20 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "30",
+      "note": "Required unless using FPS Patch due to 2x game speed at 60 FPS."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes 0.5 FPS lock on menu and crashes."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "30"
     },
     {
-      "key": "vblank ntsc fixup",
-      "value": "On"
+      "id": "rpcs3.vblank_ntsc",
+      "value": "true",
+      "note": "Fixes timing issue."
     }
-  ]
+  ],
+  "patches": []
 }

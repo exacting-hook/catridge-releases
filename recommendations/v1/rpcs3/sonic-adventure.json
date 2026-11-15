@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sonic Adventure",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sonic_Adventure",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00304",
+    "NPUB30249",
+    "NPJB00083",
+    "NPHB00228"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes flashing image on transitions."
+    }
+  ],
+  "patches": []
+}

@@ -14,16 +14,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "576",
+      "note": "Fixes artifacts on bloom when using resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken graphics."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "576x576"
-    }
-  ]
+  "patches": []
 }

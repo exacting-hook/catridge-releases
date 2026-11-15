@@ -16,9 +16,19 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes pixelated smoke in game and bad vignette effect (gradient made of bars) on menus visible if upscaling at 200% or above"
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes bug present on some sections (e.g. \"Holar Tower, Iceland\") consisting on the appearance of smoke (not present on PS3) when running and disappearing when walking."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "60",
+      "note": "To be used in combination with \"Unlock FPS\" patch which will allow the game to run at 60 FPS."
     }
   ],
   "patches": [
@@ -31,16 +41,6 @@
         "BCUS98120",
         "NPEA00431"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    },
-    {
-      "key": "vblank rate",
-      "value": "60"
     }
   ]
 }

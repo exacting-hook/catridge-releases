@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Crazy Taxi",
+  "page": "https://wiki.rpcs3.net/index.php?title=Crazy_Taxi",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00303",
+    "NPUB30242",
+    "NPJB00087"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes broken menu."
+    }
+  ],
+  "patches": []
+}

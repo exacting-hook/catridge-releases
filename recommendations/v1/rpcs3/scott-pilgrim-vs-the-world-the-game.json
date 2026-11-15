@@ -16,13 +16,12 @@
       "id": "rpcs3.resolution",
       "value": "1920x1080",
       "note": "Using default resolution of 1280x720 will produce black borders when maximised."
+    },
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes broken menus."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "disable vertex cache",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

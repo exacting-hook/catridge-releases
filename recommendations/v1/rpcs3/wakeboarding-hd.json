@@ -24,16 +24,15 @@
       "note": "Enable to fix flat water and missing wave graphics"
     },
     {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Enable to fix glitches in the wave height map structure"
+    },
+    {
       "id": "rpcs3.accurate_dma",
       "value": "true",
       "note": "Enable to fix stuttering and freezing in-game"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

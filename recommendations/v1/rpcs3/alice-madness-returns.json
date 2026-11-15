@@ -14,6 +14,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "592",
+      "note": "Fixes broken bloom if resolution scaling is used."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes lighting issues, specially in Chapter 4."
@@ -22,21 +27,17 @@
       "id": "rpcs3.accurate_rsx",
       "value": "true",
       "note": "Needed for stability."
+    },
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "200",
+      "note": "May help prevent the game from freezing."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "To be enabled if resolution scaling is used."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "592x592"
-    },
-    {
-      "key": "driver wake-up delay",
-      "value": "200"
-    },
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Way of the Samurai 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Way_of_the_Samurai_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00712",
+    "BLUS30398",
+    "BLJS10039",
+    "BLJS50009"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Required to fix missing in-game text."
+    }
+  ],
+  "patches": []
+}

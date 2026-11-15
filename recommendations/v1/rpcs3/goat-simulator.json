@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Goat Simulator",
+  "page": "https://wiki.rpcs3.net/index.php?title=Goat_Simulator",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB02321",
+    "NPJB00759",
+    "NPUB31749"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.mouse",
+      "value": "Null",
+      "note": "Recommended - Disables mouse camera input."
+    }
+  ],
+  "patches": []
+}

@@ -15,6 +15,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "35",
+      "note": "Needed to render cars properly when upscaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required to fix missing car liveries"
@@ -25,11 +30,5 @@
       "note": "Disables crowd rendering. Current workaround to <i>{{issue|12059}}</i>"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "35 x 35"
-    }
-  ]
+  "patches": []
 }

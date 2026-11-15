@@ -21,20 +21,20 @@
       "note": "Fixes broken collision with ragdolls. Reduces performance."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "288",
+      "note": "Fixes green artifacts and scales bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes some broken graphics like water on Battleship Bay and potentially others."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "288x288"
     },
     {
-      "key": "disable vertex cache",
-      "value": "On"
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Required to prevent severe graphical issues in some areas."
     }
-  ]
+  ],
+  "patches": []
 }

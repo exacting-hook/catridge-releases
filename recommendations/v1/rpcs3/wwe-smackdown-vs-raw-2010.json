@@ -14,13 +14,12 @@
     {
       "id": "rpcs3.wcb",
       "value": "true"
+    },
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Required to fix graphical flickering corruption"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "disable vertex cache",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

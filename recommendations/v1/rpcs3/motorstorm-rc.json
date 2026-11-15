@@ -14,16 +14,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes pixelated bloom when upscaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes overbright graphics."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "256 x 256"
-    }
-  ]
+  "patches": []
 }

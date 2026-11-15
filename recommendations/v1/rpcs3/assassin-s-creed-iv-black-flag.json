@@ -23,6 +23,11 @@
       "note": "Fixes Freezes"
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "640",
+      "note": "Fixes visual artifacts when using resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes the ocean being invisible"
@@ -33,11 +38,5 @@
       "note": "Fixes the ocean being invisible"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "640 x 640"
-    }
-  ]
+  "patches": []
 }

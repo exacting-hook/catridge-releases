@@ -1,0 +1,40 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "EyePet",
+  "page": "https://wiki.rpcs3.net/index.php?title=EyePet",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00483",
+    "BCUS98214",
+    "BCAS20104",
+    "BCAS20103",
+    "BCES00864",
+    "BCAS20140",
+    "NPJA90142",
+    "NPEA90063",
+    "NPUA70103",
+    "NPHA80111",
+    "NPHA80122",
+    "BCET70018"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.camera_type",
+      "value": "PS Eye",
+      "note": "To be able to get ingame for move edition."
+    },
+    {
+      "id": "rpcs3.camera",
+      "value": "Qt",
+      "note": "To be able to get ingame for move edition."
+    },
+    {
+      "id": "rpcs3.move",
+      "value": "Mouse",
+      "note": "To be able to get ingame for move edition."
+    }
+  ],
+  "patches": []
+}

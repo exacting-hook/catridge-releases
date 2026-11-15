@@ -17,6 +17,16 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Fixes softlocks, improves performance, infinite loading screens and button inputs not being registered consistently over 60 FPS. If issues still occur, try PS3 Native."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scales Depth of Field seen in the pause menu and cutscenes when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes particles not rendering properly, e.g. fire and water particles."
@@ -44,16 +54,6 @@
         "NPEA00429",
         "NPUA80875"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "60"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
     }
   ]
 }

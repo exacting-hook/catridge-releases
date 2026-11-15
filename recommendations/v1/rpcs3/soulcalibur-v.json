@@ -15,6 +15,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes broken bloom when using resolution scale."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes white characters in battle."
@@ -30,11 +35,5 @@
       "note": "Needs to be enabled alongside with Write Color Buffers to fix broken graphics."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "512x512"
-    }
-  ]
+  "patches": []
 }

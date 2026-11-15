@@ -29,9 +29,19 @@
       "note": "Fixes broken visuals."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Slightly improves performance."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes missing lighting."
+    },
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "200",
+      "note": "Reduces RSX crashes."
     }
   ],
   "patches": [
@@ -45,16 +55,6 @@
         "NPEB01412",
         "NPUB31252"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    },
-    {
-      "key": "driver wake-up delay",
-      "value": "200"
     }
   ]
 }

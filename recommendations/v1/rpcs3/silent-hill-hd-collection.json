@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Silent Hill HD Collection",
+  "page": "https://wiki.rpcs3.net/index.php?title=Silent_Hill_HD_Collection",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01504",
+    "BLUS30810",
+    "BLJM60425"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Fixes desync audio with the cutscenes."
+    }
+  ],
+  "patches": []
+}

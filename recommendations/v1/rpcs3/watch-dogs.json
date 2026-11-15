@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Watch Dogs",
+  "page": "https://wiki.rpcs3.net/index.php?title=Watch_Dogs",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01854",
+    "BLUS31176",
+    "NPEB01433",
+    "NPUB31254",
+    "BLES01933",
+    "BLES01934",
+    "BLJM61054",
+    "BLAS50658",
+    "NPUB50042",
+    "NPJB00405"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "592",
+      "note": "Fixes some weird stripes when Resolution scaling is set above 100%."
+    }
+  ],
+  "patches": []
+}

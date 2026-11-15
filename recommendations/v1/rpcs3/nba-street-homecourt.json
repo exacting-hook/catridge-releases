@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "NBA Street Homecourt",
+  "page": "https://wiki.rpcs3.net/index.php?title=NBA_Street_Homecourt",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30022",
+    "BLES00038",
+    "BLJM60025",
+    "BLAS50011"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "LLE - Fixes hang on EA logo."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "delay each odd mfc command",
+      "value": "On"
+    }
+  ]
+}

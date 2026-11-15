@@ -14,6 +14,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Proper scales Depth of Field in the pause menu when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.accurate_rsx",
       "value": "true",
       "note": "May improve performance."
@@ -32,12 +37,6 @@
       "name": "Disable SPU MLAA",
       "level": "normal",
       "note": "Improves performance and allows for resolution scaling."
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
     }
   ]
 }

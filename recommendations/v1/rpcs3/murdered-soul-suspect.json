@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Murdered: Soul Suspect",
+  "page": "https://wiki.rpcs3.net/index.php?title=Murdered%3A_Soul_Suspect",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01836",
+    "BLUS31166",
+    "NPUB31285",
+    "NPEB01432",
+    "BLAS50722"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "This fixes red visual artifacts."
+    }
+  ],
+  "patches": []
+}

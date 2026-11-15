@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Need for Speed Carbon",
+  "page": "https://wiki.rpcs3.net/index.php?title=Need_for_Speed_Carbon",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30016",
+    "BLES00020",
+    "BLJM60014",
+    "BLAS50003"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "This game will freeze at the EA logo if it's not loaded - {{issue|14192}}"
+    }
+  ],
+  "patches": []
+}

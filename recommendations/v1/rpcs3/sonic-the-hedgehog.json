@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sonic The Hedgehog",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sonic_The_Hedgehog",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00028",
+    "BLUS30008",
+    "BLJM60006"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scales bloom when using resolution scaling."
+    },
+    {
+      "id": "rpcs3.mmio_delay",
+      "value": "true",
+      "note": "Fixes missing graphics."
+    }
+  ],
+  "patches": []
+}

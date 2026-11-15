@@ -11,16 +11,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "30",
+      "note": "A locked performance of 30 FPS is required to resolve issues with flickering textures and audio speed up"
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes grey/untextured player mech"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "30"
-    }
-  ]
+  "patches": []
 }

@@ -18,16 +18,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes broken bloom when using resolution scale."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken save previews."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    }
-  ]
+  "patches": []
 }

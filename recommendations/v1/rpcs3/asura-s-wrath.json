@@ -13,7 +13,18 @@
     "NPEB90381",
     "NPHB00451"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Changing to anything other than ''Auto'' causes graphical issues."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "To be used when Resolution scaling is set above 100%."
+    }
+  ],
   "patches": [
     {
       "name": "Disable Motion Blur",
@@ -32,16 +43,6 @@
         "BLJM60409",
         "BLUS30721"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "512 x 512"
     }
   ]
 }

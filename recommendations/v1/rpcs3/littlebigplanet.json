@@ -27,9 +27,19 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "If not set to Auto some small lines may be visible in geometry."
+    },
+    {
       "id": "rpcs3.msaa",
       "value": "Auto",
       "note": "Breaks pod windows and other transparent objects if disabled. Only disable if you experience graphical issues on AMD GPUs."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "128",
+      "note": "Fixes incorrect horrible gas colors when using resolution scaling."
     },
     {
       "id": "rpcs3.wcb",
@@ -37,15 +47,5 @@
       "note": "Fixes horrible gas, smoke and fire."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "128x128"
-    }
-  ]
+  "patches": []
 }

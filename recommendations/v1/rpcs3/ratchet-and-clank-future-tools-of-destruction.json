@@ -26,6 +26,11 @@
       "note": "Improves performance."
     },
     {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Limit the FPS to 60 if you are having trouble with Decryptor puzzles not working."
+    },
+    {
       "id": "rpcs3.msaa",
       "value": "Disabled",
       "note": "Anti-Aliasing causes this game to look pixelated."
@@ -41,11 +46,5 @@
       "note": "Faster than Relaxed in this game, no known issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "60"
-    }
-  ]
+  "patches": []
 }

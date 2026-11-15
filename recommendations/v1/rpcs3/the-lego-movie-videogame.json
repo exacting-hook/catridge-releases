@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The LEGO Movie Videogame",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_LEGO_Movie_Videogame",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01964",
+    "BLUS31373",
+    "NPUB31390",
+    "NPEB01862",
+    "BLJM61234",
+    "NPJB00670",
+    "NPEB90524",
+    "NPUB90991",
+    "NPUB91014"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    }
+  ],
+  "patches": []
+}

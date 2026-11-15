@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Heavy Fire: Shattered Spear",
+  "page": "https://wiki.rpcs3.net/index.php?title=Heavy_Fire%3A_Shattered_Spear",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31000",
+    "NPUB31147",
+    "BLES01869",
+    "NPEB02085",
+    "NPJB00291"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Fixes broken graphics."
+    }
+  ],
+  "patches": []
+}

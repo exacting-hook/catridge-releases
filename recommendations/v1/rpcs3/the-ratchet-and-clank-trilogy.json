@@ -18,6 +18,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Game speed is tied to 60 FPS. So a cap is necessary to avoid speedup, and a locked performance of 60 FPS is required to stop the game from slowing down."
+    },
+    {
       "id": "rpcs3.zcull_precise",
       "value": "false",
       "note": "Improves performance"
@@ -28,11 +33,5 @@
       "note": "Improves performance"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "60"
-    }
-  ]
+  "patches": []
 }

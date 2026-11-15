@@ -27,17 +27,17 @@
       "id": "rpcs3.strict",
       "value": "true",
       "note": "Fixes black artifacts"
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "keyboard handler",
-      "value": "Basic"
     },
     {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
+      "id": "rpcs3.keyboard",
+      "value": "Basic",
+      "note": "Supports keyboard for multiplayer features."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Slight performance improvement"
     }
-  ]
+  ],
+  "patches": []
 }

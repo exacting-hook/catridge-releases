@@ -1,0 +1,37 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Yakuza 5",
+  "page": "https://wiki.rpcs3.net/index.php?title=Yakuza_5",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJM60489",
+    "NPEB02228",
+    "NPUB31658",
+    "NPJB90573"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Prevents screen borders from showing up."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.ppu_event_delay",
+      "value": "35",
+      "note": "Fixes random crashes."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Improves FPS and allows for better resolution upscaling."
+    }
+  ],
+  "patches": []
+}

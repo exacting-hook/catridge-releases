@@ -21,6 +21,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "1",
+      "note": "Fixes crashes when using Resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing image when saving costumes and black image when saving pictures as stickers"
@@ -46,12 +51,6 @@
         "NPHA80277",
         "NPUA81116"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "1 x 1"
     }
   ]
 }

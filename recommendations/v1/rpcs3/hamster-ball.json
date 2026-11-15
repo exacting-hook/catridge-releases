@@ -12,16 +12,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly renders bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.accurate_dma",
       "value": "true",
       "note": "Needed for Creat Engine games"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    }
-  ]
+  "patches": []
 }

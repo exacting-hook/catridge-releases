@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "PlayStation Move Heroes",
+  "page": "https://wiki.rpcs3.net/index.php?title=PlayStation_Move_Heroes",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00956",
+    "BCUS98248",
+    "NPEA00303",
+    "NPEA00304",
+    "NPUA80619",
+    "BCES01180",
+    "BCJS30072",
+    "BCAS20163",
+    "NPEA90065",
+    "NPJA90156",
+    "NPUA70132",
+    "NPHA80133"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.move",
+      "value": "Fake",
+      "note": "Required to control your character."
+    }
+  ],
+  "patches": []
+}

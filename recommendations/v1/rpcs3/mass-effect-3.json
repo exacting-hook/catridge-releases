@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Mass Effect 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Mass_Effect_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01462",
+    "BLUS30853",
+    "NPEB00865",
+    "NPUB30710",
+    "BLJM60427",
+    "NPEB90387",
+    "NPUB90555"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows for 58fps gameplay"
+    }
+  ],
+  "patches": []
+}

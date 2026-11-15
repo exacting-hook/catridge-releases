@@ -33,16 +33,15 @@
       "note": "If your GPU is strong enough to use it, this can give a substantial boost in performance."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
       "id": "rpcs3.zcull_off",
       "value": "true",
       "note": "Slightly improves performance without any noticeable issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

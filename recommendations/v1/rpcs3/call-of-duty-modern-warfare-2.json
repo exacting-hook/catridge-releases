@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Call of Duty: Modern Warfare 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Call_of_Duty%3A_Modern_Warfare_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00683",
+    "BLES00685",
+    "BLES00687",
+    "BLES00690",
+    "BLES00691",
+    "BLUS30377",
+    "BLUS30429",
+    "BLJM60191",
+    "NPEB00731",
+    "BLES00684",
+    "BLES00686",
+    "NPUB30585",
+    "NPEB90263",
+    "NPEB90264",
+    "NPUB90314"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "This setting fixes a bug in split-screen multiplayer rendering."
+    }
+  ],
+  "patches": []
+}

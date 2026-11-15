@@ -14,13 +14,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes graphical glitches on the golfer's clothing"
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Needs to be enabled to fix the freezing at the EA Sports logo screen when you boot the game."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
-    }
-  ]
+  "patches": []
 }

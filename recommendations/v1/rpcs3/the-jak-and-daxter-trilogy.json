@@ -17,16 +17,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "128",
+      "note": "Properly scales the sky in Jak 2 and 3 when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.strict",
       "value": "true",
       "note": "Fixes graphical issues in Jak 2's pause menu Reduces performance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "128x128"
-    }
-  ]
+  "patches": []
 }

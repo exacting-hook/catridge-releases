@@ -30,6 +30,11 @@
       "note": "Improves performance."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Upscaling the resolution causes graphical issues."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes most broken graphics."
@@ -43,21 +48,17 @@
       "id": "rpcs3.async_textures",
       "value": "true",
       "note": "Improves performance depending on the GPU."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.fifo",
+      "value": "Ordered & Atomic",
+      "note": "Helps with Stability."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    },
-    {
-      "key": "rsx fifo accuracy",
-      "value": "Ordered & Atomic"
-    }
-  ]
+  "patches": []
 }

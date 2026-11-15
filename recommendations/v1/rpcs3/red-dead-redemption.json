@@ -40,13 +40,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken effect in pause menu and broken lighting in night-time scenarios."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance with no noticeable issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

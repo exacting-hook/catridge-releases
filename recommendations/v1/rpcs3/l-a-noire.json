@@ -19,13 +19,12 @@
       "id": "rpcs3.spu_decoder",
       "value": "Interpreter (static)",
       "note": "Reduces freezes, kills performance. You can try '''Interpreter (dynamic)''' but that one freezes more often."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Fixes crash on intro"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
-    }
-  ]
+  "patches": []
 }

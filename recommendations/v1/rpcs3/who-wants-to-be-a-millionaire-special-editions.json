@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Who Wants to be a Millionaire? Special Editions",
+  "page": "https://wiki.rpcs3.net/index.php?title=Who_Wants_to_be_a_Millionaire%3F_Special_Editions",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00285",
+    "NPUB30289"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes red graphics when increasing resolution."
+    }
+  ],
+  "patches": []
+}

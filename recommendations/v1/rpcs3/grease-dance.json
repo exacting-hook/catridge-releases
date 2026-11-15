@@ -1,0 +1,31 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Grease Dance",
+  "page": "https://wiki.rpcs3.net/index.php?title=Grease_Dance",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01410",
+    "BLUS30786",
+    "NPEB90369"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.camera_type",
+      "value": "PS Eye",
+      "note": "To be able to get ingame."
+    },
+    {
+      "id": "rpcs3.camera",
+      "value": "Qt",
+      "note": "To be able to get ingame."
+    },
+    {
+      "id": "rpcs3.move",
+      "value": "Mouse",
+      "note": "To be able to get ingame."
+    }
+  ],
+  "patches": []
+}

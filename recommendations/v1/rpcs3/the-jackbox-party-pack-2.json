@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Jackbox Party Pack 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Jackbox_Party_Pack_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB02360",
+    "NPUB31767"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Required to play the game."
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Required to play the game."
+    }
+  ],
+  "patches": []
+}

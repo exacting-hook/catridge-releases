@@ -12,9 +12,24 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "To be used if MLAA Patch isn't enabled. Can also fix some potential graphical issues."
+    },
+    {
+      "id": "rpcs3.keyboard",
+      "value": "Basic",
+      "note": "Highly suggested: Allows you to type in the chat box with your keyboard instead of your controller."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Fixes some videos that appear distorted."
     },
     {
       "id": "rpcs3.rcb",
@@ -22,19 +37,5 @@
       "note": "To be used if MLAA Patch isn't enabled. Can also fix some potential graphical issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    },
-    {
-      "key": "keyboard handler",
-      "value": "Basic"
-    },
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
-    }
-  ]
+  "patches": []
 }

@@ -18,6 +18,11 @@
       "note": "Fixes objects falling and popping in ground with cost of some performance."
     },
     {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Framerate is dependent on Vblank rate."
+    },
+    {
       "id": "rpcs3.zcull_precise",
       "value": "false",
       "note": "Helps with stability"
@@ -26,17 +31,12 @@
       "id": "rpcs3.zcull_relaxed",
       "value": "true",
       "note": "Helps with stability"
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "Auto"
     },
     {
-      "key": "vblank rate",
-      "value": "120"
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "At 60 menu FPS is at 60, in game maxes to 30. <br>At 120, menu remains at 60, upper limit in game increases to 40 fps. <br>At 240, menu increases to 80 fps, ingame remains at 40."
     }
-  ]
+  ],
+  "patches": []
 }

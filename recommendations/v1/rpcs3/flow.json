@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "FlOw",
+  "page": "https://wiki.rpcs3.net/index.php?title=FlOw",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00021",
+    "NPUA80001"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Game uses a fixed framerate, so going above will speed up the game."
+    }
+  ],
+  "patches": []
+}

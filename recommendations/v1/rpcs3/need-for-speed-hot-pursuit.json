@@ -27,17 +27,17 @@
       "id": "rpcs3.mt_rsx",
       "value": "true",
       "note": "Improves performance."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
     },
     {
-      "key": "handle rsx memory tiling",
-      "value": "On"
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Requires Write Color Buffers, partially fixes reflections."
     }
-  ]
+  ],
+  "patches": []
 }

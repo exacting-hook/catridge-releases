@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Top Gun Hard Lock",
+  "page": "https://wiki.rpcs3.net/index.php?title=Top_Gun_Hard_Lock",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30858",
+    "BLES01237",
+    "NPEB90386"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.mouse",
+      "value": "Null",
+      "note": "Fixes pitching bug"
+    }
+  ],
+  "patches": []
+}

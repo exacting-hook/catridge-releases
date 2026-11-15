@@ -19,6 +19,11 @@
       "id": "rpcs3.zcull_relaxed",
       "value": "false",
       "note": "Fixes flickering lights"
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scales bloom effects when using resolution scaling."
     }
   ],
   "patches": [
@@ -37,12 +42,6 @@
       "only": [
         "BLUS31473"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
     }
   ]
 }

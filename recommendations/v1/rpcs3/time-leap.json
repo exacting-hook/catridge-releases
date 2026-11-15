@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Time Leap",
+  "page": "https://wiki.rpcs3.net/index.php?title=Time_Leap",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJM60390",
+    "NPJB00339",
+    "NPJB90477"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    }
+  ],
+  "patches": []
+}

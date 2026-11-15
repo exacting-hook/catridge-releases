@@ -17,6 +17,11 @@
       "note": "Improves performance without any noticeable issues."
     },
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than Auto will introduce visual issues."
+    },
+    {
       "id": "rpcs3.zcull_precise",
       "value": "false",
       "note": "Slightly Improves performance."
@@ -27,6 +32,11 @@
       "note": "Slightly Improves performance."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Upscaling the resolution above 720p looks a lot worse, use FSR as the alternative upscale."
+    },
+    {
       "id": "rpcs3.mt_rsx",
       "value": "true",
       "note": "Improves performance depending on the hardware."
@@ -35,21 +45,12 @@
       "id": "rpcs3.async_textures",
       "value": "true",
       "note": "Enabling this option with stronger GPU gains substantial performance boost."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

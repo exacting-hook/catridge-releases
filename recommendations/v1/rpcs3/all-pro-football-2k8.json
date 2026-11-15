@@ -14,13 +14,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes menu glitches when combined with Force CPU Blit"
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Required to boot the game, also fixes some visual problems in-game."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

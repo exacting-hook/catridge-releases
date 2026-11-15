@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Painkiller: Hell & Damnation",
+  "page": "https://wiki.rpcs3.net/index.php?title=Painkiller%3A_Hell_%26_Damnation",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01791",
+    "NPUB31259",
+    "BLES01895",
+    "BLUS31206",
+    "BLJM61102",
+    "NPEB01390",
+    "NPJB00472"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Resolves graphical issues when resolution scaling is set above 100%."
+    }
+  ],
+  "patches": []
+}

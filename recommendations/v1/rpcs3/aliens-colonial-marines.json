@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Aliens: Colonial Marines",
+  "page": "https://wiki.rpcs3.net/index.php?title=Aliens%3A_Colonial_Marines",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01455",
+    "BLUS30862",
+    "NPUB31071",
+    "BLES01770",
+    "NPEB01224"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes artifacts when using Resolution Scaling above 100%."
+    }
+  ],
+  "patches": []
+}

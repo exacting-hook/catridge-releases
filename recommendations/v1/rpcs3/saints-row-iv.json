@@ -33,13 +33,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing graphics ingame."
+    },
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes broken Map menu in Cellphone (Select Button)."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "disable vertex cache",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

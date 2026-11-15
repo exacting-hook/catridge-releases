@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Syndicate",
+  "page": "https://wiki.rpcs3.net/index.php?title=Syndicate",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01371",
+    "BLUS30804",
+    "NPEB90390",
+    "NPUB90713"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_format",
+      "value": "Automatic",
+      "note": "Fixes crash before title screen loads. If it still crashes try 7.1/5.1"
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Fixes missing logos intro"
+    }
+  ],
+  "patches": []
+}

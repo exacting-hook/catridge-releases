@@ -37,13 +37,12 @@
       "id": "rpcs3.zcull_off",
       "value": "true",
       "note": "Very minor performance increase. Prevents car reward screens from dropping to near zero FPS."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "For use on game versions 01.05 and below. Enable CPU Blit Emulation while disabling Write Color Buffers and Read Color Buffers for higher FPS and no flickering, but less lighting effects and broken lighting in tunnels. Enabling all 3 settings together is not recommended."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

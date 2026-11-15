@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hatsune Miku: Project DIVA F 2nd",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hatsune_Miku%3A_Project_DIVA_F_2nd",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLAS50723",
+    "BLES02029",
+    "BLUS31431",
+    "BLJM61079",
+    "NPEB02013",
+    "NPJB00435",
+    "NPUB31488",
+    "NPHB00662",
+    "NPHB00671",
+    "NPJB90705",
+    "NPHB00706"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Audio buffering can delay the audio, which can impact gameplay negatively as Project Diva games relies heavily on timing."
+    }
+  ],
+  "patches": []
+}

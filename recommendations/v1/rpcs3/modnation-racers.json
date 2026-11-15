@@ -32,16 +32,15 @@
       "note": "Improves performance."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "1024",
+      "note": "Fixes broken visuals when using resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Needed to fix game-breaking walls of broken geometry in the races."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "1024x1024"
-    }
-  ]
+  "patches": []
 }

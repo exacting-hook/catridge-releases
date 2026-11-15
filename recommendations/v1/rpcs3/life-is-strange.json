@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Life is Strange",
+  "page": "https://wiki.rpcs3.net/index.php?title=Life_is_Strange",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB02197",
+    "NPUB31636",
+    "NPJB00789"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "16",
+      "note": "Set below 16x16 for proper visuals when using resolution scaling above 100%."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ninja Gaiden 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ninja_Gaiden_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01524",
+    "BLUS30916",
+    "BLJM60447",
+    "NPEB90429",
+    "NPUB90786",
+    "NPJB90512",
+    "NPHB00498"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    }
+  ],
+  "patches": []
+}

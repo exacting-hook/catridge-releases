@@ -21,6 +21,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Correctly scales bloom effects when resolution scale is above 100%."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required when analyzing the flask and nightmare stages."
@@ -31,20 +36,15 @@
       "note": "Fixes minor graphical bug on electric gates."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Required when analyzing the flask and nightmare stages. Also fixes permanent vignette effect on screen."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "512x512"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

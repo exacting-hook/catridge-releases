@@ -15,20 +15,20 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "720",
+      "note": "Fixes grainy effects when resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing visuals in cutscenes and constant flickering."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "720 x 720"
     },
     {
-      "key": "vblank rate",
-      "value": "120"
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Maximum FPS is equal to half your Vblank rate."
     }
-  ]
+  ],
+  "patches": []
 }

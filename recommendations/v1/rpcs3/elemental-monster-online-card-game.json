@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Elemental Monster: Online Card Game",
+  "page": "https://wiki.rpcs3.net/index.php?title=Elemental_Monster%3A_Online_Card_Game",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB30248",
+    "NPEB00255",
+    "NPJB00065"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Required to get ingame."
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Required to get ingame."
+    }
+  ],
+  "patches": []
+}

@@ -30,16 +30,15 @@
       "note": "Improves performance."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Changing resolution scale will cause green texture artifacts."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes bloom being too bright."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
-    }
-  ]
+  "patches": []
 }

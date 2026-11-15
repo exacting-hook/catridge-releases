@@ -37,6 +37,11 @@
       "note": "Required for the game to render correctly"
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Resolution scaling is only supported when the MLAA patch is enabled."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes brightness in some scenes."
@@ -45,6 +50,11 @@
       "id": "rpcs3.accurate_rsx",
       "value": "true",
       "note": "Prevents random freezing/crashing while playing the game."
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Fixes black squares if playing unpatched."
     },
     {
       "id": "rpcs3.wdb",
@@ -196,16 +206,6 @@
         "NPEA00422",
         "NPUA80858"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
     }
   ]
 }

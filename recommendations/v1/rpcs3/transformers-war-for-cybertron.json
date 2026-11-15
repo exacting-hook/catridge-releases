@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Transformers: War for Cybertron",
+  "page": "https://wiki.rpcs3.net/index.php?title=Transformers%3A_War_for_Cybertron",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00833",
+    "BLUS30357"
+  ],
+  "settings": [
+    {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Resolution scaling is not supported in this game, play at 100% scaling. Going above 100% introduces visual problems."
+    }
+  ],
+  "patches": []
+}

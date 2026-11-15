@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "James Cameron's Avatar: The Game",
+  "page": "https://wiki.rpcs3.net/index.php?title=James_Cameron's_Avatar%3A_The_Game",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00667",
+    "BLUS30374",
+    "NPUB30566",
+    "BLES00753",
+    "BLJM60186"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes foliage graphics."
+    }
+  ],
+  "patches": []
+}

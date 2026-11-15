@@ -20,13 +20,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes bright screen ingame"
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes flickering foliage"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "allow host gpu labels",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

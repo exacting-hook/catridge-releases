@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hot Shots Golf: Out of Bounds",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hot_Shots_Golf%3A_Out_of_Bounds",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00068",
+    "BCUS98115",
+    "BCJS30011",
+    "BCAS20208",
+    "BCKS10015",
+    "NPUA80765",
+    "NPEA00335",
+    "BLJX94003",
+    "NPEA90023",
+    "NPUA80138",
+    "NPJA90024"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_loop_detection",
+      "value": "true",
+      "note": "Helps the game run at full framerate"
+    }
+  ],
+  "patches": []
+}

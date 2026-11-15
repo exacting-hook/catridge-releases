@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Mortal Kombat",
+  "page": "https://wiki.rpcs3.net/index.php?title=Mortal_Kombat",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01132",
+    "BLUS30522",
+    "NPEB00847",
+    "NPUB30668",
+    "BLES01508",
+    "BLUS30902",
+    "NPEB90327",
+    "NPUB90578"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Game speed is affected if below or above 60FPS."
+    }
+  ],
+  "patches": []
+}

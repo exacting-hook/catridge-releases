@@ -25,17 +25,17 @@
       "id": "rpcs3.spu_block_size",
       "value": "Mega",
       "note": "Improves performance."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
     },
     {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Slightly improves performance."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "To be used for Collector's Edition to prevent a crash when viewing concept art or videos."
     }
-  ]
+  ],
+  "patches": []
 }

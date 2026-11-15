@@ -107,11 +107,20 @@ request per hand-added page.
 
 1. **Game IDs** come from the page's `{{vginfobox}}` → `gameid` (all IDs, including the
    "other" IDs).
-2. **Settings** come from the `{{config}}` template. Each filled-in field is mapped to one of
-   Catridge's own option IDs (`src-tauri/src/emulators/adapters/native.rs`, whose file keys
-   are verified against the emulator's source; a Rust test checks every ID the builder uses
-   exists). Fields Catridge can't set yet, or values it can't pick (like a range "1 - 3"),
-   go into `unmapped` and are not applied. The field's `notes` become the setting's note.
+2. **Settings** come from the `{{config}}` template. Every field of the template is mapped:
+   - to an RPCS3 option (`rpcs3.*`, `src-tauri/src/emulators/adapters/native.rs`, whose
+     keys are verified against RPCS3's source), written to the game's own RPCS3 config;
+   - or, for renderer, resolution scale, vsync, aspect ratio, stretch, anisotropic filter and
+     volume, to Catridge's own per-game setting (`video.*`, `audio.*`), because Catridge
+     writes those to RPCS3's main config at every launch.
+
+   A Rust test checks every ID the builder uses exists, and `cargo test built_list_applies`
+   (run by the publish script) checks every value in a built list applies. What can't be
+   set goes into `unmapped`, and the game page lists it to set by hand: fields RPCS3 no
+   longer has (`delay each odd mfc command`, `accurate getllar`, `tsx instructions`,
+   `ppu llvm java mode handling`) and values that aren't one setting (a range "1 - 3").
+   On the 2026-11-15 backup that leaves 12 values across 2,294 pages. The field's `notes`
+   become the setting's note.
 3. **Patches** come from the `highly recommended patch` and `recommended patch` fields
    (comma-separated patch names). The page's `{{patch}}` blocks (PPU and SPU, not Canary)
    say which game IDs each patch exists for; those go into `only`, so a patch is only

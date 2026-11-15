@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sonic Adventure 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sonic_Adventure_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00856",
+    "NPUB30579",
+    "NPHB00467",
+    "NPJB00188"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Fixes flickering loading screen before the level begins."
+    }
+  ],
+  "patches": []
+}

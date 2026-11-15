@@ -14,13 +14,12 @@
       "id": "rpcs3.shader_precision",
       "value": "High",
       "note": "Other options will cause incorrect colors on Nvidia GPUs"
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes water graphics when upscaling."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "256x256"
-    }
-  ]
+  "patches": []
 }

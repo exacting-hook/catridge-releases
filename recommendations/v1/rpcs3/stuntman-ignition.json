@@ -14,6 +14,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "160",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required to fix black screen in-game."
@@ -33,12 +38,6 @@
         "BLES00135",
         "BLUS30073"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "160x160"
     }
   ]
 }

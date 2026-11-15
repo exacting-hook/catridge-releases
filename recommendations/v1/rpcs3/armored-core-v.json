@@ -13,6 +13,16 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Fixes some geometry flickering. <br/>Values above 30FPS cause incorrect game logic."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Aligns graphical effects when increasing resolution scale."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing AC graphics."
@@ -21,25 +31,17 @@
       "id": "rpcs3.strict",
       "value": "true",
       "note": "Partially resolves flickering bloom."
+    },
+    {
+      "id": "rpcs3.keyboard",
+      "value": "Basic",
+      "note": "Supports keyboard for multiplayer features."
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Login required when Network Status is set to Connected. <br/>Prevents the game from hanging on boot."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    },
-    {
-      "key": "keyboard handler",
-      "value": "Basic"
-    },
-    {
-      "key": "psn status",
-      "value": "RPCN"
-    }
-  ]
+  "patches": []
 }

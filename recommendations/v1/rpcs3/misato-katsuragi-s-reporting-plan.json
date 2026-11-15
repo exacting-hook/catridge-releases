@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Misato Katsuragi's Reporting Plan",
+  "page": "https://wiki.rpcs3.net/index.php?title=Misato_Katsuragi's_Reporting_Plan",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPJB00026"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Required to get ingame."
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Required to get ingame."
+    }
+  ],
+  "patches": []
+}

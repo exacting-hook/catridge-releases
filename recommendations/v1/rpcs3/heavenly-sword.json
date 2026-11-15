@@ -22,13 +22,12 @@
       "id": "rpcs3.msaa",
       "value": "Disabled",
       "note": "Anti-Aliasing uses a lot of VRAM especially when paired with resolution scaling and can introduce crashes"
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows the game to run at 60FPS."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "vblank rate",
-      "value": "120"
-    }
-  ]
+  "patches": []
 }

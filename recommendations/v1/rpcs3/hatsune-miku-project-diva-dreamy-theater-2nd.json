@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hatsune Miku: Project DIVA Dreamy Theater 2nd",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hatsune_Miku%3A_Project_DIVA_Dreamy_Theater_2nd",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPJB00134"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Game speed is tied to 60 FPS. So a cap is necessary to avoid speedup, and a locked performance of 60 FPS is required to stop the game from slowing down."
+    }
+  ],
+  "patches": []
+}

@@ -16,13 +16,12 @@
       "id": "rpcs3.msaa",
       "value": "Disabled",
       "note": "Improves image quality. Best paired with resolution scale."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows the game to run at 60FPS. Increase the value to go higher."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "vblank rate",
-      "value": "120"
-    }
-  ]
+  "patches": []
 }

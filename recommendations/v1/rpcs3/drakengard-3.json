@@ -15,7 +15,23 @@
     "NPHB00633",
     "NPHB00639"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Changing to anything other than ''Auto'' causes graphical issues."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "To be used when Resolution scaling is set above 100%."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "120 for 60 FPS or 240 for 120 FPS.<br>To be enabled alongside the [[#60/120 FPS patch|FPS patch]]."
+    }
+  ],
   "patches": [
     {
       "name": "Unlock FPS",
@@ -38,20 +54,6 @@
         "NPEB01407",
         "NPUB31251"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "512 x 512"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
     }
   ]
 }

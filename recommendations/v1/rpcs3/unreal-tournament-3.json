@@ -13,6 +13,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "322",
+      "note": "Fixes artifacts when using Resolution Scaling above 100%."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes character portraits."
@@ -23,11 +28,5 @@
       "note": "Fixes permanent border around the screen."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "322 x 322"
-    }
-  ]
+  "patches": []
 }

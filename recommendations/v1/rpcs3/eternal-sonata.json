@@ -15,24 +15,25 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "PS3 Native",
+      "note": "Helps prevent freezing"
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes a black screen caused by Force CPU Blit Emulation"
+    },
+    {
+      "id": "rpcs3.async_mem_off",
+      "value": "true",
+      "note": "Fixes missing geometry caused by Force CPU Blit Emulation"
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Fixes crashing/freezing"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "PS3 Native"
-    },
-    {
-      "key": "disable asynchronous memory manager",
-      "value": "On"
-    },
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "F1 2014",
+  "page": "https://wiki.rpcs3.net/index.php?title=F1_2014",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02080",
+    "BLUS31471",
+    "NPEB02094",
+    "NPUB31565"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "720",
+      "note": "Fixes grainy effects when resolution scaling."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Maximum FPS is equal to half your Vblank rate."
+    }
+  ],
+  "patches": []
+}

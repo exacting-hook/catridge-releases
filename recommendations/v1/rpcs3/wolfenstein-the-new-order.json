@@ -23,13 +23,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Required if using Force CPU blit emulation and Write Color buffers to fix screen not being filled."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Degrades performance but fixes broken graphics when used with Write Color Buffers."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

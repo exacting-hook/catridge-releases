@@ -14,24 +14,25 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "Off",
+      "note": "Makes the game run above 60 FPS without increasing game speed.<br>Versions below 1.84 have jittery input above ~90 FPS."
+    },
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than Auto causes visual issues on the game's mipmapping."
+    },
+    {
       "id": "rpcs3.mt_rsx",
       "value": "true",
       "note": "Small performance improvement."
+    },
+    {
+      "id": "rpcs3.keyboard",
+      "value": "Basic",
+      "note": "Optional: Game has native USB keyboard support for writing on signs and books."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "Off"
-    },
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "keyboard handler",
-      "value": "Basic"
-    }
-  ]
+  "patches": []
 }

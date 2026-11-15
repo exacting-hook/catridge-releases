@@ -19,13 +19,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing bloom and random overly bright sky in Radiator Springs."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

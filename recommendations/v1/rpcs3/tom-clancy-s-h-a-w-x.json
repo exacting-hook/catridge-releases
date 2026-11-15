@@ -17,17 +17,17 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "To be enabled alongside Force CPU Blit"
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "enable buffering",
-      "value": "Off"
     },
     {
-      "key": "force cpu blit emulation",
-      "value": "On"
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Fixes continuous audio stuttering past the start screen"
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Currently required to go ingame."
     }
-  ]
+  ],
+  "patches": []
 }

@@ -1,0 +1,43 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The ICO & Shadow of the Colossus Collection",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_ICO_%26_Shadow_of_the_Colossus_Collection",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01115",
+    "BCES01097",
+    "BCUS98259",
+    "NPEA00279",
+    "NPUA80676",
+    "BCJS30070",
+    "NPHA80205",
+    "NPHA80207",
+    "BCJS30071",
+    "NPUA80677",
+    "NPEA00280",
+    "NPHA80206",
+    "NPHA80208",
+    "NPEA00344",
+    "NPEA00345",
+    "NPEA00346",
+    "NPEA00347",
+    "NPEA00348",
+    "NPEA00349",
+    "NPEA00350",
+    "NPEA00351",
+    "NPEA00352",
+    "NPEA00353",
+    "NPEA00354",
+    "NPEA00355"
+  ],
+  "settings": [
+    {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Use the \"Disable MLAA\" patch for Resolution scaling. Read patch notes for more info."
+    }
+  ],
+  "patches": []
+}

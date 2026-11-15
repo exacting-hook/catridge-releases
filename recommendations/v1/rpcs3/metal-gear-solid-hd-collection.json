@@ -23,24 +23,25 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Needed for some mission that refuse to start with required equipment in MGS:PW"
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Needed for some mission that refuse to start with required equipment in MGS:PW. This also fixes crashes when you load the save for MGS2 and MGS3."
+    },
+    {
+      "id": "rpcs3.getllar_spin_off",
+      "value": "true",
+      "note": "Fixes performance issues in MGS:PW."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Shadows in MGS2 and MGS3 require the Color buffer to be enabled to appear without borders."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "network status",
-      "value": "Connected"
-    },
-    {
-      "key": "psn status",
-      "value": "RPCN"
-    },
-    {
-      "key": "disable spu getllar spin optimization",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

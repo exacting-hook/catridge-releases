@@ -13,13 +13,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken visual in menu after playing some maps."
+    },
+    {
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Fixes crackling audio"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "enable buffering",
-      "value": "Off"
-    }
-  ]
+  "patches": []
 }

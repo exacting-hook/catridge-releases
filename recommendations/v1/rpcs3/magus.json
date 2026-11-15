@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Magus",
+  "page": "https://wiki.rpcs3.net/index.php?title=Magus",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS41042",
+    "NPEB02008",
+    "NPUB31348"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    }
+  ],
+  "patches": []
+}

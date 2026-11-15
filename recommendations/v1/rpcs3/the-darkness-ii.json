@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Darkness II",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Darkness_II",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01388",
+    "BLUS30743",
+    "NPEB00934",
+    "NPUB30748",
+    "NPJB00205",
+    "BLES01390",
+    "NPEB90395",
+    "NPUB90754",
+    "NPHB00483"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "576",
+      "note": "Fixes broken bloom when using resolution scale."
+    }
+  ],
+  "patches": []
+}

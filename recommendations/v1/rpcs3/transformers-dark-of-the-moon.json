@@ -34,17 +34,17 @@
       "id": "rpcs3.async_textures",
       "value": "true",
       "note": "May improve performance depending on hardware."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
     },
     {
-      "key": "driver wake-up delay",
-      "value": "100"
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "100",
+      "note": "Prevents crashes, recommended values between 100-300."
     }
-  ]
+  ],
+  "patches": []
 }

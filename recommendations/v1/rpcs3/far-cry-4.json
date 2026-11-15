@@ -25,20 +25,22 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes some visual issues"
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes flickering foliage"
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "To be enabled alongside Write Color Buffers"
     }
   ],
   "patches": [],
   "unmapped": [
     {
       "key": "delay each odd mfc command",
-      "value": "On"
-    },
-    {
-      "key": "allow host gpu labels",
-      "value": "On"
-    },
-    {
-      "key": "force cpu blit emulation",
       "value": "On"
     }
   ]

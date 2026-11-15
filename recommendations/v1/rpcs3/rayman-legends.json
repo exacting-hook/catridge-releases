@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Rayman Legends",
+  "page": "https://wiki.rpcs3.net/index.php?title=Rayman_Legends",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01863",
+    "BLUS31183",
+    "NPEB01356",
+    "NPUB31218",
+    "NPEB90505",
+    "NPUB90969"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Recommended to fix game speed."
+    }
+  ],
+  "patches": []
+}

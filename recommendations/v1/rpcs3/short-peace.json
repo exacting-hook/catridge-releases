@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Short Peace",
+  "page": "https://wiki.rpcs3.net/index.php?title=Short_Peace",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB02152"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Otherwise the video player doesn't work, or the video plays sped up"
+    },
+    {
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Otherwise audio does not work"
+    }
+  ],
+  "patches": []
+}

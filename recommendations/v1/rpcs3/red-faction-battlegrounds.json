@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Red Faction: Battlegrounds",
+  "page": "https://wiki.rpcs3.net/index.php?title=Red_Faction%3A_Battlegrounds",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB30296",
+    "NPEB00300",
+    "NPJB00124",
+    "NPHB00331",
+    "NPUB90552",
+    "NPJB90358",
+    "NPHB00332",
+    "NPUB90494"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes visual issues when using resolution scale"
+    }
+  ],
+  "patches": []
+}

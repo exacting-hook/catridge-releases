@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Dead Space",
+  "page": "https://wiki.rpcs3.net/index.php?title=Dead_Space",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00308",
+    "BLES00309",
+    "BLES00310",
+    "BLUS30177",
+    "NPEB00050",
+    "NPUB30569",
+    "NPEB90123",
+    "NPEB90129",
+    "NPHB00079",
+    "NPUB90187"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scale bloom when using Resolution Scaling."
+    }
+  ],
+  "patches": []
+}

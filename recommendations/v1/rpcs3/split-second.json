@@ -17,6 +17,16 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Keep this value on auto, otherwise graphical artifacts will appear."
+    },
+    {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Increasing the resolution causes visual issues."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken visuals."
@@ -35,25 +45,17 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes broken visuals."
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Requires Write Color Buffers and Read Color Buffers. Fixes visuals."
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes flickering red/green artifacts."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    },
-    {
-      "key": "allow host gpu labels",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

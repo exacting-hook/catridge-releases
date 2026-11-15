@@ -21,7 +21,13 @@
     "NPJA00066",
     "NPUO70219"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Game speed is tied to 60 FPS. Therefore, a cap is necessary to avoid speedup and a locked performance of 60 FPS is required to stop the game from slowing down."
+    }
+  ],
   "patches": [
     {
       "name": "Skip any videos with X button",
@@ -37,12 +43,6 @@
         "NPUA80490",
         "NPUA80491"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "60"
     }
   ]
 }

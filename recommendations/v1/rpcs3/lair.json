@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Lair",
+  "page": "https://wiki.rpcs3.net/index.php?title=Lair",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCAS20014",
+    "BCES00004",
+    "BCUS98112",
+    "BCJS30012",
+    "NPHA80043"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Required to prevent the game from freezing in menus. <i>{{issue|12406}}</i>"
+    }
+  ],
+  "patches": []
+}

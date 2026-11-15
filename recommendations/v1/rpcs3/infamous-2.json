@@ -46,6 +46,11 @@
       "note": "Improves performance."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes visual artifacts on areas with bloom when using resolution scaling."
+    },
+    {
       "id": "rpcs3.strict",
       "value": "true",
       "note": "Fixes flickering artifacts in some areas of the game. Can greatly reduce performance, especially when resolution scaling."
@@ -56,20 +61,15 @@
       "note": "Improves performance, but may introduce black visual artifacts on some hardware."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
       "id": "rpcs3.zcull_off",
       "value": "true",
       "note": "Slightly improves performance without any noticeable issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

@@ -84,12 +84,14 @@ export function params(body) {
 
 const clean = (v) => stripComments(v ?? "").trim();
 
-// ---- RPCS3 {{config}} → Catridge native option ids ------------------------------------
-// Catridge's ids and file keys are in src-tauri/src/emulators/adapters/native.rs (verified
-// against RPCS3's Emu/system_config.h). Each mapper returns [[id, value], ...] or null when
-// the wiki value isn't one Catridge can set. A Rust test checks every id here exists.
+// ---- RPCS3 {{config}} → Catridge option ids ------------------------------------------
+// `rpcs3.*` ids are RPCS3 options in src-tauri/src/emulators/adapters/native.rs (keys
+// verified against RPCS3's Emu/system_config.h); `video.*`/`audio.*` are Catridge's own
+// per-game settings (src-tauri/src/configuration/mod.rs). Each mapper returns
+// [[id, value], ...] (empty: nothing to set) or null when the wiki value isn't one Catridge
+// can set, which lands in `unmapped`. A Rust test checks every id the builder produces.
 
-const onOff = (id) => (v) => (/^on$/i.test(v) ? [[id, "true"]] : /^off$/i.test(v) ? [[id, "false"]] : null);
+const onOff = (id) => (v) => (/^(on|enabled|yes|true)$/i.test(v) ? [[id, "true"]] : /^(off|disabled|no|false)$/i.test(v) ? [[id, "false"]] : null);
 const pick = (id, table) => (v) => {
   const hit = Object.entries(table).find(([k]) => k.toLowerCase() === v.toLowerCase());
   return hit ? [[id, hit[1]]] : null;
@@ -97,11 +99,11 @@ const pick = (id, table) => (v) => {
 const int = (id, min, max, words = {}) => (v) => {
   const w = Object.entries(words).find(([k]) => k.toLowerCase() === v.toLowerCase());
   // A single number ("34", "34ms"); ranges like "1 - 3" aren't a value Catridge can pick.
-  const n = w ? w[1] : /^\d+\s*(ms|%)?$/i.test(v) ? parseInt(v, 10) : NaN;
+  const n = w ? w[1] : /^-?\d+\s*(ms|µs|us|%|hz)?$/i.test(v) ? parseInt(v, 10) : NaN;
   return Number.isInteger(n) && n >= min && n <= max ? [[id, String(n)]] : null;
 };
 
-const XFLOAT = pick("rpcs3.xfloat", { Accurate: "Accurate", Approximate: "Approximate", Relaxed: "Relaxed" });
+const XFLOAT = pick("rpcs3.xfloat", { Accurate: "Accurate", Approximate: "Approximate", Relaxed: "Relaxed", Inaccurate: "Inaccurate" });
 // The wiki's short names and RPCS3's own spellings (both appear on pages).
 const SHADER_MODES = {
   "Legacy (singlethreaded)": "Legacy Recompiler (single-threaded)",
@@ -144,7 +146,81 @@ export const RPCS3_KEYS = {
   "enable time stretching": onOff("rpcs3.time_stretch"),
   "audio buffer duration": int("rpcs3.audio_buffer", 4, 250),
   "emulate special depth comparison": onOff("rpcs3.depth_compare"),
+  // Catridge's own per-game settings (src-tauri/src/configuration/mod.rs) for what its
+  // launch settings write to RPCS3's main config; a game's override wins there.
+  renderer: pick("video.renderer", { Vulkan: "vulkan", OpenGL: "opengl" }),
+  "resolution scale": (v) => {
+    const n = /^\d+\s*%?$/.test(v) ? parseInt(v, 10) : NaN;
+    return n % 100 === 0 && n >= 100 && n <= 800 ? [["video.resolution_scale", String(n / 100)]] : null;
+  },
+  vsync: pick("video.vsync", { On: "true", Full: "true", Off: "false", Disabled: "false" }),
+  "aspect ratio": pick("video.aspect_ratio", { "4:3": "4:3", "16:9": "16:9" }),
+  "stretch to display area": (v) => (/^on$/i.test(v) ? [["video.aspect_ratio", "stretch"]] : /^off$/i.test(v) ? [] : null),
+  "anisotropic filter": pick("video.anisotropic", { Auto: "off", "2x": "2", "4x": "4", "8x": "8", "16x": "16" }),
+  volume: int("audio.volume", 0, 100),
+  // RPCS3 options added for the wiki (native.rs cites each key in RPCS3's source).
+  framelimit: pick("rpcs3.frame_limit", { Off: "Off", 30: "30", 50: "50", 60: "60", 120: "120", Display: "Display", Auto: "Auto", "PS3 Native": "PS3 Native", Infinite: "Infinite" }),
+  "ppu thread count": int("rpcs3.ppu_threads", 1, 8),
+  "accurate ppu 128 reservations": int("rpcs3.ppu_128", -1, 14, { "Always Enabled": -1, Disabled: 0 }),
+  "accurate llvm dfma": onOff("rpcs3.dfma"),
+  "ppu llvm accurate vector nans": onOff("rpcs3.vector_nans"),
+  "enable spu loop detection": onOff("rpcs3.spu_loop_detection"),
+  "disable spu getllar spin optimization": onOff("rpcs3.getllar_spin_off"),
+  "spu mmio delay": onOff("rpcs3.mmio_delay"),
+  "rsx fifo accuracy": pick("rpcs3.fifo", { Fast: "Fast", Atomic: "Atomic", "Ordered & Atomic": "Ordered & Atomic", PS3: "PS3" }),
+  "sleep timers accuracy": pick("rpcs3.sleep_timers", { "As Host": "As Host", "Usleep Only": "Usleep Only", "All Timers": "All Timers" }),
+  "ppu event wake-up delay": int("rpcs3.ppu_event_delay", 0, 200),
+  "clocks scale": int("rpcs3.clocks_scale", 10, 3000),
+  "hook static functions": onOff("rpcs3.hook_static"),
+  "debug console mode": onOff("rpcs3.debug_console"),
+  "firmware libraries": (v) => {
+    const libs = v.split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);
+    const ids = libs.map((l) => FIRMWARE_LIBS[l.endsWith(".sprx") ? l : `${l}.sprx`]);
+    return libs.length && ids.every(Boolean) ? ids.map((id) => [id, "true"]) : null;
+  },
+  "resolution scale threshold": (v) => {
+    const m = /^(\d+)(\s*x\s*\d+)?$/i.exec(v);
+    const n = m ? parseInt(m[1], 10) : NaN;
+    return n >= 1 && n <= 1024 ? [["rpcs3.min_scalable", String(n)]] : null;
+  },
+  "disable vertex cache": onOff("rpcs3.vertex_cache_off"),
+  "handle rsx memory tiling": onOff("rpcs3.tiling"),
+  "force cpu blit emulation": onOff("rpcs3.cpu_blit"),
+  "allow host gpu labels": onOff("rpcs3.host_labels"),
+  "disable blit engine upscaling": onOff("rpcs3.blit_upscale_off"),
+  "disable asynchronous memory manager": onOff("rpcs3.async_mem_off"),
+  "force gpu texture scaling": onOff("rpcs3.gpu_texture_scaling"),
+  "disable on-disk shader cache": onOff("rpcs3.shader_cache_off"),
+  "lod bias offset": int("rpcs3.lod_bias", -32, 32),
+  "driver wake-up delay": int("rpcs3.driver_wakeup", 0, 16667),
+  "vblank rate": int("rpcs3.vblank", 1, 6000),
+  "vblank ntsc fixup": onOff("rpcs3.vblank_ntsc"),
+  "audio out windows": pick("rpcs3.audio_backend", { Cubeb: "Cubeb", XAudio2: "XAudio2", Disabled: "Null" }),
+  // Catridge runs on Windows; the Linux backend choice doesn't apply.
+  "audio out linux": () => [],
+  "audio format": pick("rpcs3.audio_format", { Stereo: "Stereo", "Surround 5.1": "Surround 5.1", "Surround 7.1": "Surround 7.1", Automatic: "Automatic", Manual: "Manual" }),
+  "enable buffering": onOff("rpcs3.audio_buffering"),
+  "time stretching threshold": int("rpcs3.stretch_threshold", 0, 100),
+  "convert to 16-bit": onOff("rpcs3.convert_s16"),
+  "dump to file": onOff("rpcs3.dump_audio"),
+  "microphone type": pick("rpcs3.microphone", { Disabled: "Null", Null: "Null", Standard: "Standard", SingStar: "SingStar", "Real SingStar": "Real SingStar", Rocksmith: "Rocksmith", EyeToy: "Eye Toy", "Eye Toy": "Eye Toy", "PS Eye": "PS Eye" }),
+  "keyboard handler": pick("rpcs3.keyboard", { Null: "Null", Basic: "Basic" }),
+  "mouse handler": pick("rpcs3.mouse", { Null: "Null", Basic: "Basic", Raw: "Raw" }),
+  "camera settings": pick("rpcs3.camera", { Null: "Null", Fake: "Fake", Qt: "Qt", SDL: "SDL" }),
+  "camera input": pick("rpcs3.camera_type", { Unknown: "Unknown", EyeToy: "EyeToy", "PS Eye": "PS Eye", "UVC 1.1": "UVC 1.1" }),
+  "move handler": pick("rpcs3.move", { Null: "Null", Fake: "Fake", Mouse: "Mouse", "Raw Mouse": "Raw Mouse", Real: "Real", Gun: "Gun" }),
+  "network status": pick("rpcs3.internet", { Disconnected: "Disconnected", Connected: "Connected" }),
+  "psn status": pick("rpcs3.psn", { Disconnected: "Disconnected", Simulated: "Simulated", RPCN: "RPCN" }),
+  "emulate hdd read speed": onOff("rpcs3.hdd_speed"),
+  "emulate bd-rom read speed": onOff("rpcs3.bdrom_speed"),
+  "silence all logs": onOff("rpcs3.silence_logs"),
+  // Not set by Catridge; the game page lists them to set by hand: `tsx instructions`,
+  // `accurate getllar`, `delay each odd mfc command` and `ppu llvm java mode handling` are
+  // no longer RPCS3 options, and ranges like `preferred spu threads = 1 - 3` aren't a value.
 };
+
+/** Firmware libraries Catridge can switch to LLE (`rpcs3.lib_*` in native.rs). */
+const FIRMWARE_LIBS = { "libvdec.sprx": "rpcs3.lib_libvdec", "libaudio.sprx": "rpcs3.lib_libaudio" };
 
 const PATCH_FIELDS = { "highly recommended patch": "high", "recommended patch": "normal" };
 

@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Dengeki Bunko: Fighting Climax",
+  "page": "https://wiki.rpcs3.net/index.php?title=Dengeki_Bunko%3A_Fighting_Climax",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31535",
+    "BLJM61210",
+    "NPJB00580"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Forcing AF causes graphical issues with sprites"
+    }
+  ],
+  "patches": []
+}

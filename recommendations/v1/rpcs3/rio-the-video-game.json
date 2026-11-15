@@ -12,6 +12,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Helps reduce bugs when resolution scale is set to 125% +"
+    },
+    {
       "id": "rpcs3.mt_rsx",
       "value": "true",
       "note": "Helps with stability"
@@ -30,21 +35,17 @@
       "id": "rpcs3.accurate_dma",
       "value": "true",
       "note": "Helps with stability"
+    },
+    {
+      "id": "rpcs3.fifo",
+      "value": "Ordered & Atomic",
+      "note": "Helps with stability"
+    },
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "120",
+      "note": "Helps with stability"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "256 x 256"
-    },
-    {
-      "key": "rsx fifo accuracy",
-      "value": "Ordered & Atomic"
-    },
-    {
-      "key": "driver wake-up delay",
-      "value": "120"
-    }
-  ]
+  "patches": []
 }

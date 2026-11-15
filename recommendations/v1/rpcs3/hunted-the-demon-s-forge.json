@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hunted: The Demon's Forge",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hunted%3A_The_Demon's_Forge",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01310",
+    "BLUS30406",
+    "BLES01309"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "322",
+      "note": "Fixes bloom and lighting when using Resolution scaling above 100%."
+    }
+  ],
+  "patches": []
+}

@@ -16,9 +16,19 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    },
+    {
       "id": "rpcs3.shader_precision",
       "value": "Ultra",
       "note": "Required on NVIDIA cards to properly render background on character creation"
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes colour gradients and dark area colours when uprendering."
     },
     {
       "id": "rpcs3.wcb",
@@ -26,15 +36,5 @@
       "note": "Renders lighting and bloom correctly."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "256 x 256"
-    }
-  ]
+  "patches": []
 }

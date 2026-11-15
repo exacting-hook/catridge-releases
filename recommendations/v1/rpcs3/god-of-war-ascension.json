@@ -53,6 +53,11 @@
       "id": "rpcs3.accurate_rsx",
       "value": "true",
       "note": "Prevents random freezing/crashing while playing the game."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Slight performance improvement."
     }
   ],
   "patches": [
@@ -114,12 +119,6 @@
       "only": [
         "NPUA70244"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
     }
   ]
 }

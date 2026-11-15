@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "SEGA Rally",
+  "page": "https://wiki.rpcs3.net/index.php?title=SEGA_Rally",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00107",
+    "BLES00108",
+    "BLUS30068",
+    "BLJM60057",
+    "NPEB90018",
+    "NPUB90055",
+    "NPJB90076",
+    "NPHB00014"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Maximum FPS is equal to half your Vblank rate."
+    }
+  ],
+  "patches": []
+}

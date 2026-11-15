@@ -28,17 +28,17 @@
       "id": "rpcs3.spu_block_size",
       "value": "Mega",
       "note": "Small performance improvement."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
     },
     {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes visual artifacts when using resolution scaling."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
     }
-  ]
+  ],
+  "patches": []
 }

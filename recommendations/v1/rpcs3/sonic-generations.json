@@ -21,14 +21,15 @@
       "id": "rpcs3.spu_block_size",
       "value": "Mega",
       "note": "Slight performance boost."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "440",
+      "note": "Properly scales Depth of Field and prevents broken brightness when using Resolution Scaling."
     }
   ],
   "patches": [],
   "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "440x440"
-    },
     {
       "key": "delay each odd mfc command",
       "value": "On"

@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "BlazBlue: Chrono Phantasma",
+  "page": "https://wiki.rpcs3.net/index.php?title=BlazBlue%3A_Chrono_Phantasma",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31213",
+    "BLJS10226",
+    "BCAS20313",
+    "NPEB01978",
+    "NPUB31277",
+    "NPJB00354",
+    "NPHB00645",
+    "BLUS31513",
+    "BLJS10300",
+    "BLES02207",
+    "BLAS50799",
+    "NPEB02351",
+    "NPUB31634",
+    "NPJB00690",
+    "NPHB00723"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Gamespeed increases above 60fps"
+    },
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto causes sprites to have green artifacts"
+    }
+  ],
+  "patches": []
+}

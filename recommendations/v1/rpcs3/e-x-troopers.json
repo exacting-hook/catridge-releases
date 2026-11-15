@@ -13,16 +13,15 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Changing to anything other than ''Auto'' causes small artifacts on UI elements."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes environment lighting and materials from breaking in VR missions."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    }
-  ]
+  "patches": []
 }

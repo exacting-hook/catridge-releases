@@ -37,6 +37,11 @@
       "note": "Provides good accuracy (slightly less than on PS3) almost across all the game. \"Relaxed\" is broken. It provides worse performance than Approximate and causes big FPS drop when aiming."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "240",
+      "note": "Fixes black lines on the ground visible if upscaling with \"Anti-Aliasing\" set to \"Auto\" (default)."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken graphics on some sections with the rain effect (e.g. \"Ambush\")."
@@ -50,6 +55,11 @@
       "id": "rpcs3.async_textures",
       "value": "true",
       "note": "Depends on GPU. It usually improves performance. It can break graphics on some sections (e.g. \"Boat Ride\")."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "60",
+      "note": "To be used in combination with \"Unlock FPS\" patch which will allow the game to run at 60 FPS."
     }
   ],
   "patches": [
@@ -61,16 +71,6 @@
         "BCES01118",
         "BCUS98176"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "240x240"
-    },
-    {
-      "key": "vblank rate",
-      "value": "60"
     }
   ]
 }

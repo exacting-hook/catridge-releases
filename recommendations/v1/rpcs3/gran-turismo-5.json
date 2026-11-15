@@ -29,20 +29,20 @@
       "note": "Prevents desyncs while playing the game."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.blit_upscale_off",
+      "value": "true",
+      "note": "Fixes game crashes when using resolution scale."
+    },
+    {
       "id": "rpcs3.zcull_off",
       "value": "true",
       "note": "Improves performance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    },
-    {
-      "key": "disable blit engine upscaling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

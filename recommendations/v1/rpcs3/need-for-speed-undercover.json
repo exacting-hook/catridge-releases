@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Need for Speed Undercover",
+  "page": "https://wiki.rpcs3.net/index.php?title=Need_for_Speed_Undercover",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00449",
+    "BLES00450",
+    "BLUS30248",
+    "BLJM60115",
+    "BLAS50081"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "Off",
+      "note": "Unlocks the framerate."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "640",
+      "note": "Fixes broken blur when using resolution scaling."
+    }
+  ],
+  "patches": []
+}

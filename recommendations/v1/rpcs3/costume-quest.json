@@ -14,13 +14,12 @@
       "id": "rpcs3.spu_block_size",
       "value": "Mega",
       "note": "Small performance gain."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Small performance gain."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

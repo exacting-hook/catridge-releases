@@ -32,16 +32,17 @@
       "id": "rpcs3.wdb",
       "value": "true",
       "note": "Required for correct graphics rendering"
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes flickering foliage"
     }
   ],
   "patches": [],
   "unmapped": [
     {
       "key": "delay each odd mfc command",
-      "value": "On"
-    },
-    {
-      "key": "allow host gpu labels",
       "value": "On"
     }
   ]

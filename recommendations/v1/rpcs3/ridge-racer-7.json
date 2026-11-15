@@ -19,24 +19,25 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes visual issues when using resolution scale."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes black screen during new machine scene."
+    },
+    {
+      "id": "rpcs3.hdd_speed",
+      "value": "true",
+      "note": "Avoids crashing when selecting complete and special machines on PSN copies of the game."
+    },
+    {
+      "id": "rpcs3.bdrom_speed",
+      "value": "true",
+      "note": "Avoids crashing when selecting complete and special machines on disc copies of the game."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "256 x 256"
-    },
-    {
-      "key": "emulate hdd read speed",
-      "value": "On"
-    },
-    {
-      "key": "emulate bd-rom read speed",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

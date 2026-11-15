@@ -12,6 +12,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "128",
+      "note": "To be used with resolution upscaling if the cinematic video is missing the lower third of the screen.<br>Note that you can use keyboard arrows for precise changes on the slider."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes Dalmatian spots from flickering"
@@ -22,11 +27,5 @@
       "note": "Fixes black squares in pause menu and black patches on the ground. Noticeable in Re Chain of Memories."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "128 x 128"
-    }
-  ]
+  "patches": []
 }

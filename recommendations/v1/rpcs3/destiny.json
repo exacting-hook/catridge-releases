@@ -29,16 +29,15 @@
       "note": "LLVM is broken"
     },
     {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "Changing this to anything besides auto can glitch out parts of the game."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing graphics."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "Auto"
-    }
-  ]
+  "patches": []
 }

@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Spec Ops: The Line",
+  "page": "https://wiki.rpcs3.net/index.php?title=Spec_Ops%3A_The_Line",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01157",
+    "NPEB00986",
+    "NPUB30786",
+    "BLUS30531",
+    "NPEB90409",
+    "NPUB90437"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    }
+  ],
+  "patches": []
+}

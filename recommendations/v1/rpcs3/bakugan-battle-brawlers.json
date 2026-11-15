@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Bakugan Battle Brawlers",
+  "page": "https://wiki.rpcs3.net/index.php?title=Bakugan_Battle_Brawlers",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30356",
+    "BLES00758"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Fixes broken audio."
+    }
+  ],
+  "patches": []
+}

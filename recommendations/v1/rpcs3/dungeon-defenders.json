@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Dungeon Defenders",
+  "page": "https://wiki.rpcs3.net/index.php?title=Dungeon_Defenders",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00652",
+    "NPUB30251"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes particles when using Resolution Scaling."
+    }
+  ],
+  "patches": []
+}

@@ -20,20 +20,20 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes broken ocean rendering when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes flood."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "256x256"
     },
     {
-      "key": "allow host gpu labels",
-      "value": "On"
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes broken ocean wave logic."
     }
-  ]
+  ],
+  "patches": []
 }

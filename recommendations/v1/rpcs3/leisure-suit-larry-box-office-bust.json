@@ -11,20 +11,20 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "322",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
+      "id": "rpcs3.mouse",
+      "value": "Null",
+      "note": "Recommended - Disables mouse camera input."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes permanent vignette on screen."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "322x322"
-    },
-    {
-      "key": "mouse handler",
-      "value": "Null"
-    }
-  ]
+  "patches": []
 }

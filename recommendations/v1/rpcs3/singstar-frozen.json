@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "SingStar Frozen",
+  "page": "https://wiki.rpcs3.net/index.php?title=SingStar_Frozen",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES02112",
+    "BCES02113",
+    "BCES02111",
+    "BCES02118",
+    "BCES02120"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Buffering introduces delay between microphone input and playback in the game"
+    },
+    {
+      "id": "rpcs3.microphone",
+      "value": "SingStar",
+      "note": "Required for the game to think it has a SingStar Microphone"
+    }
+  ],
+  "patches": []
+}

@@ -13,13 +13,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required to render graphics properly."
+    },
+    {
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Resolves missing cutscene audio."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "enable buffering",
-      "value": "Off"
-    }
-  ]
+  "patches": []
 }

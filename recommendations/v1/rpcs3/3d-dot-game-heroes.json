@@ -16,6 +16,11 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes Snapshots in game"
+    },
+    {
+      "id": "rpcs3.ppu_event_delay",
+      "value": "35",
+      "note": "Fixes random crashes"
     }
   ],
   "patches": [
@@ -28,12 +33,6 @@
         "BLUD80019",
         "BLUS30490"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "ppu event wake-up delay",
-      "value": "35"
     }
   ]
 }

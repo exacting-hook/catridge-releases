@@ -19,20 +19,20 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "322",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes permanent vignette effect on screen."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "322x322"
     },
     {
-      "key": "vblank rate",
-      "value": "120"
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Enables versions of the game that do not have an FPS unlocker patch available such as the Japanese version to run at 60 FPS without any side effects. Cutscene videos still run at 30 FPS."
     }
-  ]
+  ],
+  "patches": []
 }

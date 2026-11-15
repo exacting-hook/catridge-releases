@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Prince of Persia (2008)",
+  "page": "https://wiki.rpcs3.net/index.php?title=Prince_of_Persia_(2008)",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00389",
+    "BLES00390",
+    "BLUS30214",
+    "NPUB30424",
+    "BLJM60107",
+    "BLKS20100",
+    "NPEB00465",
+    "NPJB00223"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "This allows the game to run at 60 fps. The game can also run at even higher framerates with minimal issues but the game's performance is currently too inconsistent to reccomend this."
+    }
+  ],
+  "patches": []
+}

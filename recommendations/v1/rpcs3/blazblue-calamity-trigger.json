@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "BlazBlue: Calamity Trigger",
+  "page": "https://wiki.rpcs3.net/index.php?title=BlazBlue%3A_Calamity_Trigger",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00820",
+    "BLUS30392"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "60",
+      "note": "Gamespeed increases above 60fps"
+    },
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto causes sprites to have green artifacts"
+    }
+  ],
+  "patches": []
+}

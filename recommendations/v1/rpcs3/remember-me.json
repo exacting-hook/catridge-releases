@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Remember Me",
+  "page": "https://wiki.rpcs3.net/index.php?title=Remember_Me",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01701",
+    "BLUS31012",
+    "NPEB01035",
+    "NPUB31080"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "322",
+      "note": "Fixes blocky artifacts at higher resolutions"
+    }
+  ],
+  "patches": []
+}

@@ -44,6 +44,11 @@
       "note": "Improves performance, especially in Historic District."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes visual artifacts on areas with bloom when using resolution scaling"
+    },
+    {
       "id": "rpcs3.mt_rsx",
       "value": "true",
       "note": "Improves performance a little."
@@ -54,20 +59,15 @@
       "note": "Can improve performance depending on the GPU."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
       "id": "rpcs3.zcull_off",
       "value": "true",
       "note": "Slightly improves performance without any noticeable issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    }
-  ]
+  "patches": []
 }

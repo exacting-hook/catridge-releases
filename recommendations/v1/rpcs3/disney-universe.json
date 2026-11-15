@@ -23,16 +23,15 @@
       "note": "Improves Performance."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "640",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.accurate_rsx",
       "value": "true",
       "note": "Required to fix very poor performance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "640x640"
-    }
-  ]
+  "patches": []
 }

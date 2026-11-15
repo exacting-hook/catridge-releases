@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "WALL-E",
+  "page": "https://wiki.rpcs3.net/index.php?title=WALL-E",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00277",
+    "BLES00279",
+    "BLES00280",
+    "BLES00281",
+    "BLUS30151",
+    "BLJM60084",
+    "BLES00278",
+    "BLES00283",
+    "NPUB90129"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows for 60FPS, can increase the value to go higher."
+    }
+  ],
+  "patches": []
+}

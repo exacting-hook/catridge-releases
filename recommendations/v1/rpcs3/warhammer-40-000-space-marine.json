@@ -21,13 +21,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes helmets not rendering properly"
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "Simulated",
+      "note": "Game tries to login to PSN"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "psn status",
-      "value": "Simulated"
-    }
-  ]
+  "patches": []
 }

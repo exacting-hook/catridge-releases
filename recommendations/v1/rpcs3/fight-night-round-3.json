@@ -14,13 +14,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes some graphical bugs on fighters."
+    },
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes some graphical bugs on fighters,"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "disable vertex cache",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

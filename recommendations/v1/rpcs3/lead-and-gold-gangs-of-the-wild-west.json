@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Lead and Gold: Gangs of the Wild West",
+  "page": "https://wiki.rpcs3.net/index.php?title=Lead_and_Gold%3A_Gangs_of_the_Wild_West",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00201",
+    "NPUB30228",
+    "NPJB00088"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Required to get ingame."
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Required to get ingame."
+    }
+  ],
+  "patches": []
+}

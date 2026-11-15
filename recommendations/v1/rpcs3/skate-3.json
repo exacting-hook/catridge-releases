@@ -23,6 +23,11 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes skater previews, picture missions and dynamic lighting bloom, but slightly reduces performance."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows for 120 FPS cap; can go higher."
     }
   ],
   "patches": [],
@@ -30,10 +35,6 @@
     {
       "key": "preferred spu threads",
       "value": "1 - 3"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
     }
   ]
 }

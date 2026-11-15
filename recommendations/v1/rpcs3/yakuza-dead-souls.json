@@ -19,6 +19,21 @@
       "id": "rpcs3.spu_block_size",
       "value": "Mega",
       "note": "Slight performance improvement"
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Prevents screen borders from showing up."
+    },
+    {
+      "id": "rpcs3.ppu_event_delay",
+      "value": "35",
+      "note": "Fixes random crashes."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Improves FPS and allows for better resolution upscaling."
     }
   ],
   "patches": [
@@ -26,20 +41,6 @@
       "name": "Disable SPU MLAA",
       "level": "high",
       "note": "Improves performance"
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "512 x 512"
-    },
-    {
-      "key": "ppu event wake-up delay",
-      "value": "35"
-    },
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
     }
   ]
 }

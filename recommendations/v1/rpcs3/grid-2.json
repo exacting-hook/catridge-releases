@@ -21,24 +21,25 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "720",
+      "note": "Fixes grainy effects when resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken car liveries."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Maximum FPS is equal to half your Vblank rate."
+    },
+    {
+      "id": "rpcs3.hdd_speed",
+      "value": "true",
+      "note": "Avoids crashing when loading promo events."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "720 x 720"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
-    },
-    {
-      "key": "emulate hdd read speed",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

@@ -29,13 +29,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Helps fix visual issues in-game."
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Helps fix visual issues in-game."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

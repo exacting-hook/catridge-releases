@@ -16,17 +16,17 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken character textures."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "network status",
-      "value": "Connected"
     },
     {
-      "key": "vblank rate",
-      "value": "60"
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Prevents long pauses when choosing songs."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "60",
+      "note": "Past 60 Hz, vocals detection works erratically and online play has connection issues."
     }
-  ]
+  ],
+  "patches": []
 }

@@ -14,13 +14,12 @@
       "id": "rpcs3.strict",
       "value": "true",
       "note": "Solves the issue about wrong coloring"
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Game works at 60 FPS"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "vblank rate",
-      "value": "120"
-    }
-  ]
+  "patches": []
 }

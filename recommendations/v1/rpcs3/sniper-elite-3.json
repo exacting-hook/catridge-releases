@@ -17,13 +17,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes blackscreen."
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Fixes graphical issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

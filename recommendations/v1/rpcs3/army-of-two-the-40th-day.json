@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Army of TWO: The 40th Day",
+  "page": "https://wiki.rpcs3.net/index.php?title=Army_of_TWO%3A_The_40th_Day",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00659",
+    "BLUS30408",
+    "BLJM60216",
+    "NPHB00204",
+    "NPUB90353",
+    "NPEB90201"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes artifacts when using Resolution scaling above 100%."
+    }
+  ],
+  "patches": []
+}

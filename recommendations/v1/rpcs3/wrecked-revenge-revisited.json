@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Wrecked: Revenge Revisited",
+  "page": "https://wiki.rpcs3.net/index.php?title=Wrecked%3A_Revenge_Revisited",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00542"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "400",
+      "note": "Recommended due to the game crashing very frequently"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "F1 Race Stars",
+  "page": "https://wiki.rpcs3.net/index.php?title=F1_Race_Stars",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01715",
+    "BLUS31027",
+    "BLJM60505",
+    "NPEB01124",
+    "NPUB30930",
+    "NPUB90822",
+    "NPEB90440",
+    "NPJB90528"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Required to fix broken graphics and properly scales bloom when using Resolution Scaling."
+    }
+  ],
+  "patches": []
+}

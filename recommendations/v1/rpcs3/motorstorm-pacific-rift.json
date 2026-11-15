@@ -23,9 +23,19 @@
       "note": "No known issues, might improve performance."
     },
     {
+      "id": "video.anisotropic",
+      "value": "16",
+      "note": "Greatly improves texture quality.<br>Leave on Auto for AMD GPUs otherwise a scan line glitch will be visible."
+    },
+    {
       "id": "rpcs3.msaa",
       "value": "Disabled",
       "note": "Improves performance significantly when using Resolution Scaling. Makes grass on the razorback level look pixelated. Leave it on Auto for splitscreen otherwise graphical glitches."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Mostly fixes pixelated bloom when using resolution scaling."
     },
     {
       "id": "rpcs3.wcb",
@@ -36,21 +46,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes visual issues with surfaces e.g mud."
+    },
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "50",
+      "note": "Fixes crashes caused by RSX desyncs. Increase to 100 if still occurring."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "16x"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "256 x 256"
-    },
-    {
-      "key": "driver wake-up delay",
-      "value": "50"
-    }
-  ]
+  "patches": []
 }

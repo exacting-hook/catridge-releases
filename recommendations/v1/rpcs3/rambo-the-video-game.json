@@ -12,7 +12,13 @@
     "NPUB31416",
     "NPJB00637"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Fixes broken graphics"
+    }
+  ],
   "patches": [
     {
       "name": "60 FPS",
@@ -21,12 +27,6 @@
         "BLES01963",
         "BLUS31387"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
     }
   ]
 }

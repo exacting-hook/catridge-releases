@@ -17,16 +17,15 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "PS3 Native",
+      "note": "Can prevent audio crackling on weaker CPU's"
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken characters' outfits."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "PS3 Native"
-    }
-  ]
+  "patches": []
 }

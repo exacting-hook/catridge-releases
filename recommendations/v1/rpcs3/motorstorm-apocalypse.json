@@ -35,9 +35,19 @@
       "note": "Improves performance."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "160",
+      "note": "Fixes screen pattern on bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes excessively bright bloom."
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes bright flickering colors"
     }
   ],
   "patches": [
@@ -66,16 +76,6 @@
         "NPEA90090",
         "NPUA80661"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "160x160"
-    },
-    {
-      "key": "allow host gpu labels",
-      "value": "On"
     }
   ]
 }

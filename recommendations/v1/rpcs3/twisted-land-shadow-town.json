@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Twisted Land: Shadow Town",
+  "page": "https://wiki.rpcs3.net/index.php?title=Twisted_Land%3A_Shadow_Town",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00570",
+    "NPUB30480"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Fixes cutscene videos"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Pirates of the Caribbean: At World's End",
+  "page": "https://wiki.rpcs3.net/index.php?title=Pirates_of_the_Caribbean%3A_At_World's_End",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00066",
+    "BLUS30029",
+    "BLJM60034"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.debug_console",
+      "value": "true",
+      "note": "To fix the crash before the game even launch."
+    }
+  ],
+  "patches": []
+}

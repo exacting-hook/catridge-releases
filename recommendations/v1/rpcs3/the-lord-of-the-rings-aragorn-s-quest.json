@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Lord of the Rings: Aragorn's Quest",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Lord_of_the_Rings%3A_Aragorn's_Quest",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00998",
+    "BLUS30593"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fix for bloom if a custom resolution scale is used."
+    }
+  ],
+  "patches": []
+}

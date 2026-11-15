@@ -18,6 +18,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "640",
+      "note": "Properly scales the depth of field effect when doing resolution scaling above 100%."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing graphics ingame."
@@ -57,12 +62,6 @@
         "BLUD80018",
         "BLUS30443"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "640 x 640"
     }
   ]
 }

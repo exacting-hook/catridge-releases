@@ -15,7 +15,27 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Changing to anything other than ''Auto'' causes graphical issues."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "To be set if resolution scaling is used. Fixes red artifacting in shadows."
+    },
+    {
       "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "To be enabled if resolution scaling is used. Fixes discoloration in certain scenes."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "120 for 60 FPS or 240 for 120 FPS.<br>To be enabled along with the [[#FPS unlock patch|FPS patch]]."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
       "value": "true",
       "note": "To be enabled if resolution scaling is used. Fixes discoloration in certain scenes."
     }
@@ -30,24 +50,6 @@
         "BLUS30917",
         "NPJB00273"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "256 x 256"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
-    },
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
     }
   ]
 }

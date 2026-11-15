@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Yakuza 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Yakuza_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30494",
+    "BLES00834",
+    "BLJM60132",
+    "NPJB90169",
+    "NPUB90362",
+    "NPEB90223"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Prevents screen borders from showing up."
+    },
+    {
+      "id": "rpcs3.ppu_event_delay",
+      "value": "35",
+      "note": "Fixes random crashes."
+    }
+  ],
+  "patches": []
+}

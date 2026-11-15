@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Kingdom Hearts HD 2.5 ReMIX",
+  "page": "https://wiki.rpcs3.net/index.php?title=Kingdom_Hearts_HD_2.5_ReMIX",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02070",
+    "BLUS31460",
+    "BLJM61220"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes broken bloom when using resolution scale."
+    },
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes flickering HUD."
+    }
+  ],
+  "patches": []
+}

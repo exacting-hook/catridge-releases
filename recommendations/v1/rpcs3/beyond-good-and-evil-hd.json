@@ -11,24 +11,25 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "16",
+      "note": "Helps with broken graphics."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes black camera pictures."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Improves performance. Requires Write color buffers enabled."
+    },
+    {
+      "id": "rpcs3.lod_bias",
+      "value": "-2",
+      "note": "Helps with broken graphics."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "16x"
-    },
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    },
-    {
-      "key": "lod bias offset",
-      "value": "-2"
-    }
-  ]
+  "patches": []
 }

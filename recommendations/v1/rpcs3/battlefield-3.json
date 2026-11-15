@@ -29,6 +29,11 @@
       "note": "Improves performance without any noticeable side effects."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Write color buffers and higher resolution scale cause vertex explosions. Especially noticeable during Thunder run mission."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing ground. Breaks resolution scale."
@@ -37,17 +42,12 @@
       "id": "rpcs3.mt_rsx",
       "value": "true",
       "note": "Improves performance."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
     },
     {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
     }
-  ]
+  ],
+  "patches": []
 }

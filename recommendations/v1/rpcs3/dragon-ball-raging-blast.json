@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Dragon Ball: Raging Blast",
+  "page": "https://wiki.rpcs3.net/index.php?title=Dragon_Ball%3A_Raging_Blast",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00693",
+    "BLUS30431",
+    "BLJS10066",
+    "NPEB90192",
+    "NPUB90323"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.bdrom_speed",
+      "value": "true",
+      "note": "Fixes glitched videos."
+    }
+  ],
+  "patches": []
+}

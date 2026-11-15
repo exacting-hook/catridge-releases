@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sacred 2: Fallen Angel",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sacred_2%3A_Fallen_Angel",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00410",
+    "BLUS30312"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Ensure \"Network Status\" is \"Connected\" otherwise you cannot boot past the menus to play the game."
+    }
+  ],
+  "patches": []
+}

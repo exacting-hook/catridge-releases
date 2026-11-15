@@ -21,13 +21,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Required for some character sprites to render properly."
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Use with \"Recompiler (ASMJIT)\" to eliminate lockups upon formation change."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "allow host gpu labels",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

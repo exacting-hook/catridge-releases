@@ -37,13 +37,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Improves overly bright lighting"
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Reduces blocky graphics"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

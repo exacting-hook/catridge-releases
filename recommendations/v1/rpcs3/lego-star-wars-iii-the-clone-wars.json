@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "LEGO Star Wars III: The Clone Wars",
+  "page": "https://wiki.rpcs3.net/index.php?title=LEGO_Star_Wars_III%3A_The_Clone_Wars",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00934",
+    "BLUS30540",
+    "NPEB90304",
+    "NPUB90526"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes bloom artifacts when using Resolution scaling above 100%."
+    }
+  ],
+  "patches": []
+}

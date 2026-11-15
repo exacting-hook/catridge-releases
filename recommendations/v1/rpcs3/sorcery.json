@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sorcery",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sorcery",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00819",
+    "NPUA80796",
+    "BCES01027",
+    "BCUS98203",
+    "BCAS20235",
+    "BCJS30083",
+    "NPEA00393",
+    "NPJA00080",
+    "NPHA80218",
+    "NPEA90112",
+    "NPJA90230",
+    "NPHA80222",
+    "NPEA00400",
+    "NPUA30099"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Changing to anything other than ''Auto'' causes graphical issues."
+    }
+  ],
+  "patches": []
+}

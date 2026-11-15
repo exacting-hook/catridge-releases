@@ -17,6 +17,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes issues when increasing render resolution."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required to fix dark graphics."
@@ -37,12 +42,6 @@
         "NPJB90112",
         "NPUB90070"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "320 x 320"
     }
   ]
 }

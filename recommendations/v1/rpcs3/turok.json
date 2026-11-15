@@ -13,24 +13,25 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything above Auto will produce graphical glitches."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "322",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes permanent vignette effect on screen."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows for 60FPS with no issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "322x322"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
-    }
-  ]
+  "patches": []
 }

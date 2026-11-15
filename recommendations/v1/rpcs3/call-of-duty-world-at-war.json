@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Call of Duty: World at War",
+  "page": "https://wiki.rpcs3.net/index.php?title=Call_of_Duty%3A_World_at_War",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00354",
+    "BLES00355",
+    "BLES00357",
+    "BLES00404",
+    "BLES00457",
+    "BLUS30192",
+    "BLKS20098",
+    "NPUB90133"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": []
+}

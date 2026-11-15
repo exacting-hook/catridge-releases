@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Borderlands",
+  "page": "https://wiki.rpcs3.net/index.php?title=Borderlands",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00697",
+    "BLUS30386",
+    "NPEB00458",
+    "NPEB00459",
+    "NPUB30413",
+    "BLES00698",
+    "BLJM60279"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Resolves graphical issues when resolution scaling is set above 100%."
+    }
+  ],
+  "patches": []
+}

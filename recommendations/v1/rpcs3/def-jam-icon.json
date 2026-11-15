@@ -19,20 +19,20 @@
       "note": "Fixes visual issues in-game."
     },
     {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Needs to be enabled to fix the freezing at the EA logo screen when you boot the game."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes problems with custom character textures breaking."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
     },
     {
-      "key": "disable vertex cache",
-      "value": "On"
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes clothes lagging behind player."
     }
-  ]
+  ],
+  "patches": []
 }

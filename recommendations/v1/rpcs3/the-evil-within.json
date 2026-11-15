@@ -32,13 +32,12 @@
       "id": "rpcs3.async_textures",
       "value": "true",
       "note": "Can improve performance, if your GPU is strong enough to use it."
+    },
+    {
+      "id": "rpcs3.host_labels",
+      "value": "true",
+      "note": "Fixes flickering textures."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "allow host gpu labels",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

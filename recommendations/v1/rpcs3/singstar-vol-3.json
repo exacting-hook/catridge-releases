@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "SingStar Vol. 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=SingStar_Vol._3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00265"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffering",
+      "value": "false",
+      "note": "Buffering introduces delay between microphone input and playback in the game"
+    },
+    {
+      "id": "rpcs3.microphone",
+      "value": "SingStar",
+      "note": "Required for the game to think it has a SingStar Microphone"
+    }
+  ],
+  "patches": []
+}

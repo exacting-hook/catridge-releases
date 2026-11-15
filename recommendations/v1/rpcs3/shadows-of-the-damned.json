@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Shadows of the Damned",
+  "page": "https://wiki.rpcs3.net/index.php?title=Shadows_of_the_Damned",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01276",
+    "BLUS30653"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Changing to anything other than ''Auto'' causes graphical issues."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes artifacts when using Resolution scaling above 100%."
+    }
+  ],
+  "patches": []
+}

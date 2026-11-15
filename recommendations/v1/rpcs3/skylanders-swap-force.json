@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Skylanders: SWAP Force",
+  "page": "https://wiki.rpcs3.net/index.php?title=Skylanders%3A_SWAP_Force",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01860",
+    "BLUS31076",
+    "BLES01966"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes water graphics when upscaling."
+    }
+  ],
+  "patches": []
+}

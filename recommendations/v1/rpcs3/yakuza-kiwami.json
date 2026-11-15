@@ -24,6 +24,16 @@
       "id": "rpcs3.zcull_relaxed",
       "value": "true",
       "note": "Slightly Improves performance."
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "'''Optional.''' Reduces performance but improves upscaling quality. Requires Write Color Buffers and MLAA Patch to negate the visual issues."
     }
   ],
   "patches": [
@@ -31,16 +41,6 @@
       "name": "Disable SPU MLAA",
       "level": "high",
       "note": "Improves performance"
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    },
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
     }
   ]
 }

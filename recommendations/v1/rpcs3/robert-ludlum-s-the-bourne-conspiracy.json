@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Robert Ludlum's The Bourne Conspiracy",
+  "page": "https://wiki.rpcs3.net/index.php?title=Robert_Ludlum's_The_Bourne_Conspiracy",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00249",
+    "BLES00250",
+    "BLES00263",
+    "BLUS30137",
+    "NPEB90066",
+    "NPUB90051"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fix artifacts, when using Resolution scaling above 100%"
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows for 60fps with no known issues"
+    }
+  ],
+  "patches": []
+}

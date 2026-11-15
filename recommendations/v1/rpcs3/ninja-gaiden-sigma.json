@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ninja Gaiden Sigma",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ninja_Gaiden_Sigma",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00072",
+    "BLUS30036",
+    "NPUB30851",
+    "BLJS10005",
+    "NPEB90008",
+    "NPUB90017",
+    "NPJB90011"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "160",
+      "note": "Only if you're upscaling above 150%, fixes lighting and inaccurate window bloom rendering."
+    }
+  ],
+  "patches": []
+}

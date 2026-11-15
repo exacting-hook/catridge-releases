@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "One Piece Unlimited World Red",
+  "page": "https://wiki.rpcs3.net/index.php?title=One_Piece_Unlimited_World_Red",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02020",
+    "BLUS31427",
+    "BLJS10272",
+    "NPUB31479",
+    "BLAS50699",
+    "NPEB01995",
+    "NPJB00601"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "30",
+      "note": "Fixes incorrect game speed."
+    }
+  ],
+  "patches": []
+}

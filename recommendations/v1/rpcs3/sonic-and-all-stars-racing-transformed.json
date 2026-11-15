@@ -17,6 +17,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "128",
+      "note": "To be used when Resolution scaling is set above 100%."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing graphics."
@@ -27,11 +32,5 @@
       "note": "Fixes broken warp effect in Temple Trouble. May reduce performance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "128x128"
-    }
-  ]
+  "patches": []
 }

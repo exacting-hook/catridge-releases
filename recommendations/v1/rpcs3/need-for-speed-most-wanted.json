@@ -28,13 +28,12 @@
       "id": "rpcs3.mt_rsx",
       "value": "true",
       "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Requires Write Color Buffers, partially fixes reflections."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

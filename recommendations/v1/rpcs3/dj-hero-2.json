@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "DJ Hero 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=DJ_Hero_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00896",
+    "BLUS30526"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.blit_upscale_off",
+      "value": "true",
+      "note": "Fixes game crashes when using resolution scale."
+    }
+  ],
+  "patches": []
+}

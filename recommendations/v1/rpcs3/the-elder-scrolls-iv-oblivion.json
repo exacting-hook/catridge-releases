@@ -16,6 +16,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "135",
+      "note": "Fixes broken water texture when upscaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes save icon preview."
@@ -35,12 +40,6 @@
         "BLUS30087",
         "BLUS30106"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "135 x 135"
     }
   ]
 }

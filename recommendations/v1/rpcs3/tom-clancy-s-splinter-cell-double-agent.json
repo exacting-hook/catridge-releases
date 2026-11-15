@@ -14,24 +14,25 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Makes smear in multiplayer look a bit better as well as fixing some incorrectly rendered graphics"
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes multiplayer menu rendering"
+    },
+    {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Fixes multiplayer smearing effect staying on screen for too long"
+    },
+    {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes multiplayer loading screen tips"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "256x256"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    },
-    {
-      "key": "disable vertex cache",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

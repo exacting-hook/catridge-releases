@@ -35,6 +35,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "1",
+      "note": "Fixes missing effects when using Resolution Scaling above 100%. Requires MLAA Patch."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes green rain and particle issues. Slightly reduces performance."
@@ -58,6 +63,11 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes visual output."
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Fixes various visual issues."
     }
   ],
   "patches": [
@@ -189,16 +199,6 @@
       "name": "Infinite Flashlight Battery*",
       "level": "normal",
       "note": "Infinite Flashlight Battery is for controllers without motion support."
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "1 x 1"
-    },
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
     }
   ]
 }

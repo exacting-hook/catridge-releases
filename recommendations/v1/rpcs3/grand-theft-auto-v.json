@@ -15,6 +15,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Lower values will cause severe, striped visual artifacting in the sky if the render resolution is upscaled beyond 100%."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes missing lighting outdoors."
@@ -30,11 +35,5 @@
       "note": "Fixes missing raindrops."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "512 x 512"
-    }
-  ]
+  "patches": []
 }

@@ -32,13 +32,12 @@
       "id": "rpcs3.depth_compare",
       "value": "true",
       "note": "Fixes flickering shadows."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Recommended to get the best performance / lower RSX load."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

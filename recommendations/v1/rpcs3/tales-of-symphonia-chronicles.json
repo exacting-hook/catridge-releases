@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tales of Symphonia Chronicles",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tales_of_Symphonia_Chronicles",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01864",
+    "BLUS31172",
+    "NPJB00421",
+    "NPUB50101",
+    "BLJS10231",
+    "NPJB00416",
+    "NPEB01389",
+    "NPUB31193",
+    "NPUB31194",
+    "NPEB01388",
+    "NPJB00420"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "PS3 Native",
+      "note": "Runs too fast on auto"
+    }
+  ],
+  "patches": []
+}

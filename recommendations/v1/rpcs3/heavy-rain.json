@@ -24,6 +24,16 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "Off",
+      "note": "Allows the game to run above 60FPS. See Special Notes."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Required when using resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken textures on character models."
@@ -34,15 +44,5 @@
       "note": "Fixes Z-Fighting on geometry."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "Off"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    }
-  ]
+  "patches": []
 }

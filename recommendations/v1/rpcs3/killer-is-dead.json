@@ -16,7 +16,13 @@
     "NPHB00589",
     "NPJB60173"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    }
+  ],
   "patches": [
     {
       "name": "Unlock FPS",
@@ -29,12 +35,6 @@
         "NPEB01370",
         "NPUB31188"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
     }
   ]
 }

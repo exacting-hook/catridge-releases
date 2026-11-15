@@ -37,32 +37,35 @@
       "note": "Enabling this option with stronger GPU gains substantial performance boost."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
       "id": "rpcs3.spurs_threads",
       "value": "4",
       "note": "May improve performance."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Required to improve stability"
+    },
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "800",
+      "note": "Increases stability during loading, tiny performance impact."
+    },
+    {
+      "id": "rpcs3.ppu_128",
+      "value": "-1",
+      "note": "Helps with stability."
+    },
+    {
+      "id": "rpcs3.ppu_threads",
+      "value": "1",
+      "note": "Fixes crashes on drag and time attack races, but crashes still happens during grip races."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    },
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
-    },
-    {
-      "key": "driver wake-up delay",
-      "value": "800"
-    },
-    {
-      "key": "accurate ppu 128 reservations",
-      "value": "Always Enabled"
-    },
-    {
-      "key": "ppu thread count",
-      "value": "1"
-    }
-  ]
+  "patches": []
 }

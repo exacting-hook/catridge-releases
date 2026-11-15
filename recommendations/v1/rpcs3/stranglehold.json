@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Stranglehold",
+  "page": "https://wiki.rpcs3.net/index.php?title=Stranglehold",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00144",
+    "BLUS30080",
+    "BLJM60078",
+    "BLUS30081",
+    "NPEB90044",
+    "NPUB90021",
+    "NPHB00017"
+  ],
+  "settings": [
+    {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Rendering the game above 100% results in visual problems. Play at default res scale."
+    }
+  ],
+  "patches": []
+}

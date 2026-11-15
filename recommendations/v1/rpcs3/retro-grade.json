@@ -21,13 +21,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes graphics repeating"
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Fixes tiling artifacts"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

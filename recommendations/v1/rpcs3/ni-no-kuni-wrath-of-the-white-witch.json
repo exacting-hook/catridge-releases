@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ni no Kuni: Wrath of the White Witch",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ni_no_Kuni%3A_Wrath_of_the_White_Witch",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01555",
+    "BLUS30947",
+    "NPEB01158",
+    "NPUB30932",
+    "BLJS10150",
+    "BLJS10185",
+    "NPJB00238",
+    "NPEB90452",
+    "NPUB90846"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Use 120 for 60fps, can go higher if desired"
+    }
+  ],
+  "patches": []
+}

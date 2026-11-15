@@ -18,16 +18,15 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    },
+    {
       "id": "rpcs3.strict",
       "value": "true",
       "note": "Fixes artifacts when damaged by electricity."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    }
-  ]
+  "patches": []
 }

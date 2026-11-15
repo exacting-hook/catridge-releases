@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Catherine",
+  "page": "https://wiki.rpcs3.net/index.php?title=Catherine",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01459",
+    "BLUS30428",
+    "BLJM60215",
+    "NPUB30698",
+    "NPEB00875",
+    "BCKS10161",
+    "NPUB90645",
+    "NPJB90317"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "640",
+      "note": "Slightly improves depth of field effect when using Resolution Scaling."
+    }
+  ],
+  "patches": []
+}

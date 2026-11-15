@@ -17,9 +17,19 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    },
+    {
       "id": "rpcs3.shader_precision",
       "value": "Low",
       "note": "Needed if you're on an RTX 20/30/40/50 card only, workaround for {{issue|14113}}."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Fixes broken red shadows and depth of field (buildings) when using resolution scaling."
     },
     {
       "id": "rpcs3.wcb",
@@ -32,28 +42,20 @@
       "note": "Improves performance if you have capable GPU."
     },
     {
+      "id": "rpcs3.sleep_timers",
+      "value": "As Host",
+      "note": "Improves performance."
+    },
+    {
       "id": "rpcs3.wdb",
       "value": "true",
       "note": "Fixes broken graphics."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Allows for resolution scale to work. Greatly reduces performance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    },
-    {
-      "key": "sleep timers accuracy",
-      "value": "As Host"
-    },
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

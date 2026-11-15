@@ -18,16 +18,15 @@
       "note": "Motion blur effect leaves lines on right side of screen when MSAA is enabled. Also improves image quality."
     },
     {
+      "id": "rpcs3.min_scalable",
+      "value": "640",
+      "note": "Properly scales bloom when using Resolution Scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken brightness."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "640x640"
-    }
-  ]
+  "patches": []
 }

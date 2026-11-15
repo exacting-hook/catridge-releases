@@ -18,13 +18,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes characters and some areas being completely black"
+    },
+    {
+      "id": "rpcs3.tiling",
+      "value": "true",
+      "note": "Fixes tiling artifacts seen in some areas of the game"
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "handle rsx memory tiling",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

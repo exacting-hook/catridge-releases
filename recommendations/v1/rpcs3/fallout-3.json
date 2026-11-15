@@ -33,6 +33,11 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken save previews."
+    },
+    {
+      "id": "rpcs3.driver_wakeup",
+      "value": "200",
+      "note": "Setting this to 200-400 μs greatly reduces random crashes"
     }
   ],
   "patches": [
@@ -55,12 +60,6 @@
         "BLUS30234",
         "BLUS30455"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "driver wake-up delay",
-      "value": "200"
     }
   ]
 }

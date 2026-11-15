@@ -13,20 +13,20 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.min_scalable",
+      "value": "256",
+      "note": "Fixes bloom artifacts when using resolution scaling."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes minor ghost graphic issues with lights"
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale threshold",
-      "value": "256x256"
     },
     {
-      "key": "disable vertex cache",
-      "value": "On"
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes broken graphics."
     }
-  ]
+  ],
+  "patches": []
 }

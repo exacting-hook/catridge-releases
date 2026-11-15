@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Warp",
+  "page": "https://wiki.rpcs3.net/index.php?title=Warp",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00636",
+    "NPUB30543"
+  ],
+  "settings": [
+    {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything other than auto can cause visual issues."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "512",
+      "note": "Fixes visual issues when using resolution scaling."
+    }
+  ],
+  "patches": []
+}

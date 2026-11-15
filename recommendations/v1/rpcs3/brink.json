@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Brink",
+  "page": "https://wiki.rpcs3.net/index.php?title=Brink",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00817",
+    "BLES01304",
+    "BLUS30310",
+    "BLJM60355",
+    "BLET70014"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.lib_libaudio",
+      "value": "true",
+      "note": "Needed to get ingame"
+    }
+  ],
+  "patches": []
+}

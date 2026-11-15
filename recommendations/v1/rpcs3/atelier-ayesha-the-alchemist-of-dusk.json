@@ -17,13 +17,12 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Required to correctly display the background when interacting with shopkeepers. Without Write color buffers, only a black background will be visible."
+    },
+    {
+      "id": "video.vsync",
+      "value": "true",
+      "note": "Required to correctly display ingame videos. Reduces random crashes while loading levels."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "vsync",
-      "value": "Full"
-    }
-  ]
+  "patches": []
 }

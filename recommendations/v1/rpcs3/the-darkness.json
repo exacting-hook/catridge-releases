@@ -15,24 +15,25 @@
   ],
   "settings": [
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "Anything else but Auto produces graphical issues."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Required for videos to play."
+    },
+    {
       "id": "rpcs3.depth_compare",
       "value": "true",
       "note": "Fixes Z-Fighting on some parts of the game. Currently causes some visual issues."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows for 60 FPS with no known issues."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
-    }
-  ]
+  "patches": []
 }

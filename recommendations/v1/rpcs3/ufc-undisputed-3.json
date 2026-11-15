@@ -21,13 +21,12 @@
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes visual issues while in-game."
+    },
+    {
+      "id": "rpcs3.cpu_blit",
+      "value": "true",
+      "note": "Fixes visual issues while in-game."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "force cpu blit emulation",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

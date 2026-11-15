@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fatal Inertia EX",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fatal_Inertia_EX",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB30023",
+    "NPEB00024",
+    "NPHB00036",
+    "NPJB00004"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "640",
+      "note": "Properly scales lighting effects when resolution scaling is set above 100%."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Allows for 60 FPS. Causes motion blur to become less pronounced."
+    }
+  ],
+  "patches": []
+}

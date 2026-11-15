@@ -23,6 +23,11 @@
   ],
   "settings": [
     {
+      "id": "rpcs3.frame_limit",
+      "value": "PS3 Native",
+      "note": "Cutscenes, specifically pre-recorded cutscenes, are difficult to skip if the FPS is too high. When pausing to skip a cutscene it unpauses very quickly on its own. Capping the FPS fixes this issue. See [[Metal_Gear_Solid_4:_Guns_of_the_Patriots#Special_Notes|Special Notes]]."
+    },
+    {
       "id": "rpcs3.zcull_precise",
       "value": "false",
       "note": "Improves performance."
@@ -41,6 +46,11 @@
       "id": "rpcs3.accurate_rsx",
       "value": "true",
       "note": "Improves performance, and should help with stability."
+    },
+    {
+      "id": "rpcs3.lib_libvdec",
+      "value": "true",
+      "note": "Required to properly play FMV cutscenes"
     }
   ],
   "patches": [
@@ -56,16 +66,6 @@
         "NPJB00698",
         "NPUB31633"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "PS3 Native"
-    },
-    {
-      "key": "firmware libraries",
-      "value": "libvdec.sprx"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "NiGHTS into dreams...",
+  "page": "https://wiki.rpcs3.net/index.php?title=NiGHTS_into_dreams...",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB30798"
+  ],
+  "settings": [
+    {
+      "id": "video.renderer",
+      "value": "opengl",
+      "note": "Vulkan causes certain 2D graphics to display incorrectly, OpenGL impacts performance but fixes it."
+    }
+  ],
+  "patches": []
+}

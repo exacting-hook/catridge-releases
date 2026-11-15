@@ -28,9 +28,19 @@
       "note": "Improves performance with no visible side effects."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Values over 100% will only upscale the HUD and downscale the rest. Use FSR as an alternative."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes corrupted textures on the body of a custom colored car the player drives during races."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Raises the game's FPS limit. Can go higher. Causes the camera's speed in the Garage and Car Lot to increase."
     }
   ],
   "patches": [
@@ -38,16 +48,6 @@
       "name": "Disable SPU MLAA - Multiple titles (02)",
       "level": "high",
       "note": "Improves performance."
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "vblank rate",
-      "value": "120"
     }
   ]
 }

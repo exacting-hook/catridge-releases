@@ -15,17 +15,17 @@
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken characters clothes."
-    }
-  ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "network status",
-      "value": "Connected"
     },
     {
-      "key": "psn status",
-      "value": "RPCN"
+      "id": "rpcs3.internet",
+      "value": "Connected",
+      "note": "Online only."
+    },
+    {
+      "id": "rpcs3.psn",
+      "value": "RPCN",
+      "note": "Online only."
     }
-  ]
+  ],
+  "patches": []
 }

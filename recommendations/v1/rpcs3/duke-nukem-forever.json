@@ -18,16 +18,15 @@
   ],
   "settings": [
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Game doesn't scale correctly and appears more blurry and jagged, stick to 100."
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes broken graphics."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
-    }
-  ]
+  "patches": []
 }

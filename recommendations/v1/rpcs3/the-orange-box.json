@@ -23,20 +23,20 @@
       "note": "Improves performance."
     },
     {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Use 100%, 200% or 300%. Non-integer values e.g 150% can cause pixelated HUD."
+    },
+    {
+      "id": "rpcs3.min_scalable",
+      "value": "320",
+      "note": "Properly scales some bloom when using Resolution Scaling (eg: certain lights in the Citadel.)"
+    },
+    {
       "id": "rpcs3.wcb",
       "value": "true",
       "note": "Fixes flickering loading screens."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "resolution scale threshold",
-      "value": "320x320"
-    }
-  ]
+  "patches": []
 }

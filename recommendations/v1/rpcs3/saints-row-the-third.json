@@ -26,6 +26,16 @@
       "note": "Fixes weird audio bugs."
     },
     {
+      "id": "video.anisotropic",
+      "value": "off",
+      "note": "16x makes transparent surfaces like windows look stripy."
+    },
+    {
+      "id": "video.resolution_scale",
+      "value": "1",
+      "note": "Any value higher than 100% breaks graphics."
+    },
+    {
       "id": "rpcs3.shader_mode",
       "value": "Legacy Recompiler (single-threaded)",
       "note": "Async mode will make player's character textures black."
@@ -36,24 +46,15 @@
       "note": "Fixes missing graphics ingame."
     },
     {
+      "id": "rpcs3.vertex_cache_off",
+      "value": "true",
+      "note": "Fixes flickering in the map menu."
+    },
+    {
       "id": "rpcs3.rcb",
       "value": "true",
       "note": "Fixes water on the distance."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "anisotropic filter",
-      "value": "Auto"
-    },
-    {
-      "key": "resolution scale",
-      "value": "100"
-    },
-    {
-      "key": "disable vertex cache",
-      "value": "On"
-    }
-  ]
+  "patches": []
 }

@@ -16,7 +16,13 @@
     "NPJA90031",
     "NPUA70001"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "rpcs3.frame_limit",
+      "value": "Auto",
+      "note": "The game frequently switches between 30 FPS and 60 FPS."
+    }
+  ],
   "patches": [
     {
       "name": "Unlock FPS",
@@ -26,12 +32,6 @@
         "BCKS10018",
         "BCUS98147"
       ]
-    }
-  ],
-  "unmapped": [
-    {
-      "key": "framelimit",
-      "value": "Auto"
     }
   ]
 }

@@ -26,13 +26,12 @@
       "id": "rpcs3.async_textures",
       "value": "true",
       "note": "Improves level of detail. Without this environment textures will occasionally look smooth. Not influenced by framerate."
+    },
+    {
+      "id": "rpcs3.vblank",
+      "value": "120",
+      "note": "Framerate is half of vblank: 60=30, 120=60, etc."
     }
   ],
-  "patches": [],
-  "unmapped": [
-    {
-      "key": "vblank rate",
-      "value": "120"
-    }
-  ]
+  "patches": []
 }
