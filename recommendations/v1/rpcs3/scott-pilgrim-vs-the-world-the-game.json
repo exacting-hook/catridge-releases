@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Scott Pilgrim vs. The World: The Game",
+  "page": "https://wiki.rpcs3.net/index.php?title=Scott_Pilgrim_vs._The_World%3A_The_Game",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00258",
+    "NPUB30162",
+    "NPJB00068",
+    "NPHB00266"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.resolution",
+      "value": "1920x1080",
+      "note": "Using default resolution of 1280x720 will produce black borders when maximised."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Alice: Madness Returns",
+  "page": "https://wiki.rpcs3.net/index.php?title=Alice%3A_Madness_Returns",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30607",
+    "BLES01265",
+    "NPUB30545",
+    "BLJM60359",
+    "NPEB00625"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes lighting issues, specially in Chapter 4."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Needed for stability."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "592x592"
+    },
+    {
+      "key": "driver wake-up delay",
+      "value": "200"
+    },
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

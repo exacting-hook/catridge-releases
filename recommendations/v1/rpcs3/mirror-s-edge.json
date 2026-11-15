@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Mirror's Edge",
+  "page": "https://wiki.rpcs3.net/index.php?title=Mirror's_Edge",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00322",
+    "BLUS30179",
+    "NPEB00052",
+    "NPUB30838",
+    "BLJM60104",
+    "BLKS20094",
+    "NPEB90114",
+    "NPUB90119",
+    "NPJB90140",
+    "NPHB00057"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes permanent vignette effect on screen."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "322x322"
+    },
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

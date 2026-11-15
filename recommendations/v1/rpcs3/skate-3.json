@@ -1,0 +1,39 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Skate 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Skate_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30464",
+    "BLES00760",
+    "BLJM60296",
+    "NPEB90226",
+    "NPUB90375",
+    "NPHB00200"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Improves performance. Optional."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes skater previews, picture missions and dynamic lighting bloom, but slightly reduces performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "preferred spu threads",
+      "value": "1 - 3"
+    },
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

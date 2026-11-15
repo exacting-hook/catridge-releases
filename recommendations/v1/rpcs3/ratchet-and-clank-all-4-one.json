@@ -1,0 +1,35 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ratchet & Clank: All 4 One",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ratchet_%26_Clank%3A_All_4_One",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01141",
+    "BCUS98175",
+    "NPEA00356",
+    "NPUA80695",
+    "BCES01142",
+    "BCJS30081",
+    "BCAS20200",
+    "NPEA90105",
+    "NPEA90106",
+    "NPUA70158",
+    "NPUA70181",
+    "NPJA90218",
+    "BCED01448",
+    "NPUA70171",
+    "NPUA70177",
+    "NPUA70157",
+    "BCET70039"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Approximate",
+      "note": "Prevents characters and bolts from turning invisible."
+    }
+  ],
+  "patches": []
+}

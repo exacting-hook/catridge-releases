@@ -1,0 +1,43 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Assassin's Creed IV: Black Flag",
+  "page": "https://wiki.rpcs3.net/index.php?title=Assassin's_Creed_IV%3A_Black_Flag",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01882",
+    "BLES01883",
+    "BLES01884",
+    "BLUS31193",
+    "NPEB01396",
+    "NPUB31246",
+    "BLJM61056",
+    "BLUS31483",
+    "BLES02085"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Fixes Freezes"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes the ocean being invisible"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes the ocean being invisible"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "640 x 640"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Akiba's Trip: Undead & Undressed",
+  "page": "https://wiki.rpcs3.net/index.php?title=Akiba's_Trip%3A_Undead_%26_Undressed",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31425",
+    "BLJM61105",
+    "BLES02097",
+    "BCAS20310",
+    "NPEB02125",
+    "NPUB31475",
+    "NPJB00348",
+    "NPHB00619",
+    "NPHB00621"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "May improve performance"
+    }
+  ],
+  "patches": []
+}

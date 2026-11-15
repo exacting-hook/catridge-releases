@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ratchet & Clank: Into the Nexus",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ratchet_%26_Clank%3A_Into_the_Nexus",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01908",
+    "BCES01949",
+    "BCUS99245",
+    "NPEA00457",
+    "NPUA80908",
+    "NPJA00101"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes black boxes on some particle effects."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Rock Band Track Pack: Classic Rock",
+  "page": "https://wiki.rpcs3.net/index.php?title=Rock_Band_Track_Pack%3A_Classic_Rock",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30327"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken character textures."
+    }
+  ],
+  "patches": []
+}

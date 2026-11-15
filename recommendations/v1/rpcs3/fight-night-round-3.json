@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fight Night Round 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fight_Night_Round_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00026",
+    "BLUS30019"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes some graphical bugs on fighters."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

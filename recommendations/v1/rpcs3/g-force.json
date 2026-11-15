@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "G-Force",
+  "page": "https://wiki.rpcs3.net/index.php?title=G-Force",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30354",
+    "BLES00573",
+    "BLES00575",
+    "BLES00572",
+    "BLES00574"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes flickering bloom."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "512x512"
+    }
+  ]
+}

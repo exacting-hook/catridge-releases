@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Vancouver 2010",
+  "page": "https://wiki.rpcs3.net/index.php?title=Vancouver_2010",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00660",
+    "BLUS30344",
+    "NPEB90211",
+    "NPUB90276"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes fans not rendering on Men's Super-G and likely other events"
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Fixes performance issues in menus and ingame."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,57 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Drakengard 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Drakengard_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31197",
+    "BLJM61043",
+    "NPEB01407",
+    "NPUB31251",
+    "BCAS20311",
+    "NPJB00380",
+    "NPHB00633",
+    "NPHB00639"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "normal",
+      "only": [
+        "BCAS20311",
+        "BLJM61043",
+        "BLUS31197",
+        "NPEB01407",
+        "NPUB31251"
+      ]
+    },
+    {
+      "name": "Increase Horizontal Camera Sensitivity",
+      "level": "normal",
+      "only": [
+        "BCAS20311",
+        "BLJM61043",
+        "BLUS31197",
+        "NPEB01407",
+        "NPUB31251"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "512 x 512"
+    },
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

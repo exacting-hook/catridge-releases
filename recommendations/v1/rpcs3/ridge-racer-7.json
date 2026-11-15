@@ -1,0 +1,42 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ridge Racer 7",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ridge_Racer_7",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10001",
+    "BCES00009",
+    "BLUS30001",
+    "BCAS20001",
+    "BCKS10001",
+    "NPUB30457",
+    "NPEB00513",
+    "NPEA90011",
+    "NPUB90006",
+    "NPJB90001"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black screen during new machine scene."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "256 x 256"
+    },
+    {
+      "key": "emulate hdd read speed",
+      "value": "On"
+    },
+    {
+      "key": "emulate bd-rom read speed",
+      "value": "On"
+    }
+  ]
+}

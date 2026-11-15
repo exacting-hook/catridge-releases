@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Wheel of Fortune",
+  "page": "https://wiki.rpcs3.net/index.php?title=Wheel_of_Fortune",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB30982",
+    "BLUS30923",
+    "NPUB90866"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes Black Screen on Startup"
+    }
+  ],
+  "patches": []
+}

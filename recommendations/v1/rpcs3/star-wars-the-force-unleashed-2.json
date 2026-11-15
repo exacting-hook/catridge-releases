@@ -1,0 +1,34 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Star Wars: The Force Unleashed 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Star_Wars%3A_The_Force_Unleashed_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00893",
+    "BLUS30534",
+    "NPEB00899",
+    "NPUB30695",
+    "NPEB90251"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes visual issues."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes visual issues."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

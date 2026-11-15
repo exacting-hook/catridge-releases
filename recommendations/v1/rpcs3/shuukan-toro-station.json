@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Shuukan Toro Station",
+  "page": "https://wiki.rpcs3.net/index.php?title=Shuukan_Toro_Station",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPJA00046"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Fixes jumping screen and improves perfomance."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Deadpool",
+  "page": "https://wiki.rpcs3.net/index.php?title=Deadpool",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01789",
+    "BLUS31146",
+    "NPUB31069",
+    "NPEB01243"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes minor ghost graphic issues with lights"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "256x256"
+    },
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Skylanders Trap Team",
+  "page": "https://wiki.rpcs3.net/index.php?title=Skylanders_Trap_Team",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02055",
+    "BLUS31442"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "High",
+      "note": "Other options will cause incorrect colors on Nvidia GPUs"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "256x256"
+    }
+  ]
+}

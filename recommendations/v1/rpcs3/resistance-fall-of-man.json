@@ -1,0 +1,41 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Resistance: Fall of Man",
+  "page": "https://wiki.rpcs3.net/index.php?title=Resistance%3A_Fall_of_Man",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00001",
+    "BCUS98107",
+    "BCJS30003",
+    "NPEA00430",
+    "BCAS20003",
+    "NPEA90001",
+    "NPUA98107"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "high",
+      "note": "Unlock FPS",
+      "only": [
+        "BCAS20003",
+        "BCES00001",
+        "BCUS98107",
+        "NPEA00430"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "80x80"
+    },
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Transformers: Fall of Cybertron",
+  "page": "https://wiki.rpcs3.net/index.php?title=Transformers%3A_Fall_of_Cybertron",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01153",
+    "BLUS30681",
+    "NPUB30824",
+    "NPEB01033",
+    "NPEB90421",
+    "NPUB90764"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes some lighting issues in some instances."
+    }
+  ],
+  "patches": []
+}

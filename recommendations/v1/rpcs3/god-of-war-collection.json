@@ -1,0 +1,48 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "God of War: Collection",
+  "page": "https://wiki.rpcs3.net/index.php?title=God_of_War%3A_Collection",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00255",
+    "NPUA80490",
+    "NPHA80104",
+    "NPJA00061",
+    "NPEA00256",
+    "NPUA80491",
+    "NPJA00062",
+    "NPHA80105",
+    "BCES00791",
+    "BCUS98229",
+    "BLJM60200",
+    "BCES00800",
+    "NPJA00066",
+    "NPUO70219"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "Skip any videos with X button",
+      "level": "normal",
+      "only": [
+        "BCES00791",
+        "BCUS98229",
+        "BLJM60200",
+        "NPEA00255",
+        "NPEA00256",
+        "NPHA80104",
+        "NPHA80105",
+        "NPUA80490",
+        "NPUA80491"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "60"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Assassin's Creed: Revelations",
+  "page": "https://wiki.rpcs3.net/index.php?title=Assassin's_Creed%3A_Revelations",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00880",
+    "NPUB30707",
+    "BLES01466",
+    "BLES01467",
+    "BLUS30905",
+    "BLUS31145",
+    "BLKS20325",
+    "BLET70017",
+    "NPUB90674"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Fixes Freezes"
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "fixes low performance ingame"
+    }
+  ],
+  "patches": []
+}

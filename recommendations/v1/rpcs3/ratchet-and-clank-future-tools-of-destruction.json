@@ -1,0 +1,51 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ratchet & Clank Future: Tools of Destruction",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ratchet_%26_Clank_Future%3A_Tools_of_Destruction",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00052",
+    "BCUS98127",
+    "BCJS30014",
+    "NPEA00452",
+    "NPUA80965",
+    "BCAS20023",
+    "BCKS10016",
+    "BCUS98153",
+    "NPEA90017",
+    "NPUA98153",
+    "NPJA90035",
+    "NPHA20002"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Anti-Aliasing causes this game to look pixelated."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Faster than Relaxed in this game, no known issues."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "false",
+      "note": "Faster than Relaxed in this game, no known issues."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "60"
+    }
+  ]
+}

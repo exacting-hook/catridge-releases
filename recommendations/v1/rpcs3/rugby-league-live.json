@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Rugby League Live",
+  "page": "https://wiki.rpcs3.net/index.php?title=Rugby_League_Live",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00777"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true"
+    }
+  ],
+  "patches": []
+}

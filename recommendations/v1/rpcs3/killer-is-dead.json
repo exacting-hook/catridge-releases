@@ -1,0 +1,40 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Killer is Dead",
+  "page": "https://wiki.rpcs3.net/index.php?title=Killer_is_Dead",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01856",
+    "BLUS31186",
+    "BCAS20292",
+    "NPEB01370",
+    "NPUB31188",
+    "BLJS10215",
+    "NPJB00469",
+    "NPHB00589",
+    "NPJB60173"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "normal",
+      "only": [
+        "BCAS20292",
+        "BLES01856",
+        "BLJS10215",
+        "BLUS31186",
+        "NPEB01370",
+        "NPUB31188"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    }
+  ]
+}

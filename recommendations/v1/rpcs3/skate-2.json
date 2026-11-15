@@ -1,0 +1,50 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Skate 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Skate_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30253",
+    "BLES00461",
+    "BLES00489",
+    "BLJM60134",
+    "NPEB90131",
+    "NPUB90196",
+    "NPHB00080"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Safe",
+      "note": "Mega seems a bit slower with more fluctuation in FPS."
+    },
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Significantly improves render blur."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance, no known issues."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance, no known issues."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes excessive brightness."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,59 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Batman: Arkham City",
+  "page": "https://wiki.rpcs3.net/index.php?title=Batman%3A_Arkham_City",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00926",
+    "BLUS30538",
+    "NPEB00941",
+    "NPUB30754",
+    "BLES01587",
+    "BLUS30978",
+    "NPEB90405",
+    "NPUB90747"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Low",
+      "note": "Needed if you're on an RTX 20/30/40/50 card only, workaround for {{issue|14113}}."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Requires to fixes broken black rain from the menu when using resolution scaling."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Improves performance if you have capable GPU."
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes broken graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    },
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

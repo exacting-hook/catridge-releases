@@ -1,0 +1,43 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Portal 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Portal_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01222",
+    "BLJM60352",
+    "BLUS30732",
+    "NPUB31077",
+    "NPUB30822"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "May improve performance."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "normal",
+      "note": "Improves performance and allows for resolution scaling.",
+      "only": [
+        "NPUB31077"
+      ]
+    },
+    {
+      "name": "Disable SPU MLAA",
+      "level": "normal",
+      "note": "Improves performance and allows for resolution scaling."
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    }
+  ]
+}

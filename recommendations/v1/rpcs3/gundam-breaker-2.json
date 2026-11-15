@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Gundam Breaker 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Gundam_Breaker_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLAS50770",
+    "BLJS10286"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes grey/untextured player mech"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "30"
+    }
+  ]
+}

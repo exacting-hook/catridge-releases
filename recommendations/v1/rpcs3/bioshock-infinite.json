@@ -1,0 +1,40 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "BioShock Infinite",
+  "page": "https://wiki.rpcs3.net/index.php?title=BioShock_Infinite",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30629",
+    "BLUS31117",
+    "BLES01705",
+    "BLJS10207",
+    "NPEB01290",
+    "NPUB31128",
+    "NPJB00363"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Fixes broken collision with ragdolls. Reduces performance."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes some broken graphics like water on Battleship Bay and potentially others."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "288x288"
+    },
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Last of Us",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Last_of_Us",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01584",
+    "BCES01585",
+    "BCUS98174",
+    "BCJS37010",
+    "NPEA00435",
+    "NPHA80243",
+    "BCAS20270",
+    "NPJA00096",
+    "NPUA80960",
+    "NPEA00521",
+    "NPUA81175",
+    "NPJA00129",
+    "NPHA80279",
+    "NPEA90122",
+    "NPUA70257",
+    "NPHA80246",
+    "NPJA90252",
+    "NPUA70270",
+    "NPJM00012",
+    "NPEA00454",
+    "NPUA30134",
+    "NPHA80262",
+    "NPJM00004",
+    "NPEA00517",
+    "NPUA30186",
+    "NPUO30130"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes green rain and particle issues. Slightly reduces performance."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Prevents random freezing/crashing."
+    },
+    {
+      "id": "rpcs3.rdb",
+      "value": "true",
+      "note": "Fixes visual issues caused by Write Depth Buffer."
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Required to go ingame also improves loading times."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes visual output."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Bug Fix: Infected Severed Head Crash",
+      "level": "high",
+      "note": "Improves performance, allows Resolution Scaling to work properly and fixes game bugs.",
+      "only": [
+        "BCAS20270",
+        "BCES01584",
+        "BCES01585",
+        "BCJS37010",
+        "BCUS98174",
+        "NPEA00435",
+        "NPHA80243",
+        "NPJA00096",
+        "NPUA80960"
+      ]
+    },
+    {
+      "name": "Bug Fix: University Nailbomb Softlock Fix",
+      "level": "high",
+      "note": "Improves performance, allows Resolution Scaling to work properly and fixes game bugs.",
+      "only": [
+        "BCAS20270",
+        "BCES01584",
+        "BCES01585",
+        "BCJS37010",
+        "BCUS98174",
+        "NPEA00435",
+        "NPHA80243",
+        "NPJA00096",
+        "NPUA80960"
+      ]
+    },
+    {
+      "name": "Depth border fix",
+      "level": "high",
+      "note": "Improves performance, allows Resolution Scaling to work properly and fixes game bugs.",
+      "only": [
+        "BCAS20270",
+        "BCES01584",
+        "BCES01585",
+        "BCJS37010",
+        "BCUS98174",
+        "NPEA00435",
+        "NPEA00521",
+        "NPHA80243",
+        "NPJA00096",
+        "NPUA80960",
+        "NPUA81175"
+      ]
+    },
+    {
+      "name": "Disable in-built MLAA",
+      "level": "high",
+      "note": "Improves performance, allows Resolution Scaling to work properly and fixes game bugs.",
+      "only": [
+        "BCAS20270",
+        "BCES01584",
+        "BCES01585",
+        "BCJS37010",
+        "BCUS98174",
+        "NPEA00435",
+        "NPEA00521",
+        "NPHA80243",
+        "NPHA80246",
+        "NPJA00096",
+        "NPUA70257",
+        "NPUA80960",
+        "NPUA81175"
+      ]
+    },
+    {
+      "name": "Disable Mesh Trimming",
+      "level": "high",
+      "note": "Improves performance, allows Resolution Scaling to work properly and fixes game bugs.",
+      "only": [
+        "BCAS20270",
+        "BCES01584",
+        "BCES01585",
+        "BCJS37010",
+        "BCUS98174",
+        "NPEA00435",
+        "NPEA00521",
+        "NPHA80243",
+        "NPJA00096",
+        "NPUA80960",
+        "NPUA81175"
+      ]
+    },
+    {
+      "name": "Enable GPU Lighting",
+      "level": "high",
+      "note": "Improves performance, allows Resolution Scaling to work properly and fixes game bugs.",
+      "only": [
+        "BCAS20270",
+        "BCES01584",
+        "BCES01585",
+        "BCJS37010",
+        "BCUS98174",
+        "NPEA00435",
+        "NPEA00521",
+        "NPHA80243",
+        "NPJA00096",
+        "NPUA80960",
+        "NPUA81175"
+      ]
+    },
+    {
+      "name": "Skip Intro",
+      "level": "normal",
+      "note": "Infinite Flashlight Battery is for controllers without motion support.",
+      "only": [
+        "BCAS20270",
+        "BCES01584",
+        "BCES01585",
+        "BCJS37010",
+        "BCUS98174",
+        "NPEA00435",
+        "NPEA00521",
+        "NPHA80243",
+        "NPJA00096",
+        "NPUA80960",
+        "NPUA81175"
+      ]
+    },
+    {
+      "name": "Infinite Flashlight Battery*",
+      "level": "normal",
+      "note": "Infinite Flashlight Battery is for controllers without motion support."
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "1 x 1"
+    },
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

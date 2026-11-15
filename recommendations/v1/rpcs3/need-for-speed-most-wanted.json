@@ -1,0 +1,40 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Need for Speed Most Wanted",
+  "page": "https://wiki.rpcs3.net/index.php?title=Need_for_Speed_Most_Wanted",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01659",
+    "BLES01660",
+    "BLUS31010",
+    "NPEB01042",
+    "NPUB30789",
+    "BLJM60519",
+    "BLAS50482",
+    "NPJB00228",
+    "NPHB00494",
+    "NPEB90472",
+    "NPUB90927"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken visuals. Massive performance loss."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

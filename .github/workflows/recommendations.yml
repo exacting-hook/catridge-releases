@@ -1,7 +1,9 @@
-# Copied to .github/workflows/recommendations.yml in exacting-hook/catridge-releases.
-# Rebuilds recommendations/v1.json every two days, when a page source is added or
-# changed, and on demand (Actions → Recommendations → Run workflow). It never creates
-# releases; it only commits the rebuilt list when it changed.
+# Copied to .github/workflows/recommendations.yml in exacting-hook/catridge-releases by
+# tools/update-recommendations.mjs. Rebuilds recommendations/v1/ (index.json + one file per
+# game) from the wiki backup on the `rpcs3-wiki-backup` release and the hand-added .wiki
+# pages: every two days, when the builder or a page changes, and on demand (Actions →
+# Recommendations → Run workflow). It never creates releases; it only commits the rebuilt
+# list when it changed.
 name: Recommendations
 
 on:
@@ -30,12 +32,23 @@ jobs:
         with:
           node-version: 20
       - run: node --test recommendations/build.test.mjs
-      - run: node recommendations/build.mjs
+      - name: Download the wiki backup
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/backup"
+          gh release download rpcs3-wiki-backup --repo "${{ github.repository }}" --pattern 'rpcs3-wiki-backup-*.json' --dir "$RUNNER_TEMP/backup" || echo "No backup release yet."
+      - name: Build
+        run: |
+          backup=$(ls "$RUNNER_TEMP"/backup/*.json 2>/dev/null | head -1)
+          # Without the backup the build would drop every game it lists; keep the list as is.
+          if [ -z "$backup" ]; then echo "No backup; nothing rebuilt."; exit 0; fi
+          node recommendations/build.mjs --export "$backup" --out recommendations/v1
       - name: Commit the list if it changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add recommendations
+          git add -A recommendations
           if git diff --cached --quiet; then
             echo "No changes."
           else

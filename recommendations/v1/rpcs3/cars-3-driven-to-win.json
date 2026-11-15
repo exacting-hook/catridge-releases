@@ -1,0 +1,43 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Cars 3: Driven to Win",
+  "page": "https://wiki.rpcs3.net/index.php?title=Cars_3%3A_Driven_to_Win",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB31858",
+    "NPEB02441",
+    "BLES02249",
+    "BLUS31608"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes overly bright lighting"
+    },
+    {
+      "id": "rpcs3.rdb",
+      "value": "true",
+      "note": "Fixes overly bright lighting"
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes overly bright lighting"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes overly bright lighting"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Bodycount",
+  "page": "https://wiki.rpcs3.net/index.php?title=Bodycount",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01314",
+    "BLUS30562",
+    "NPEB00715",
+    "NPUB90655",
+    "NPEB90350"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Relaxed",
+      "note": "Significantly reduces audio stutter"
+    },
+    {
+      "id": "rpcs3.audio_buffer",
+      "value": "250",
+      "note": "Reduces audio stutter"
+    }
+  ],
+  "patches": []
+}

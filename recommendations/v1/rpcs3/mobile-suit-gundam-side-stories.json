@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Mobile Suit Gundam: Side Stories",
+  "page": "https://wiki.rpcs3.net/index.php?title=Mobile_Suit_Gundam%3A_Side_Stories",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10270",
+    "BLAS50710",
+    "NPJB00597",
+    "NPHB00672"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes incorrect bloom effect"
+    }
+  ],
+  "patches": []
+}

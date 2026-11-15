@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "WRC 4: FIA World Rally Championship",
+  "page": "https://wiki.rpcs3.net/index.php?title=WRC_4%3A_FIA_World_Rally_Championship",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01874",
+    "BLUS31509",
+    "BLJM61195",
+    "NPEB01381",
+    "NPUB31452",
+    "NPJB00624",
+    "NPEB90523"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing car liveries"
+    }
+  ],
+  "patches": []
+}

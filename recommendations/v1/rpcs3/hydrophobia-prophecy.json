@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hydrophobia Prophecy",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hydrophobia_Prophecy",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00377",
+    "NPUB30233"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rdb",
+      "value": "true",
+      "note": "Fixes text in the menus."
+    }
+  ],
+  "patches": []
+}

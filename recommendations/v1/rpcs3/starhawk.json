@@ -1,0 +1,60 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Starhawk",
+  "page": "https://wiki.rpcs3.net/index.php?title=Starhawk",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00907",
+    "BCES01234",
+    "BCUS98181",
+    "BCJS30076",
+    "BCAS20171",
+    "NPHA80223",
+    "NPEA00410",
+    "NPUA80812",
+    "NPHA80226",
+    "NPEA00382",
+    "NPUA80811",
+    "NPHA80225",
+    "NPEA90087",
+    "NPJA90179",
+    "NPUA70210",
+    "BCET70036",
+    "NPUA70136",
+    "NPJA90222",
+    "NPEA00398",
+    "NPUA30100",
+    "NPUO30104"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Needed to fully render all textures."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Bypass Online Pass",
+      "level": "high",
+      "note": "'''Bypass Online Pass''' is required for online multiplayer, since the Online Pass can no longer be redeemed.",
+      "only": [
+        "BCAS20171",
+        "BCES00907",
+        "BCES01234",
+        "BCJS30076",
+        "BCUS98181",
+        "NPEA00382",
+        "NPEA00411",
+        "NPHA80223",
+        "NPHA80225",
+        "NPJA00083",
+        "NPJA00084",
+        "NPUA80809",
+        "NPUA80811"
+      ]
+    }
+  ]
+}

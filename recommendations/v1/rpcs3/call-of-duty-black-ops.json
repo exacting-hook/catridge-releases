@@ -1,0 +1,45 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Call of Duty: Black Ops",
+  "page": "https://wiki.rpcs3.net/index.php?title=Call_of_Duty%3A_Black_Ops",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01031",
+    "BLES01032",
+    "BLES01033",
+    "BLES01034",
+    "BLES01035",
+    "BLES01105",
+    "BLUS30591",
+    "BLJM60286",
+    "BLJM60287",
+    "NPEB00756",
+    "NPUB30584",
+    "BLKS20228",
+    "NPEB00757",
+    "NPEB00758",
+    "NPEB00759",
+    "NPEB00760",
+    "NPEB90323",
+    "NPUB90430",
+    "NPHB00346",
+    "NPJB90371",
+    "NPEB00786",
+    "NPUB30604"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance with no noticeable visual sacrifices"
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance with no noticeable visual sacrifices"
+    }
+  ],
+  "patches": []
+}

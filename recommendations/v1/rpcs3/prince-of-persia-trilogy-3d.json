@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Prince of Persia Trilogy 3D",
+  "page": "https://wiki.rpcs3.net/index.php?title=Prince_of_Persia_Trilogy_3D",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01092",
+    "BLUS30754",
+    "NPEB00341",
+    "NPUB30303",
+    "NPEB00389",
+    "NPUB30388",
+    "NPEB00390",
+    "NPUB30387"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Minor Performance Increase"
+    }
+  ],
+  "patches": []
+}

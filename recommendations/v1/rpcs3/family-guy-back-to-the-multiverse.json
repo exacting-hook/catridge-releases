@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Family Guy: Back to the Multiverse",
+  "page": "https://wiki.rpcs3.net/index.php?title=Family_Guy%3A_Back_to_the_Multiverse",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01625",
+    "BLUS30824",
+    "NPUB30886",
+    "NPEB01132"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Improves image quality. Best paired with resolution scale."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "JoJo's Bizarre Adventure: Eyes of Heaven",
+  "page": "https://wiki.rpcs3.net/index.php?title=JoJo's_Bizarre_Adventure%3A_Eyes_of_Heaven",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10318",
+    "NPJB00753"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffer",
+      "value": "20",
+      "note": "Use this if you experience audio issues."
+    }
+  ],
+  "patches": []
+}

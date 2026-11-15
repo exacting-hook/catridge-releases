@@ -1,0 +1,34 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Battlefield 4",
+  "page": "https://wiki.rpcs3.net/index.php?title=Battlefield_4",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01832",
+    "BLUS31162",
+    "NPEB01303",
+    "NPUB31148",
+    "BLJM61039",
+    "BLAS50588",
+    "NPJB00377",
+    "NPHB00546",
+    "BLET70034",
+    "NPUB90959",
+    "NPJB90637"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Partially fixes half screen and other graphical issues."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Required until {{pr|9107}} is merged."
+    }
+  ],
+  "patches": []
+}

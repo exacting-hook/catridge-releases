@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Dead Nation",
+  "page": "https://wiki.rpcs3.net/index.php?title=Dead_Nation",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUA80358",
+    "NPEA00143",
+    "NPUA70143",
+    "BCET70025"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Prevents crashing shortly after going in-game."
+    }
+  ],
+  "patches": []
+}

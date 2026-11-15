@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "F.E.A.R. 2: Project Origin",
+  "page": "https://wiki.rpcs3.net/index.php?title=F.E.A.R._2%3A_Project_Origin",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00464",
+    "BLUS30251",
+    "BLJM60160",
+    "BLES00471",
+    "NPEB90134",
+    "NPUB90121",
+    "NPEB90184",
+    "NPUB90307"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "High",
+      "note": "Required to fix transparent player gun model on Nvidia GPUs."
+    }
+  ],
+  "patches": []
+}

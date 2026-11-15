@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Naruto Shippuden: Ultimate Ninja Storm Revolution",
+  "page": "https://wiki.rpcs3.net/index.php?title=Naruto_Shippuden%3A_Ultimate_Ninja_Storm_Revolution",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02014",
+    "BLUS31421",
+    "BLJS10267",
+    "NPEB01986",
+    "NPUB31472",
+    "NPJB00606",
+    "NPHB00648",
+    "NPEB90541",
+    "NPJB90687",
+    "NPUB91011"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffer",
+      "value": "20",
+      "note": "Fixes lagging audio."
+    }
+  ],
+  "patches": []
+}

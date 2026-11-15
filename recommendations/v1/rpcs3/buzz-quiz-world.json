@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Buzz! Quiz World",
+  "page": "https://wiki.rpcs3.net/index.php?title=Buzz!_Quiz_World",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00440",
+    "BCES00644",
+    "BCES00645",
+    "BCES00647",
+    "BCUS98209",
+    "BCES00646"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Relaxed",
+      "note": "Gives a 7% performance boost"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "512 x 512"
+    }
+  ]
+}

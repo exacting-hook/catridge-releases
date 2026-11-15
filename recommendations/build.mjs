@@ -1,30 +1,37 @@
 #!/usr/bin/env node
-// Builds recommendations/v1.json — per-game recommended emulator settings and patches —
-// from wiki page sources kept in recommendations/sources/<emulator>/<Page_Title>.wiki.
+// Builds the recommended-settings list Catridge reads: one small JSON file per game with
+// recommended emulator settings and patches, plus an index from game IDs to those files,
+// in recommendations/v1/ (index.json, <emulator>/<game>.json). Catridge downloads the index
+// and only the files for games in the player's library.
 //
-// Catridge downloads the result from the public catridge-releases repo, where a scheduled
-// GitHub Action runs this script (see workflow.yml). Node 20+, no dependencies.
+//   node recommendations/build.mjs --export <wiki-backup.json> [--out <dir>] [--offline]
 //
-// Where the page sources come from:
-//   - Pasted by hand: open the game's page on the wiki, View source / Edit, copy it into
-//     sources/<emulator>/<Page_Title>.wiki (the file name is the wiki page title).
-//   - Refreshed automatically: each run asks the wiki for the page's source with one plain
-//     request (`action=raw`). The RPCS3 wiki sits behind a bot check that usually answers
-//     automated requests with HTTP 403; then the stored copy is kept. Nothing here tries to
-//     get past that check. `--offline` skips the requests.
+// Page sources come from:
+//   - a JSON export of rpcs3-category-export.user.js (`--export`, or
+//     sources/rpcs3/wiki-export.json): the source of every page in the wiki's game category;
+//   - sources/<emulator>/<Page_Title>.wiki: single pages pasted by hand. Each run asks the
+//     wiki for these with one plain request (`action=raw`); the RPCS3 wiki's bot check
+//     usually answers 403 and the stored copy is kept. `--offline` skips the requests.
+// A .wiki file takes precedence over the export's copy of the same page (it's there on
+// purpose, e.g. an edit the wiki doesn't show yet); delete it once the wiki has caught up.
 //
 // Only RPCS3's wiki has per-game settings in a structured template (`{{config}}`); PCSX2,
 // Dolphin and Cemu apply per-game fixes from databases built into the emulators.
-//
-// Wiki content is CC BY-SA 4.0; every entry keeps a link to its page.
+// Publishing (catridge-releases + the backup release): tools/update-recommendations.mjs.
+// Node 20+, no dependencies. Wiki content is CC BY-SA 4.0; every entry links to its page.
 
-import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { createHash } from "node:crypto";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const OUT = join(HERE, "v1.json");
-const OFFLINE = process.argv.includes("--offline");
+const argv = process.argv.slice(2);
+const option = (name) => {
+  const i = argv.indexOf(name);
+  return i >= 0 ? argv[i + 1] : undefined;
+};
+const OFFLINE = argv.includes("--offline");
 
 const WIKIS = {
   rpcs3: { console: "ps3", base: "https://wiki.rpcs3.net/index.php", name: "RPCS3 Wiki" },
@@ -80,7 +87,7 @@ const clean = (v) => stripComments(v ?? "").trim();
 // ---- RPCS3 {{config}} → Catridge native option ids ------------------------------------
 // Catridge's ids and file keys are in src-tauri/src/emulators/adapters/native.rs (verified
 // against RPCS3's Emu/system_config.h). Each mapper returns [[id, value], ...] or null when
-// the wiki value isn't one Catridge can set.
+// the wiki value isn't one Catridge can set. A Rust test checks every id here exists.
 
 const onOff = (id) => (v) => (/^on$/i.test(v) ? [[id, "true"]] : /^off$/i.test(v) ? [[id, "false"]] : null);
 const pick = (id, table) => (v) => {
@@ -94,12 +101,25 @@ const int = (id, min, max, words = {}) => (v) => {
   return Number.isInteger(n) && n >= min && n <= max ? [[id, String(n)]] : null;
 };
 
+const XFLOAT = pick("rpcs3.xfloat", { Accurate: "Accurate", Approximate: "Approximate", Relaxed: "Relaxed" });
+// The wiki's short names and RPCS3's own spellings (both appear on pages).
+const SHADER_MODES = {
+  "Legacy (singlethreaded)": "Legacy Recompiler (single-threaded)",
+  "Async (multithreaded)": "Async Recompiler (multi-threaded)",
+  "Async with Shader Interpreter": "Async Recompiler with Shader Interpreter",
+  "Shader Interpreter only": "Shader Interpreter only",
+  "Legacy Recompiler (single-threaded)": "Legacy Recompiler (single-threaded)",
+  "Async Recompiler (multi-threaded)": "Async Recompiler (multi-threaded)",
+  "Async Recompiler with Shader Interpreter": "Async Recompiler with Shader Interpreter",
+};
+
 export const RPCS3_KEYS = {
   "ppu decoder": pick("rpcs3.ppu_decoder", { "Recompiler (LLVM)": "Recompiler (LLVM)", "Interpreter (static)": "Interpreter (static)" }),
   "spu decoder": pick("rpcs3.spu_decoder", { "Recompiler (LLVM)": "Recompiler (LLVM)", "Recompiler (ASMJIT)": "Recompiler (ASMJIT)", "Interpreter (dynamic)": "Interpreter (dynamic)", "Interpreter (static)": "Interpreter (static)" }),
   "preferred spu threads": int("rpcs3.spu_threads", 0, 6, { Auto: 0 }),
   "thread scheduler": pick("rpcs3.scheduler", { "Operating System": "Operating System", "RPCS3 Scheduler": "RPCS3 Scheduler", "RPCS3 Alternative Scheduler": "RPCS3 Alternative Scheduler" }),
-  "spu xfloat accuracy": pick("rpcs3.xfloat", { Accurate: "Accurate", Approximate: "Approximate", Relaxed: "Relaxed" }),
+  "spu xfloat accuracy": XFLOAT,
+  "xfloat accuracy": XFLOAT,
   "spu block size": pick("rpcs3.spu_block_size", { Safe: "Safe", Mega: "Mega", Giga: "Giga" }),
   "anti-aliasing": pick("rpcs3.msaa", { Auto: "Auto", Disabled: "Disabled" }),
   "zcull accuracy": (v) => ({
@@ -109,12 +129,7 @@ export const RPCS3_KEYS = {
   })[v.toLowerCase()] ?? null,
   "shader quality": pick("rpcs3.shader_precision", { Auto: "Auto", Ultra: "Ultra", High: "High", Low: "Low" }),
   "default resolution": pick("rpcs3.resolution", { "1280x720": "1280x720", "1920x1080": "1920x1080", "720x480": "720x480", "720x576": "720x576" }),
-  "shader mode": pick("rpcs3.shader_mode", {
-    "Legacy (singlethreaded)": "Legacy Recompiler (single-threaded)",
-    "Async (multithreaded)": "Async Recompiler (multi-threaded)",
-    "Async with Shader Interpreter": "Async Recompiler with Shader Interpreter",
-    "Shader Interpreter only": "Shader Interpreter only",
-  }),
+  "shader mode": pick("rpcs3.shader_mode", SHADER_MODES),
   "write color buffers": onOff("rpcs3.wcb"),
   "read color buffers": onOff("rpcs3.rcb"),
   "write depth buffers": onOff("rpcs3.wdb"),
@@ -210,6 +225,90 @@ export function entryFromPage(emulator, page, text) {
   };
 }
 
+/** Read the JSON export produced by rpcs3-category-export.user.js. */
+export function parseWikiExport(data) {
+  if (![1, 2].includes(data?.version) || !Array.isArray(data.pages)) {
+    throw new Error("Invalid wiki export: expected version 1 or 2 and a pages array");
+  }
+  const pages = new Map();
+  for (const item of data.pages) {
+    if (typeof item?.title !== "string" || typeof item?.source !== "string" || !item.source.trim()) continue;
+    const title = item.title.trim().replaceAll("_", " ");
+    pages.set(title, item.source);
+  }
+  return pages;
+}
+
+// ---- Output: one file per game plus an index -------------------------------------------
+
+/** A file name for a page title: `Tomb Raider` → `tomb-raider`. */
+export function slug(title) {
+  return title
+    .normalize("NFKD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .slice(0, 80)
+    .replace(/^-+|-+$/g, "");
+}
+
+/** First 16 hex digits of the SHA-256 of a file's bytes (Catridge checks downloads with it). */
+export const shortHash = (text) => createHash("sha256").update(text, "utf8").digest("hex").slice(0, 16);
+
+/** Games worth a file: ones with something Catridge can apply. */
+export const useful = (e) => e.serials.length > 0 && (e.settings.length > 0 || e.patches.length > 0);
+
+/**
+ * The files for `entries`: `{ index, files: Map<path, text> }`. File names are unique per
+ * emulator; a title that slugs to nothing or collides gets a hash of its page as a suffix.
+ */
+export function layout(entries, generated) {
+  const files = new Map();
+  const index = { version: 1, generated, files: {} };
+  const sorted = [...entries].sort((a, b) => a.title.localeCompare(b.title) || a.page.localeCompare(b.page));
+  for (const e of sorted) {
+    let name = slug(e.title);
+    if (!name || files.has(`${e.emulator}/${name}.json`)) name = `${name ? name + "-" : ""}${shortHash(e.page).slice(0, 8)}`;
+    const path = `${e.emulator}/${name}.json`;
+    const text = JSON.stringify(e, null, 2) + "\n";
+    files.set(path, text);
+    index.files[path] = { console: e.console, hash: shortHash(text), serials: e.serials };
+  }
+  return { index, files };
+}
+
+/** The index with one game per line: small, and diffs show which games changed. */
+export function indexText(index) {
+  const lines = Object.entries(index.files).map(([path, v]) => `  ${JSON.stringify(path)}: ${JSON.stringify(v)}`);
+  return `{"version": ${index.version}, "generated": ${JSON.stringify(index.generated)}, "files": {\n${lines.join(",\n")}\n}}\n`;
+}
+
+/** Write `layout()` into `out`, removing game files no longer listed. Returns whether anything changed. */
+export function writeLayout(out, entries, today) {
+  const indexPath = join(out, "index.json");
+  const old = existsSync(indexPath) ? JSON.parse(readFileSync(indexPath, "utf8")) : null;
+  let { index, files } = layout(entries, today);
+  // Keep the old date when no game changed, so scheduled runs don't commit for nothing.
+  const same = !!old && JSON.stringify(old.files) === JSON.stringify(index.files);
+  if (same) index = { ...index, generated: old.generated };
+  for (const [path, text] of files) {
+    const file = join(out, path);
+    mkdirSync(dirname(file), { recursive: true });
+    if (!existsSync(file) || readFileSync(file, "utf8") !== text) writeFileSync(file, text);
+  }
+  if (existsSync(out)) {
+    for (const dir of readdirSync(out, { withFileTypes: true }).filter((d) => d.isDirectory())) {
+      for (const f of readdirSync(join(out, dir.name))) {
+        if (f.endsWith(".json") && !files.has(`${dir.name}/${f}`)) rmSync(join(out, dir.name, f));
+      }
+    }
+  }
+  mkdirSync(out, { recursive: true });
+  writeFileSync(indexPath, indexText(index));
+  return !same;
+}
+
 // ---- Fetch (one plain request per page) and build ---------------------------------------
 
 async function refresh(emulator, page, file) {
@@ -217,7 +316,7 @@ async function refresh(emulator, page, file) {
   try {
     const r = await fetch(url, { headers: { "User-Agent": "CatridgeRecommendations/1 (+https://github.com/exacting-hook/catridge-releases)" } });
     const body = await r.text();
-    if (r.ok && body.includes("{{config")) {
+    if (r.ok && body.includes("{{vginfobox")) {
       writeFileSync(file, body);
       console.log(`refreshed ${emulator}/${page}`);
     } else {
@@ -229,26 +328,43 @@ async function refresh(emulator, page, file) {
 }
 
 async function main() {
-  const games = [];
+  const out = resolve(option("--out") ?? join(HERE, "v1"));
+  const exportFile = option("--export");
+  if (exportFile && !existsSync(exportFile)) throw new Error(`No such export: ${exportFile}`);
+  const entries = [];
+  let pages = 0;
   for (const emulator of Object.keys(WIKIS)) {
     const dir = join(HERE, "sources", emulator);
-    if (!existsSync(dir)) continue;
-    for (const f of readdirSync(dir).filter((f) => f.endsWith(".wiki")).sort()) {
-      const page = f.slice(0, -5);
-      const file = join(dir, f);
-      if (!OFFLINE) await refresh(emulator, page, file);
-      const entry = entryFromPage(emulator, page, readFileSync(file, "utf8"));
-      if (!entry.serials.length) { console.warn(`skipped ${emulator}/${page}: no game IDs on the page`); continue; }
-      games.push(entry);
+    const sources = new Map();
+    if (existsSync(dir)) {
+      for (const f of readdirSync(dir).filter((f) => f.endsWith(".wiki")).sort()) {
+        const page = f.slice(0, -5);
+        sources.set(page.replaceAll("_", " "), { page, file: join(dir, f) });
+      }
+    }
+    const bundles = [join(dir, "wiki-export.json"), emulator === "rpcs3" ? exportFile : null].filter((b) => b && existsSync(b));
+    for (const bundle of bundles) {
+      const data = JSON.parse(readFileSync(bundle, "utf8"));
+      if (data.scan && data.scan.scanComplete === false) console.warn(`${bundle}: the scan wasn't finished; building from the pages it has`);
+      for (const [title, text] of parseWikiExport(data)) {
+        if (!sources.get(title)?.file) sources.set(title, { page: title.replaceAll(" ", "_"), text });
+      }
+    }
+    for (const [, source] of [...sources].sort(([a], [b]) => a.localeCompare(b))) {
+      if (!OFFLINE && source.file) await refresh(emulator, source.page, source.file);
+      const text = source.file ? readFileSync(source.file, "utf8") : source.text;
+      const entry = entryFromPage(emulator, source.page, text);
+      pages++;
+      if (useful(entry)) entries.push(entry);
     }
   }
-  games.sort((a, b) => a.title.localeCompare(b.title));
-  // Keep the old date when nothing changed, so scheduled runs don't commit for nothing.
-  const old = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : null;
-  const same = old && JSON.stringify(old.games) === JSON.stringify(games);
-  const out = { version: 1, generated: same ? old.generated : new Date().toISOString().slice(0, 10), games };
-  writeFileSync(OUT, JSON.stringify(out, null, 2) + "\n");
-  console.log(`${games.length} games${same ? ", unchanged" : ""}`);
+  const changed = writeLayout(out, entries, new Date().toISOString().slice(0, 10));
+  console.log(`${pages} pages, ${entries.length} games with recommendations, ${changed ? "updated" : "unchanged"}: ${out}`);
 }
 
-if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) main();
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+  main().catch((e) => {
+    console.error(e.message);
+    process.exit(1);
+  });
+}

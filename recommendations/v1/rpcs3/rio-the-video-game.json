@@ -1,0 +1,50 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Rio: The Video Game",
+  "page": "https://wiki.rpcs3.net/index.php?title=Rio%3A_The_Video_Game",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01139",
+    "BLUS30614",
+    "BLES01223"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Helps with stability"
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Helps with stability"
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Needed for the game to be playable"
+    },
+    {
+      "id": "rpcs3.accurate_dma",
+      "value": "true",
+      "note": "Helps with stability"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "256 x 256"
+    },
+    {
+      "key": "rsx fifo accuracy",
+      "value": "Ordered & Atomic"
+    },
+    {
+      "key": "driver wake-up delay",
+      "value": "120"
+    }
+  ]
+}

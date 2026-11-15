@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "James Bond 007: Blood Stone",
+  "page": "https://wiki.rpcs3.net/index.php?title=James_Bond_007%3A_Blood_Stone",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01017",
+    "BLUS30289",
+    "BLJM60301"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required for the game to boot properly."
+    }
+  ],
+  "patches": []
+}

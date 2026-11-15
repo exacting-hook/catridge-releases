@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Blazing Angels: Squadrons of WWII",
+  "page": "https://wiki.rpcs3.net/index.php?title=Blazing_Angels%3A_Squadrons_of_WWII",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00023",
+    "BLUS30006",
+    "BLJS10007"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "To be able to get ingame."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sonic & SEGA All-Stars Racing",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sonic_%26_SEGA_All-Stars_Racing",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00750",
+    "BLUS30342",
+    "NPEB90229",
+    "NPUB90275"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Motion blur effect leaves lines on right side of screen when MSAA is enabled. Also improves image quality."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken brightness."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "640x640"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Jeopardy!",
+  "page": "https://wiki.rpcs3.net/index.php?title=Jeopardy!",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30924",
+    "NPUA80227"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes Black Screen in Menu Screen and Main Game"
+    }
+  ],
+  "patches": []
+}

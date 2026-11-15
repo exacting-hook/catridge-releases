@@ -1,0 +1,43 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Elder Scrolls V: Skyrim",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Elder_Scrolls_V%3A_Skyrim",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01329",
+    "BLES01330",
+    "BLUS30778",
+    "BLJM60413",
+    "BLAS50546",
+    "BLES01885",
+    "BLES01886",
+    "BLUS31202",
+    "BLJM61086",
+    "BLAS50624"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes some bloom and brightness issues. May cause game to freeze on some hardware."
+    }
+  ],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "only": [
+        "BLAS50546",
+        "BLES01329",
+        "BLES01330",
+        "BLES01885",
+        "BLES01886",
+        "BLJM60413",
+        "BLUS30778",
+        "BLUS31202"
+      ]
+    }
+  ]
+}

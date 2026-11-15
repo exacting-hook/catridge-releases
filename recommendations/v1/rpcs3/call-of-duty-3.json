@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Call of Duty 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Call_of_Duty_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00016",
+    "BLES00017",
+    "BLES00021",
+    "BLUS30012",
+    "BLJM60027",
+    "BLKS20006"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Fixes visual issues in the main menu and while in-game."
+    }
+  ],
+  "patches": []
+}

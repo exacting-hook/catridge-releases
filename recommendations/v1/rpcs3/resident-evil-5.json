@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Resident Evil 5",
+  "page": "https://wiki.rpcs3.net/index.php?title=Resident_Evil_5",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00485",
+    "BLUS30270",
+    "BLES00816",
+    "BLUS30491",
+    "NPEB00687",
+    "NPUB30564",
+    "BLJM60199",
+    "NPEB90124",
+    "NPJB90152",
+    "NPHB00070"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken lighting"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Colin McRae: DiRT 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Colin_McRae%3A_DiRT_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00673",
+    "BLUS30313",
+    "BLJM60178",
+    "NPEB90176",
+    "NPUB90294"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes rainbow color water"
+    }
+  ],
+  "patches": []
+}

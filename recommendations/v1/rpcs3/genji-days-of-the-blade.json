@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Genji: Days of the Blade",
+  "page": "https://wiki.rpcs3.net/index.php?title=Genji%3A_Days_of_the_Blade",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00002",
+    "BCUS98131",
+    "BCJS30002",
+    "BCAS20002",
+    "BCKS10003",
+    "NPEA90008",
+    "NPUA80026",
+    "NPKA00001"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "only": [
+        "BCAS20002",
+        "BCES00002"
+      ]
+    }
+  ]
+}

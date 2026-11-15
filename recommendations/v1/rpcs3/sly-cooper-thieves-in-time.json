@@ -1,0 +1,59 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sly Cooper: Thieves in Time",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sly_Cooper%3A_Thieves_in_Time",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01284",
+    "BCES01285",
+    "BCUS98247",
+    "NPEA00429",
+    "NPUA80875",
+    "NPEA90120",
+    "NPUA70250",
+    "NPEA00444"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes particles not rendering properly, e.g. fire and water particles."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "May improve performance depending on the hardware."
+    },
+    {
+      "id": "rpcs3.depth_compare",
+      "value": "true",
+      "note": "Fixes the X on mission markers flickering."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "high",
+      "note": "Improves performance and allows for Resolution Scaling to be used.",
+      "only": [
+        "BCES01284",
+        "BCES01285",
+        "BCUS98247",
+        "NPEA00429",
+        "NPUA80875"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "60"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    }
+  ]
+}

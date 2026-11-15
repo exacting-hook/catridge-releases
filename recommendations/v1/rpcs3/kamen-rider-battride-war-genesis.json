@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Kamen Rider: Battride War Genesis",
+  "page": "https://wiki.rpcs3.net/index.php?title=Kamen_Rider%3A_Battride_War_Genesis",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPJB00758",
+    "BLJS10319",
+    "BLJS10324"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "normal",
+      "note": "Best to lock FPS to 60 to avoid slow camera speed.",
+      "only": [
+        "BLJS10319",
+        "BLJS10324",
+        "NPJB00758"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "F.E.A.R. - First Encounter Assault Recon",
+  "page": "https://wiki.rpcs3.net/index.php?title=F.E.A.R._-_First_Encounter_Assault_Recon",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00035",
+    "BLES00036",
+    "BLUS30003"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "High",
+      "note": "Required on Nvidia GPUs to fix Flashlight and player/gun model being transparent"
+    }
+  ],
+  "patches": []
+}

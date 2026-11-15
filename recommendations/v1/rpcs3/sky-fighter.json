@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sky Fighter",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sky_Fighter",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00192",
+    "NPUB30144",
+    "NPEB90286",
+    "NPHB00298"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.accurate_dma",
+      "value": "true",
+      "note": "Fixes freezes."
+    }
+  ],
+  "patches": []
+}

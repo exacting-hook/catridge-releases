@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Zumba Fitness",
+  "page": "https://wiki.rpcs3.net/index.php?title=Zumba_Fitness",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30587",
+    "BLES01159"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Needed otherwise trainer is missing"
+    }
+  ],
+  "patches": []
+}

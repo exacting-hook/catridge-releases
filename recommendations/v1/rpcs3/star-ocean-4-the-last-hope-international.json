@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Star Ocean 4: The Last Hope International",
+  "page": "https://wiki.rpcs3.net/index.php?title=Star_Ocean_4%3A_The_Last_Hope_International",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00767",
+    "BLUS30462",
+    "MRTC00001",
+    "BLJM60189",
+    "BCAS20111",
+    "BCKS10106"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_decoder",
+      "value": "Interpreter (dynamic)",
+      "note": "Required to get past intro screen"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "delay each odd mfc command",
+      "value": "On"
+    }
+  ]
+}

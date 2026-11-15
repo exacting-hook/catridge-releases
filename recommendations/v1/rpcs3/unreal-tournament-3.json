@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Unreal Tournament 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Unreal_Tournament_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00200",
+    "BLUS30086",
+    "BLES00201",
+    "BLJM60090"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes character portraits."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes permanent border around the screen."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "322 x 322"
+    }
+  ]
+}

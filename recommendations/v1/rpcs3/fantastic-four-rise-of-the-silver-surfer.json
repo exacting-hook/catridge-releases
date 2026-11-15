@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fantastic Four: Rise of the Silver Surfer",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fantastic_Four%3A_Rise_of_the_Silver_Surfer",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00075",
+    "BLUS30042"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes Broken Lighting And Missing Graphics"
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Can improve performance"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,45 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Yakuza: Dead Souls",
+  "page": "https://wiki.rpcs3.net/index.php?title=Yakuza%3A_Dead_Souls",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30826",
+    "BLES01399",
+    "BLJM60316",
+    "NPEB02034",
+    "NPUB31509",
+    "NPJB90345",
+    "NPHB00335"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Slight performance improvement"
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable SPU MLAA",
+      "level": "high",
+      "note": "Improves performance"
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "512 x 512"
+    },
+    {
+      "key": "ppu event wake-up delay",
+      "value": "35"
+    },
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

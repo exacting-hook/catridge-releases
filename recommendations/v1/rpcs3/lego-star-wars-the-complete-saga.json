@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "LEGO Star Wars: The Complete Saga",
+  "page": "https://wiki.rpcs3.net/index.php?title=LEGO_Star_Wars%3A_The_Complete_Saga",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00121",
+    "BLUS30079"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Improves stability."
+    }
+  ],
+  "patches": []
+}

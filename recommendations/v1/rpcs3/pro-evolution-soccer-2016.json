@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Pro Evolution Soccer 2016",
+  "page": "https://wiki.rpcs3.net/index.php?title=Pro_Evolution_Soccer_2016",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31564",
+    "BLJM61301",
+    "BLES02187",
+    "BLES02228",
+    "BLJM61339",
+    "NPEB90564",
+    "NPUB91031"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Required for game to work."
+    }
+  ],
+  "patches": []
+}

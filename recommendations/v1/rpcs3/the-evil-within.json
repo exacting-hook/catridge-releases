@@ -1,0 +1,44 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Evil Within",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Evil_Within",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01916",
+    "BLES02093",
+    "BLJM61235",
+    "BLUS31374",
+    "NPEB01797",
+    "NPUB31392",
+    "BCKS10276",
+    "NPHB00690",
+    "NPHB00691",
+    "BCAS20333"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes the majority of broken graphics."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "May improve performance."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Can improve performance, if your GPU is strong enough to use it."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "allow host gpu labels",
+      "value": "On"
+    }
+  ]
+}

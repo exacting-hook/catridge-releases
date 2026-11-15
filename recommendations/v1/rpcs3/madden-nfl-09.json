@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Madden NFL 09",
+  "page": "https://wiki.rpcs3.net/index.php?title=Madden_NFL_09",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00285",
+    "BLUS30146",
+    "BLJM60088",
+    "BLUS30170",
+    "BLUS30150",
+    "NPUB90138"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "This is to remove red hue from in game"
+    }
+  ],
+  "patches": []
+}

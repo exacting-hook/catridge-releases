@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "PixelJunk Shooter",
+  "page": "https://wiki.rpcs3.net/index.php?title=PixelJunk_Shooter",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00141",
+    "NPUA80253",
+    "NPEA90054",
+    "NPHB00190",
+    "NPHB00191"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required for liquid physics to function properly."
+    }
+  ],
+  "patches": []
+}

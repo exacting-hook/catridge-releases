@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Date A Live: Rinne Utopia",
+  "page": "https://wiki.rpcs3.net/index.php?title=Date_A_Live%3A_Rinne_Utopia",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJM61048",
+    "NPJB00390"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Correctly renders visual effects on characters, otherwise it renders random textures"
+    }
+  ],
+  "patches": []
+}

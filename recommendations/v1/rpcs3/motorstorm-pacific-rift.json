@@ -1,0 +1,56 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "MotorStorm: Pacific Rift",
+  "page": "https://wiki.rpcs3.net/index.php?title=MotorStorm%3A_Pacific_Rift",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS98155",
+    "BCES00129",
+    "NPEA90033",
+    "NPUA70033",
+    "NPUA70022",
+    "NPEA90030",
+    "NPUA80499",
+    "NPUA70095",
+    "NPHA80088"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Relaxed",
+      "note": "No known issues, might improve performance."
+    },
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Improves performance significantly when using Resolution Scaling. Makes grass on the razorback level look pixelated. Leave it on Auto for splitscreen otherwise graphical glitches."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes excessively bright bloom."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes visual issues with surfaces e.g mud."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "16x"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "256 x 256"
+    },
+    {
+      "key": "driver wake-up delay",
+      "value": "50"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tom Clancy's Splinter Cell: Double Agent",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tom_Clancy's_Splinter_Cell%3A_Double_Agent",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00024",
+    "BLUS30032",
+    "NPEB00788",
+    "NPUB30636",
+    "NPHB00481"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes multiplayer menu rendering"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "256x256"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    },
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "NieR",
+  "page": "https://wiki.rpcs3.net/index.php?title=NieR",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30481",
+    "BLES00826",
+    "BLJM60223"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing in-game visuals."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Improves performance. Warning: May slowdown the game if your CPU does not have enough threads."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "normal",
+      "only": [
+        "BLES00826",
+        "BLJM60223",
+        "BLUS30481"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "30"
+    },
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "Usleep Only"
+    }
+  ]
+}

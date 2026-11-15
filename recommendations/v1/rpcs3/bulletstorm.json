@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Bulletstorm",
+  "page": "https://wiki.rpcs3.net/index.php?title=Bulletstorm",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01134",
+    "BLES01212",
+    "BLUS30651",
+    "NPEB00622",
+    "NPEB00623",
+    "NPUB30544",
+    "NPEB90309",
+    "NPUB90501",
+    "NPHB00323"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes artifacts when damaged by electricity."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    }
+  ]
+}

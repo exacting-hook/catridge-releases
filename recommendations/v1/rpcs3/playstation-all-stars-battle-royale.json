@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "PlayStation All-Stars Battle Royale",
+  "page": "https://wiki.rpcs3.net/index.php?title=PlayStation_All-Stars_Battle_Royale",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01435",
+    "BCES01436",
+    "BCUS98472",
+    "NPEA00413",
+    "NPUA80316",
+    "BCJS30088",
+    "BCET70053",
+    "NPUA70214",
+    "NPUA70246",
+    "NPUA70232"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

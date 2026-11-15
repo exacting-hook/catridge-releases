@@ -1,0 +1,37 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Rage",
+  "page": "https://wiki.rpcs3.net/index.php?title=Rage",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01378",
+    "BLES01426",
+    "BLUS30485",
+    "BLES01377",
+    "BLJM60994",
+    "BLAS50374",
+    "NPEB90391",
+    "NPUB90651"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Ultra",
+      "note": "For a perfect PS3 match of dust and DOF effects"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes flickering textures. To be used in conjunction with Allow Host GPU Labels"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "allow host gpu labels",
+      "value": "On"
+    }
+  ]
+}

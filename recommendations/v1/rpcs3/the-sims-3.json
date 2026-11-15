@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Sims 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Sims_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01016",
+    "BLUS30609"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fix invisible character and readable after Create a Sims."
+    }
+  ],
+  "patches": []
+}

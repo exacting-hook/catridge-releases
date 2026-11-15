@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Persona 5",
+  "page": "https://wiki.rpcs3.net/index.php?title=Persona_5",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02247",
+    "BLUS31604",
+    "BLJM61346",
+    "NPEB02436",
+    "NPJB00769",
+    "NPUB31848"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken sunlight."
+    }
+  ],
+  "patches": []
+}

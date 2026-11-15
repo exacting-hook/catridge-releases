@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Landit Bandit",
+  "page": "https://wiki.rpcs3.net/index.php?title=Landit_Bandit",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00220",
+    "NPUB30254",
+    "NPHB00297"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Stops the game from crashing during startup."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black sky color issue."
+    }
+  ],
+  "patches": []
+}

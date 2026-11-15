@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Rock Band 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Rock_Band_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00986",
+    "BLUS30463",
+    "NPUB90505",
+    "NPEB90291"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken character textures."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "network status",
+      "value": "Connected"
+    },
+    {
+      "key": "vblank rate",
+      "value": "60"
+    }
+  ]
+}

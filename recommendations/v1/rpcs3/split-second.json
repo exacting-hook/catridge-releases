@@ -1,0 +1,59 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Split/Second",
+  "page": "https://wiki.rpcs3.net/index.php?title=Split%2FSecond",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30300",
+    "BLES00781",
+    "BLES00780",
+    "NPUB30450",
+    "BLJM60251",
+    "NPUB90245",
+    "NPEB90236",
+    "NPUB90491"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken visuals."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "If you have a stronger GPU, this can give substantial performance boost."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes broken visuals."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale",
+      "value": "100"
+    },
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    },
+    {
+      "key": "allow host gpu labels",
+      "value": "On"
+    }
+  ]
+}

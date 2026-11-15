@@ -1,0 +1,125 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "God of War: Ascension",
+  "page": "https://wiki.rpcs3.net/index.php?title=God_of_War%3A_Ascension",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01741",
+    "BCES01742",
+    "BCUS98232",
+    "BCAS25016",
+    "NPEA00445",
+    "NPUA80918",
+    "NPHA80258",
+    "BCJS37008",
+    "NPJA00094",
+    "NPEA90123",
+    "NPUA70265",
+    "NPUA70269",
+    "NPHA80251",
+    "NPEA90115",
+    "NPUA70244",
+    "NPHA80235",
+    "BCET70050",
+    "NPUA70216",
+    "NPEA00441",
+    "NPUA30124",
+    "NPHA80245"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance over precise. Don't try relaxed as it breaks graphics and kills performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "false",
+      "note": "Improves performance over precise. Don't try relaxed as it breaks graphics and kills performance."
+    },
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Ultra",
+      "note": "Renders the skybox with correct colors"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes lighting issues."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Prevents random freezing/crashing while playing the game."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "high",
+      "note": "Improves performance and allows Resolution Scaling to work properly. Disable MLAA is mandatory, without it you will get a black screen.",
+      "only": [
+        "BCAS25016",
+        "BCES01741",
+        "BCES01742",
+        "BCJS37008",
+        "BCUS98232",
+        "NPEA00445",
+        "NPEA90123",
+        "NPHA80258",
+        "NPUA70244",
+        "NPUA80918"
+      ]
+    },
+    {
+      "name": "Disable SPU MLAA",
+      "level": "high",
+      "note": "Improves performance and allows Resolution Scaling to work properly. Disable MLAA is mandatory, without it you will get a black screen."
+    },
+    {
+      "name": "Disable Mesh Trimming",
+      "level": "high",
+      "note": "Improves performance and allows Resolution Scaling to work properly. Disable MLAA is mandatory, without it you will get a black screen.",
+      "only": [
+        "BCAS25016",
+        "BCES01741",
+        "BCES01742",
+        "BCJS37008",
+        "BCUS98232",
+        "NPEA00445",
+        "NPHA80258",
+        "NPUA80918"
+      ]
+    },
+    {
+      "name": "Disable Motion Blur",
+      "level": "normal",
+      "only": [
+        "BCAS25016",
+        "BCES01741",
+        "BCES01742",
+        "BCJS37008",
+        "BCUS98232",
+        "NPEA00445",
+        "NPHA80258",
+        "NPUA70244",
+        "NPUA80918"
+      ]
+    },
+    {
+      "name": "Skip Intro",
+      "level": "normal",
+      "only": [
+        "NPUA70244"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

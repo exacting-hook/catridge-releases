@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Warhammer 40,000: Space Marine",
+  "page": "https://wiki.rpcs3.net/index.php?title=Warhammer_40%2C000%3A_Space_Marine",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01347",
+    "BLUS30432",
+    "NPEB00648",
+    "NPUB30576",
+    "BLJM60392",
+    "BLAS50372",
+    "BLKS20317",
+    "NPEB90358",
+    "NPUB90667"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes helmets not rendering properly"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "psn status",
+      "value": "Simulated"
+    }
+  ]
+}

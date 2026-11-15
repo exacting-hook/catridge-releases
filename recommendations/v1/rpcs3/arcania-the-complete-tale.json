@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Arcania: The Complete Tale",
+  "page": "https://wiki.rpcs3.net/index.php?title=Arcania%3A_The_Complete_Tale",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB31249",
+    "BLES01783",
+    "BLUS31158",
+    "NPEB01400",
+    "NPEB01401",
+    "NPEB01402"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes unloaded textures on npcs."
+    }
+  ],
+  "patches": []
+}

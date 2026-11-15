@@ -1,0 +1,18 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Risk Urban Assault",
+  "page": "https://wiki.rpcs3.net/index.php?title=Risk_Urban_Assault",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB02269"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true"
+    }
+  ],
+  "patches": []
+}

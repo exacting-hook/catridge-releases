@@ -1,0 +1,51 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "LittleBigPlanet",
+  "page": "https://wiki.rpcs3.net/index.php?title=LittleBigPlanet",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00141",
+    "BCUS98148",
+    "NPEA00241",
+    "NPUA80472",
+    "BCAS20058",
+    "BCJS30018",
+    "NPJA00052",
+    "NPHA80092",
+    "BCES00611",
+    "BCUS98208",
+    "BCAS20078",
+    "NPEA00147",
+    "NPUA70045",
+    "NPJA90097",
+    "NPHA80067",
+    "BCUS70030",
+    "BCET70002",
+    "BCET70011"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Auto",
+      "note": "Breaks pod windows and other transparent objects if disabled. Only disable if you experience graphical issues on AMD GPUs."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes horrible gas, smoke and fire."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "128x128"
+    }
+  ]
+}

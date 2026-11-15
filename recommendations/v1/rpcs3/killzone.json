@@ -1,0 +1,36 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Killzone",
+  "page": "https://wiki.rpcs3.net/index.php?title=Killzone",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01743",
+    "NPEA00418",
+    "NPUA80856"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Paired with Read Color Buffers these settings remove a black screen effect"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Paired with Write Color Buffers these settings remove a black screen effect"
+    }
+  ],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "only": [
+        "BCES01743",
+        "NPEA00418",
+        "NPUA80856"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Wakeboarding HD",
+  "page": "https://wiki.rpcs3.net/index.php?title=Wakeboarding_HD",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00122",
+    "NPUB30098",
+    "NPHB00209",
+    "NPEB90234",
+    "NPUB90393"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Enable to fix glitching with textures of water and skybox textures"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Enable to fix flat water and missing wave graphics"
+    },
+    {
+      "id": "rpcs3.accurate_dma",
+      "value": "true",
+      "note": "Enable to fix stuttering and freezing in-game"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

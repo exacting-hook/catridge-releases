@@ -1,0 +1,48 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Heavy Rain",
+  "page": "https://wiki.rpcs3.net/index.php?title=Heavy_Rain",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00797",
+    "BCES00802",
+    "BCUS98164",
+    "BCAS20107",
+    "BCES00458",
+    "BCES01293",
+    "BCJS30040",
+    "NPEA90076",
+    "NPUA70112",
+    "NPHA80118",
+    "NPEA90053",
+    "NPUA70088",
+    "NPJA90129",
+    "NPHA80086",
+    "NPEA00183"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken textures on character models."
+    },
+    {
+      "id": "rpcs3.depth_compare",
+      "value": "true",
+      "note": "Fixes Z-Fighting on geometry."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "Off"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    }
+  ]
+}

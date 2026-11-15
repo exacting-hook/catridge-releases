@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Juiced 2: Hot Import Nights",
+  "page": "https://wiki.rpcs3.net/index.php?title=Juiced_2%3A_Hot_Import_Nights",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00143",
+    "BLUS30084",
+    "BLJM60058",
+    "NPUB90053",
+    "NPEB90032"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken car liveries and player character textures."
+    }
+  ],
+  "patches": []
+}

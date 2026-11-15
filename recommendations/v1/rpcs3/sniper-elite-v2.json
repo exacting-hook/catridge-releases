@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sniper Elite V2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sniper_Elite_V2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01290",
+    "BLUS30798",
+    "NPEB01009",
+    "BLJM60503",
+    "NPUB31291",
+    "BLES01812",
+    "BLUS41022",
+    "NPEB90404",
+    "NPUB90749"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black screen"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,75 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "InFamous 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=InFamous_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01143",
+    "BCES01144",
+    "BCUS98125",
+    "NPEA00318",
+    "NPUA80638",
+    "NPHA80157",
+    "BCES01229",
+    "BCJS30075",
+    "BCAS20181",
+    "NPEA00319",
+    "NPEA90095",
+    "NPEA90096",
+    "NPUA70156",
+    "NPHA80154",
+    "NPUA70154",
+    "NPUA70146",
+    "BCET70031",
+    "NPEA00312",
+    "NPEA00313",
+    "NPUA30070",
+    "NPHA80155",
+    "NPUO70223"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes flickering artifacts in some areas of the game. Can greatly reduce performance, especially when resolution scaling."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Improves performance, but may introduce black visual artifacts on some hardware."
+    },
+    {
+      "id": "rpcs3.zcull_off",
+      "value": "true",
+      "note": "Slightly improves performance without any noticeable issues."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

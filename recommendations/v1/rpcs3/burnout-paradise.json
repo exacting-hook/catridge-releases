@@ -1,0 +1,44 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Burnout Paradise",
+  "page": "https://wiki.rpcs3.net/index.php?title=Burnout_Paradise",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30061",
+    "BLES00073",
+    "BLES00074",
+    "BLJM60053",
+    "NPEB00043",
+    "NPUB30040",
+    "BLAS50039",
+    "NPHB00052",
+    "BLES00455",
+    "BLES00462",
+    "BLUS30250",
+    "BLJM60133",
+    "NPEB90048",
+    "NPUB90062",
+    "NPJB90066",
+    "NPHB00026"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Small performance improvement."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

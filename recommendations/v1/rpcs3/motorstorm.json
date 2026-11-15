@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "MotorStorm",
+  "page": "https://wiki.rpcs3.net/index.php?title=MotorStorm",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00006",
+    "BCUS98137",
+    "BCJS30004",
+    "NPUA80017",
+    "NPJA90025"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes overbright image."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes incorrect textures in muddy tracks like Mudpool."
+    }
+  ],
+  "patches": []
+}

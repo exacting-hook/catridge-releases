@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Middle-Earth: Shadow of Mordor",
+  "page": "https://wiki.rpcs3.net/index.php?title=Middle-Earth%3A_Shadow_of_Mordor",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01745",
+    "BLUS31059",
+    "NPUB31436",
+    "BLUS31459",
+    "BLJM61270",
+    "BLJM67020",
+    "NPEB01977",
+    "NPUB31536",
+    "NPJB00701"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "May be needed when using asynchronous texture streaming for some hardware to upkeep performance."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Improves level of detail. Without this environment textures will occasionally look smooth. Not influenced by framerate."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

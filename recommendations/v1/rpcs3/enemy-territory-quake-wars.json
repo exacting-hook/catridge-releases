@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Enemy Territory: Quake Wars",
+  "page": "https://wiki.rpcs3.net/index.php?title=Enemy_Territory%3A_Quake_Wars",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00184",
+    "BLUS30132",
+    "NPEB90063",
+    "NPUB90092"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Required to resolve flickering graphics."
+    }
+  ],
+  "patches": []
+}

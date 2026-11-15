@@ -1,0 +1,49 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Plants vs. Zombies",
+  "page": "https://wiki.rpcs3.net/index.php?title=Plants_vs._Zombies",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30852",
+    "NPEA00271",
+    "NPUA30059"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.resolution",
+      "value": "1920x1080",
+      "note": "This is a native 1080p PS3 title"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes icons missing for some of the seed packets"
+    },
+    {
+      "id": "rpcs3.spurs_threads",
+      "value": "3",
+      "note": "Can help performance on low core-count CPUs, otherwise use unlimited"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "preferred spu threads",
+      "value": "1 - 3"
+    },
+    {
+      "key": "framelimit",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale",
+      "value": "100"
+    },
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    }
+  ]
+}

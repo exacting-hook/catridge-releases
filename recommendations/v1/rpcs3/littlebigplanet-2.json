@@ -1,0 +1,68 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "LittleBigPlanet 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=LittleBigPlanet_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS98245",
+    "BCES00850",
+    "BCES01086",
+    "NPUA80662",
+    "NPEA00324",
+    "BCJS30058",
+    "BCAS20113",
+    "BCKS10150",
+    "BCES01693",
+    "BCES01694",
+    "NPEA00437",
+    "BCUS98372",
+    "NPUA70127",
+    "NPEA90077",
+    "NPEA90098",
+    "NPUA70174",
+    "NPHA80163",
+    "NPUA70169",
+    "NPUA07128",
+    "NPUA70117",
+    "BCET70023",
+    "BCET70035"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing character portraits and photos."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "normal",
+      "note": "Improves performance and allows for resolution scaling to be used.",
+      "only": [
+        "BCAS20113",
+        "BCAS20201",
+        "BCES00850",
+        "BCES01086",
+        "BCES01345",
+        "BCES01346",
+        "BCES01693",
+        "BCES01694",
+        "BCJS30058",
+        "BCUS98245",
+        "BCUS98372",
+        "NPEA00324",
+        "NPEA00437",
+        "NPUA80662"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    }
+  ]
+}

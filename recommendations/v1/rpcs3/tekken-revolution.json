@@ -1,0 +1,31 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tekken Revolution",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tekken_Revolution",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB01406",
+    "NPJB00404",
+    "NPUB31250"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken characters clothes."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "network status",
+      "value": "Connected"
+    },
+    {
+      "key": "psn status",
+      "value": "RPCN"
+    }
+  ]
+}

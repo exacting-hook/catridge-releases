@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Gran Turismo HD Concept",
+  "page": "https://wiki.rpcs3.net/index.php?title=Gran_Turismo_HD_Concept",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA90002",
+    "NPUA80019",
+    "NPJA00010",
+    "NPHA00001"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rdb",
+      "value": "true",
+      "note": "Fixes text at start of races."
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes text at start of races."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Trash Panic",
+  "page": "https://wiki.rpcs3.net/index.php?title=Trash_Panic",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPHA80058",
+    "NPUA80247",
+    "NPEA90042",
+    "NPUA70047",
+    "NPJA00044"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes fire/smoke effects."
+    }
+  ],
+  "patches": []
+}

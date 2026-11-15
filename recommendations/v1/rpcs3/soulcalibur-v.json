@@ -1,0 +1,40 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "SoulCalibur V",
+  "page": "https://wiki.rpcs3.net/index.php?title=SoulCalibur_V",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30736",
+    "BLES01250",
+    "BLJS10115",
+    "NPEB01363",
+    "NPUB31195",
+    "NPJB00381"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes white characters in battle."
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Needs to be enabled alongside with Write Color Buffers to fix broken graphics."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Needs to be enabled alongside with Write Color Buffers to fix broken graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "512x512"
+    }
+  ]
+}

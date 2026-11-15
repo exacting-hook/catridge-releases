@@ -1,0 +1,35 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Wolfenstein: The New Order",
+  "page": "https://wiki.rpcs3.net/index.php?title=Wolfenstein%3A_The_New_Order",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01909",
+    "NPEB01789",
+    "NPUB31297",
+    "BLES01910",
+    "BLUS31220",
+    "BLJM61201"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required alongside Force CPU blit emulation to fix broken graphics."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Required if using Force CPU blit emulation and Write Color buffers to fix screen not being filled."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

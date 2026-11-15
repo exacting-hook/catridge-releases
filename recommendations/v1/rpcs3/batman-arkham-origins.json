@@ -1,0 +1,42 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Batman: Arkham Origins",
+  "page": "https://wiki.rpcs3.net/index.php?title=Batman%3A_Arkham_Origins",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01784",
+    "BLUS31147",
+    "BLUS31207",
+    "NPUB31261",
+    "NPUB90957"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Low",
+      "note": "Needed if you're on an RTX 20/30/40/50 card only, workaround for {{issue|14113}}."
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes broken graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale",
+      "value": "100"
+    },
+    {
+      "key": "debug console mode",
+      "value": "On"
+    },
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

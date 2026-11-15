@@ -1,0 +1,66 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fallout 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fallout_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00333",
+    "BLES00399",
+    "BLES00400",
+    "BLUS30185",
+    "BLES00334",
+    "BLES00335",
+    "BLES00336",
+    "BLES00337",
+    "BLES00398",
+    "BLUS30234",
+    "BLJS10040",
+    "BLES00739",
+    "BLES00740",
+    "BLUS30451",
+    "BLJS10068",
+    "BLES00737",
+    "BLES00738",
+    "BLES00741",
+    "BLES00742",
+    "BLUS30455",
+    "BLJS10069"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken save previews."
+    }
+  ],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "only": [
+        "BLES00333",
+        "BLES00334",
+        "BLES00335",
+        "BLES00336",
+        "BLES00337",
+        "BLES00398",
+        "BLES00399",
+        "BLES00737",
+        "BLJS10040",
+        "BLJS10068",
+        "BLJS10069",
+        "BLUS30185",
+        "BLUS30234",
+        "BLUS30455"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "driver wake-up delay",
+      "value": "200"
+    }
+  ]
+}

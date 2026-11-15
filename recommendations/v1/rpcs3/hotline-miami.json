@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hotline Miami",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hotline_Miami",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB01341",
+    "NPUB31200"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken pause menu and blood effects."
+    }
+  ],
+  "patches": []
+}

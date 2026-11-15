@@ -1,0 +1,49 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Gran Turismo 6",
+  "page": "https://wiki.rpcs3.net/index.php?title=Gran_Turismo_6",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01893",
+    "BCES01977",
+    "BCJS37016",
+    "BCUS98296",
+    "BCAS25018",
+    "NPEA00502",
+    "NPUA81049",
+    "NPHA80269",
+    "NPJA00113",
+    "BCUS99247"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Allows proper rendering of pictures taken in Photo Mode and fixes auto-focus. Fixes broken lighting like bloom and other illumination effects. Breaks resolution scaling. Required for regular gameplay on game versions above 01.05 without the <code>Disable MLAA</code> patch."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Reduces the frequency of RSX desyncs."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Prevents some flickering when enabled with Write Color Buffers. Required for regular gameplay on game versions above 01.05 without the <code>Disable MLAA</code> patch."
+    },
+    {
+      "id": "rpcs3.zcull_off",
+      "value": "true",
+      "note": "Very minor performance increase. Prevents car reward screens from dropping to near zero FPS."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

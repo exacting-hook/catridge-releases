@@ -1,0 +1,37 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sonic & All-Stars Racing Transformed",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sonic_%26_All-Stars_Racing_Transformed",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01646",
+    "BLUS30839",
+    "NPEB01232",
+    "BLJM61145",
+    "NPUB31090",
+    "NPJB00535",
+    "NPEB90471",
+    "NPUB90928"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing graphics."
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes broken warp effect in Temple Trouble. May reduce performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "128x128"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Metal Gear Solid HD Collection",
+  "page": "https://wiki.rpcs3.net/index.php?title=Metal_Gear_Solid_HD_Collection",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01419",
+    "BLUS30847",
+    "BLJM61001",
+    "BLJM91001",
+    "BLJM60351",
+    "NPEB00686",
+    "NPUB30611",
+    "NPJB00123",
+    "NPEB00685",
+    "NPUB30609",
+    "NPJB00157",
+    "NPEB00684",
+    "NPUB30610",
+    "NPJB00156"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Shadows in MGS2 and MGS3 require the Color buffer to be enabled to appear without borders."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "network status",
+      "value": "Connected"
+    },
+    {
+      "key": "psn status",
+      "value": "RPCN"
+    },
+    {
+      "key": "disable spu getllar spin optimization",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tiger Woods PGA Tour 10",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tiger_Woods_PGA_Tour_10",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30286",
+    "BLES00530",
+    "NPEB90152",
+    "NPHB00119"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes graphical glitches with golfers clothing"
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes graphical glitches with golfers clothing"
+    }
+  ],
+  "patches": []
+}

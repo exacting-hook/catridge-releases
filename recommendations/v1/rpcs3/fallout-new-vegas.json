@@ -1,0 +1,53 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fallout: New Vegas",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fallout%3A_New_Vegas",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00901",
+    "BLUS30500",
+    "BLES00902",
+    "BLES00903",
+    "BLES00904",
+    "BLES00905",
+    "BLES01057",
+    "BLUS30626",
+    "BLJM60282",
+    "BLES01475",
+    "BLES01478",
+    "BLUS30888",
+    "BLES01476",
+    "BLES01477",
+    "BLES01479",
+    "BLUS30889",
+    "BLJM60449"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes save icon preview"
+    }
+  ],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "only": [
+        "BLES00901",
+        "BLES00902",
+        "BLES00903",
+        "BLES00904",
+        "BLES00905",
+        "BLES01057",
+        "BLES01475",
+        "BLJM60282",
+        "BLUS30500",
+        "BLUS30626",
+        "BLUS30627"
+      ]
+    }
+  ]
+}

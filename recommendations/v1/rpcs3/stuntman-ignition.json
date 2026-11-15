@@ -1,0 +1,44 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Stuntman: Ignition",
+  "page": "https://wiki.rpcs3.net/index.php?title=Stuntman%3A_Ignition",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00135",
+    "BLUS30073",
+    "BLJM60052",
+    "NPEB90028",
+    "NPUB90049"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to fix black screen in-game."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes missing ash particles in Aftershock."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "high",
+      "note": "Required if playing above 30FPS.",
+      "only": [
+        "BLES00135",
+        "BLUS30073"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "160x160"
+    }
+  ]
+}

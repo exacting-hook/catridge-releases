@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Karaoke Revolution Presents: American Idol Encore 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Karaoke_Revolution_Presents%3A_American_Idol_Encore_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30215"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken visual in menu after playing some maps."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "enable buffering",
+      "value": "Off"
+    }
+  ]
+}

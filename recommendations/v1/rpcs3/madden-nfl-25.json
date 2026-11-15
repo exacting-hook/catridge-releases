@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Madden NFL 25",
+  "page": "https://wiki.rpcs3.net/index.php?title=Madden_NFL_25",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31178",
+    "NPUB31183",
+    "BLES01850",
+    "BLAS50622",
+    "NPEB90493",
+    "NPUB90953"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black field."
+    }
+  ],
+  "patches": []
+}

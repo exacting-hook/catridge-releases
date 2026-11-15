@@ -1,0 +1,44 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tomb Raider",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tomb_Raider",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01780",
+    "BLES01781",
+    "BLUS31036",
+    "BCAS20272",
+    "NPEB01298",
+    "NPUB31146",
+    "NPHB00547",
+    "BLES01834",
+    "BLJM60557",
+    "NPEB01319",
+    "NPJB00283",
+    "NPHB00578"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Resolves the black screen in the main menu and black screen due to weather effects. On BLES01834 01.00, the Disable MLAA patch fixes the main menu without this setting."
+    },
+    {
+      "id": "rpcs3.depth_compare",
+      "value": "true",
+      "note": "Fixes flickering foliage."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "high",
+      "note": "Fixes the black main menu without needing Read Color Buffers. Currently available for BLES01834 01.00 only.",
+      "only": [
+        "BLES01834"
+      ]
+    }
+  ]
+}

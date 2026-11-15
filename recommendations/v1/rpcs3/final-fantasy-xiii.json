@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Final Fantasy XIII",
+  "page": "https://wiki.rpcs3.net/index.php?title=Final_Fantasy_XIII",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00783",
+    "BLUS30416",
+    "BCAS25005",
+    "BLJM67005",
+    "MRTC00003",
+    "BLJX94005"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "only": [
+        "MRTC00003"
+      ]
+    }
+  ]
+}

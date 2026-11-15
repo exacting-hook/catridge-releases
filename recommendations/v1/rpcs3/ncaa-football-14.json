@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "NCAA Football 14",
+  "page": "https://wiki.rpcs3.net/index.php?title=NCAA_Football_14",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31159",
+    "NPUB31137",
+    "NPUB90936"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_mode",
+      "value": "Async Recompiler with Shader Interpreter",
+      "note": "Needed in order to fix [https://github.com/RPCS3/rpcs3/issues/6861/ black field glitch during day games], which is present in various NCAA Football and Madden NFL games. After building up a shader cache using ''Async with Shader Interpreter'' mode, users can switch back to ''Async (multithreaded)'' for subsequent boots if required."
+    }
+  ],
+  "patches": []
+}

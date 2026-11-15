@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "MX vs. ATV Alive",
+  "page": "https://wiki.rpcs3.net/index.php?title=MX_vs._ATV_Alive",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01192",
+    "BLUS30707"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black screen in-game"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes texture glitches on terrain"
+    }
+  ],
+  "patches": []
+}

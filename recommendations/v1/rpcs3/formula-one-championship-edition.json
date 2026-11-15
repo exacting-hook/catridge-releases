@@ -1,0 +1,35 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Formula One Championship Edition",
+  "page": "https://wiki.rpcs3.net/index.php?title=Formula_One_Championship_Edition",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00005",
+    "BCUS98142",
+    "BCJS30005",
+    "NPEA00018",
+    "BCAS20009",
+    "NPEA90003"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to fix missing car liveries"
+    },
+    {
+      "id": "rpcs3.zcull_off",
+      "value": "true",
+      "note": "Disables crowd rendering. Current workaround to <i>{{issue|12059}}</i>"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "35 x 35"
+    }
+  ]
+}

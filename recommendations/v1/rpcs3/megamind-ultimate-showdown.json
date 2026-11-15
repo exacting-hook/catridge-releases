@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Megamind Ultimate Showdown",
+  "page": "https://wiki.rpcs3.net/index.php?title=Megamind_Ultimate_Showdown",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00867",
+    "BLUS30518"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black screen in open world areas."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Prevents freezes during loading screens."
+    }
+  ],
+  "patches": []
+}

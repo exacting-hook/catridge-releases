@@ -1,0 +1,45 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Cars 2: The Video Game",
+  "page": "https://wiki.rpcs3.net/index.php?title=Cars_2%3A_The_Video_Game",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01242",
+    "BLES01246",
+    "BLES01328",
+    "BLUS30725",
+    "NPUB30557",
+    "BLES01244",
+    "NPEB00662"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Relaxed",
+      "note": "Greatly improves performance."
+    },
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Slightly improves performance."
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Needed to render the game properly."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "normal",
+      "note": "Greatly improves performance, but makes edges more jagged.",
+      "only": [
+        "BLUS30725",
+        "NPUB30557"
+      ]
+    }
+  ]
+}

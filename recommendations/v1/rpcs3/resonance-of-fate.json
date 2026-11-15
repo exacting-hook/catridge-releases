@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Resonance of Fate",
+  "page": "https://wiki.rpcs3.net/index.php?title=Resonance_of_Fate",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00789",
+    "BLJM60187",
+    "BLUS30484",
+    "NPEB01348",
+    "NPJB90223"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_decoder",
+      "value": "Interpreter (dynamic)",
+      "note": "Required to get past main menu"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "delay each odd mfc command",
+      "value": "On"
+    }
+  ]
+}

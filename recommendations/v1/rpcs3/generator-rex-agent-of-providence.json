@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Generator Rex: Agent of Providence",
+  "page": "https://wiki.rpcs3.net/index.php?title=Generator_Rex%3A_Agent_of_Providence",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01271",
+    "BLUS30753"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes broken screen rendering."
+    }
+  ],
+  "patches": []
+}

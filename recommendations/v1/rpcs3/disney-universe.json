@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Disney Universe",
+  "page": "https://wiki.rpcs3.net/index.php?title=Disney_Universe",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01354",
+    "BLES01366",
+    "BLUS30773",
+    "NPUB30706",
+    "NPEB00660",
+    "BCAS20215",
+    "NPEB00930",
+    "NPUB90657",
+    "NPEB90362"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_threads",
+      "value": "1",
+      "note": "Improves Performance."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Required to fix very poor performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "640x640"
+    }
+  ]
+}

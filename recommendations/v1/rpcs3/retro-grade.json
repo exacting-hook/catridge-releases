@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Retro/Grade",
+  "page": "https://wiki.rpcs3.net/index.php?title=Retro%2FGrade",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB01094",
+    "NPUB30280",
+    "NPEB01113",
+    "NPUB30884"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black visuals"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes graphics repeating"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

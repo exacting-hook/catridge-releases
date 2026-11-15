@@ -1,0 +1,34 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fuse",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fuse",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01724",
+    "BLUS31040",
+    "NPUB30874",
+    "NPEB01112",
+    "NPEB90442",
+    "NPUB90815"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes 0.5 FPS lock on menu and crashes."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "30"
+    },
+    {
+      "key": "vblank ntsc fixup",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Zone of the Enders HD Collection",
+  "page": "https://wiki.rpcs3.net/index.php?title=Zone_of_the_Enders_HD_Collection",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01756",
+    "BLUS30937",
+    "NPEB01186",
+    "BLJM60451",
+    "NPUB31313",
+    "NPEB01443",
+    "NPUB31314",
+    "NPEB01444"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Prevents hanging on boot on the game launcher. (Disc Versions only)"
+    }
+  ],
+  "patches": []
+}

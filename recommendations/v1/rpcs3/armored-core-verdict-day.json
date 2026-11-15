@@ -1,0 +1,36 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Armored Core: Verdict Day",
+  "page": "https://wiki.rpcs3.net/index.php?title=Armored_Core%3A_Verdict_Day",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01898",
+    "BLUS31194",
+    "NPUB31245",
+    "BLJM61014"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing AC graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    },
+    {
+      "key": "keyboard handler",
+      "value": "Basic"
+    }
+  ]
+}

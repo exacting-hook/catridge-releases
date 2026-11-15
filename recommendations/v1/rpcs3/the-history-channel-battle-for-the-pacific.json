@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The History Channel: Battle for the Pacific",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_History_Channel%3A_Battle_for_the_Pacific",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00194",
+    "BLUS30103"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken brightness adjustment in the sky."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    }
+  ]
+}

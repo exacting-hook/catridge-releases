@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Mindjack",
+  "page": "https://wiki.rpcs3.net/index.php?title=Mindjack",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01009",
+    "BLUS30547",
+    "MRTC00014"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Fixes radgolls and weapons falling through the ground."
+    }
+  ],
+  "patches": []
+}

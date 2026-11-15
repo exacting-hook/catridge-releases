@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "MotorStorm RC",
+  "page": "https://wiki.rpcs3.net/index.php?title=MotorStorm_RC",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00333",
+    "NPUA80678",
+    "NPJA00077",
+    "NPHA80190",
+    "NPEA00428"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes overbright graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "256 x 256"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Persona 4 Arena Ultimax",
+  "page": "https://wiki.rpcs3.net/index.php?title=Persona_4_Arena_Ultimax",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02125",
+    "BLUS31469",
+    "BLJM61209",
+    "NPEB02176",
+    "NPUB31563",
+    "NPHB00708"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Fixes 'cross stitch' visual bug."
+    }
+  ],
+  "patches": []
+}

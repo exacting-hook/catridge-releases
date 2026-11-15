@@ -1,0 +1,34 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "God of War: Origins Collection",
+  "page": "https://wiki.rpcs3.net/index.php?title=God_of_War%3A_Origins_Collection",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00308",
+    "NPUA80637",
+    "NPHA80146",
+    "NPEA00309",
+    "NPUA80636",
+    "NPHA80147",
+    "BCES01277",
+    "BCES01278",
+    "BCUS98289",
+    "BCJS30080",
+    "BCAS20175",
+    "NPEA90101",
+    "NPUA70173",
+    "NPJA90206",
+    "NPHA80166",
+    "NPUA80508"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.resolution",
+      "value": "1920x1080",
+      "note": "This is a native 1080p title on PS3."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Marvel: Ultimate Alliance 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Marvel%3A_Ultimate_Alliance_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00546",
+    "BLUS30294"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black screen while in-game."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,34 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Silent Hill: Homecoming",
+  "page": "https://wiki.rpcs3.net/index.php?title=Silent_Hill%3A_Homecoming",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00460",
+    "BLES00307",
+    "BLUS30169"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "only": [
+        "BLES00307",
+        "BLES00460",
+        "BLUS30169"
+      ]
+    },
+    {
+      "name": "No Film Grain",
+      "level": "normal",
+      "only": [
+        "BLES00307",
+        "BLES00460",
+        "BLUS30169"
+      ]
+    }
+  ]
+}

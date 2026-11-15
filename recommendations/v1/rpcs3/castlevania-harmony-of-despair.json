@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Castlevania: Harmony of Despair",
+  "page": "https://wiki.rpcs3.net/index.php?title=Castlevania%3A_Harmony_of_Despair",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB30505",
+    "NPEB00563"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes certain menu items not showing up."
+    }
+  ],
+  "patches": []
+}

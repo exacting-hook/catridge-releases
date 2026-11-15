@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Don't Starve: Giant Edition",
+  "page": "https://wiki.rpcs3.net/index.php?title=Don't_Starve%3A_Giant_Edition",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB31590",
+    "NPEB02126"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Allows to get ingame"
+    }
+  ],
+  "patches": []
+}

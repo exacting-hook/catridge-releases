@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "JoJo's Bizarre Adventure: All-Star Battle",
+  "page": "https://wiki.rpcs3.net/index.php?title=JoJo's_Bizarre_Adventure%3A_All-Star_Battle",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01986",
+    "BLUS31405",
+    "BLJS10217",
+    "NPEB01922",
+    "NPUB31391",
+    "NPJB00331",
+    "NPEB90529",
+    "NPUB90998"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffer",
+      "value": "20",
+      "note": "Use if you experience audio issues."
+    }
+  ],
+  "patches": []
+}

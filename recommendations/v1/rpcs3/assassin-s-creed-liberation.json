@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Assassin's Creed: Liberation",
+  "page": "https://wiki.rpcs3.net/index.php?title=Assassin's_Creed%3A_Liberation",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB01386",
+    "NPJB00562",
+    "NPUB31244",
+    "NPUB31569"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Reduces Freeze Rate"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes Ocean Water"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes Ocean Water"
+    }
+  ],
+  "patches": []
+}

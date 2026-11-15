@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "NASCAR '15",
+  "page": "https://wiki.rpcs3.net/index.php?title=NASCAR_'15",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31560",
+    "NPUB91029",
+    "BLUS31580",
+    "NPUB91034"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_mode",
+      "value": "Legacy Recompiler (single-threaded)",
+      "note": "Fixes missing livery."
+    }
+  ],
+  "patches": []
+}

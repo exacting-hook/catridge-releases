@@ -1,0 +1,48 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Yakuza Ishin!",
+  "page": "https://wiki.rpcs3.net/index.php?title=Yakuza_Ishin!",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJM61149",
+    "NPJB00532",
+    "NPHB00654",
+    "NPJB90690"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Slightly Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Slightly Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Slightly Improves performance."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable SPU MLAA",
+      "level": "high",
+      "note": "Improves performance"
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    },
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

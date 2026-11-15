@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fracture",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fracture",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00329",
+    "BLUS30184",
+    "BLJS10037",
+    "BLKS20025",
+    "NPEB90091",
+    "NPUB90111",
+    "NPHB00047"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes the green artfacting when shooting entrencher"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes the green artfacting when shooting entrencher"
+    }
+  ],
+  "patches": []
+}

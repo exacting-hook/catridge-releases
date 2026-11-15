@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Spider-Man: Web of Shadows",
+  "page": "https://wiki.rpcs3.net/index.php?title=Spider-Man%3A_Web_of_Shadows",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00392",
+    "BLUS30218",
+    "BLKS20086"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Major performance improvement"
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Major performance improvement"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

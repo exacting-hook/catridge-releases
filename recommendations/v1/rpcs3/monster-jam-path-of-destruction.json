@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Monster Jam: Path of Destruction",
+  "page": "https://wiki.rpcs3.net/index.php?title=Monster_Jam%3A_Path_of_Destruction",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30561",
+    "BLES01079"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes broken half screen."
+    }
+  ],
+  "patches": []
+}

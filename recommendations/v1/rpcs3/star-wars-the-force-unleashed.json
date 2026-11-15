@@ -1,0 +1,41 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Star Wars: The Force Unleashed",
+  "page": "https://wiki.rpcs3.net/index.php?title=Star_Wars%3A_The_Force_Unleashed",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00262",
+    "BLUS30144",
+    "BLUS30445",
+    "BLES00678",
+    "NPEB90094",
+    "NPUB90141",
+    "NPHB00051"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes visual problems in-game."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Helps with stability."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Helps fix visual issues in-game."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

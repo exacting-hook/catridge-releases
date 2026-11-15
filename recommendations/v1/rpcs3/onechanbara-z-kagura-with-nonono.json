@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Onechanbara Z: Kagura with NoNoNo!",
+  "page": "https://wiki.rpcs3.net/index.php?title=Onechanbara_Z%3A_Kagura_with_NoNoNo!",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10221",
+    "NPJB00371"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Relaxed",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes dark screen."
+    }
+  ],
+  "patches": []
+}

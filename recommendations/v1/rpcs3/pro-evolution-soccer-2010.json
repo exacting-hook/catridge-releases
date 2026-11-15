@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Pro Evolution Soccer 2010",
+  "page": "https://wiki.rpcs3.net/index.php?title=Pro_Evolution_Soccer_2010",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00689",
+    "BLUS30404",
+    "BLES00688",
+    "BLJM60224",
+    "BLJM60176",
+    "NPEB90190",
+    "NPHB00149",
+    "NPUB90324"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes player's textures"
+    }
+  ],
+  "patches": []
+}

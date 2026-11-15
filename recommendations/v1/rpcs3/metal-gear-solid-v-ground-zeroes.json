@@ -1,0 +1,36 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Metal Gear Solid V: Ground Zeroes",
+  "page": "https://wiki.rpcs3.net/index.php?title=Metal_Gear_Solid_V%3A_Ground_Zeroes",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01971",
+    "BLJM61135",
+    "BLUS31369",
+    "NPEB01889",
+    "NPUB31318",
+    "NPJB00396",
+    "NPHB00732",
+    "NPHB00658"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "false",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Low",
+      "note": "Fixes flickering textures."
+    }
+  ],
+  "patches": []
+}

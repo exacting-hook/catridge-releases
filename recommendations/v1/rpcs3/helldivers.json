@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Helldivers",
+  "page": "https://wiki.rpcs3.net/index.php?title=Helldivers",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00505",
+    "NPUA80930"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Game will not start otherwise"
+    }
+  ],
+  "patches": []
+}

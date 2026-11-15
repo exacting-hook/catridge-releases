@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hotline Miami 2: Wrong Number",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hotline_Miami_2%3A_Wrong_Number",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB02007",
+    "NPUB31481"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Needed to fix the black menu screen and flickering issues in some levels."
+    }
+  ],
+  "patches": []
+}

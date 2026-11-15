@@ -1,0 +1,34 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Assassin's Creed: Rogue",
+  "page": "https://wiki.rpcs3.net/index.php?title=Assassin's_Creed%3A_Rogue",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31465",
+    "BLES02061",
+    "BLES02062",
+    "NPEB02064",
+    "NPUB31547",
+    "BLJM61208"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Fixes Freezes"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes ocean and rainbow colors on land"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes ocean and rainbow colors on land"
+    }
+  ],
+  "patches": []
+}

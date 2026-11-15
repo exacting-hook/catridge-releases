@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Atelier Ayesha: The Alchemist of Dusk",
+  "page": "https://wiki.rpcs3.net/index.php?title=Atelier_Ayesha%3A_The_Alchemist_of_Dusk",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31152",
+    "BLES01793",
+    "BLJM60486",
+    "NPUB31115",
+    "NPEB01262"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to correctly display the background when interacting with shopkeepers. Without Write color buffers, only a black background will be visible."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "vsync",
+      "value": "Full"
+    }
+  ]
+}

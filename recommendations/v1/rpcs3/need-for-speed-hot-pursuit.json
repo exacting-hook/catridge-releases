@@ -1,0 +1,43 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Need for Speed Hot Pursuit",
+  "page": "https://wiki.rpcs3.net/index.php?title=Need_for_Speed_Hot_Pursuit",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLAS50266",
+    "BLES00949",
+    "BLUS30566",
+    "NPEB00587",
+    "NPUB30521",
+    "BLJM60297",
+    "NPJB00147",
+    "BLES00950",
+    "NPEB90293",
+    "NPUB90488"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes car visuals."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    },
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

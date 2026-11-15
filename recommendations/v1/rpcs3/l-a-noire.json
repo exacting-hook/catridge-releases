@@ -1,0 +1,31 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "L.A. Noire",
+  "page": "https://wiki.rpcs3.net/index.php?title=L.A._Noire",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00933",
+    "BLUS30554",
+    "NPEB00850",
+    "NPUB30679",
+    "BLJM60343",
+    "BLES01488",
+    "BLUS30898"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Reduces freezes, kills performance. You can try '''Interpreter (dynamic)''' but that one freezes more often."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    }
+  ]
+}

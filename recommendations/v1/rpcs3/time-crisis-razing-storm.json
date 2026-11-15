@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Time Crisis: Razing Storm",
+  "page": "https://wiki.rpcs3.net/index.php?title=Time_Crisis%3A_Razing_Storm",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01070",
+    "BLUS30528",
+    "BLJS10091",
+    "NPEA90078",
+    "NPUB90464"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "In Time Crisis 4, the light is too bright, write color buffer fix this."
+    }
+  ],
+  "patches": []
+}

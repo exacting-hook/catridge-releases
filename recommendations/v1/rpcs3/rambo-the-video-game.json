@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Rambo: The Video Game",
+  "page": "https://wiki.rpcs3.net/index.php?title=Rambo%3A_The_Video_Game",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01963",
+    "BLUS31387",
+    "NPEB01859",
+    "NPUB31416",
+    "NPJB00637"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "high",
+      "only": [
+        "BLES01963",
+        "BLUS31387"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "GRID 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=GRID_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01737",
+    "BLES01855",
+    "BLUS31055",
+    "NPEB01222",
+    "NPUB31075",
+    "BLJM60559",
+    "NPEB01342",
+    "NPJB00279",
+    "NPEB90520",
+    "NPUB90988",
+    "NPJB90634",
+    "NPEB90519"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken car liveries."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "720 x 720"
+    },
+    {
+      "key": "vblank rate",
+      "value": "120"
+    },
+    {
+      "key": "emulate hdd read speed",
+      "value": "On"
+    }
+  ]
+}

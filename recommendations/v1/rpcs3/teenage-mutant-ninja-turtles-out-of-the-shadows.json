@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+  "page": "https://wiki.rpcs3.net/index.php?title=Teenage_Mutant_Ninja_Turtles%3A_Out_of_the_Shadows",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB01425",
+    "NPUB31217"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Solves the issue about wrong coloring"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Elder Scrolls IV: Oblivion",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Elder_Scrolls_IV%3A_Oblivion",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00048",
+    "BLUS30007",
+    "BLJM60032",
+    "BLES00163",
+    "BLUS30087",
+    "BLJS10034",
+    "BLUS30106"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes save icon preview."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "normal",
+      "note": "Since Oblivion doesn't use SPUs at all, you can easily achieve high framerate.",
+      "only": [
+        "BLES00048",
+        "BLES00163",
+        "BLJM60032",
+        "BLJS10034",
+        "BLUS30007",
+        "BLUS30087",
+        "BLUS30106"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "135 x 135"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Metal Gear Rising: Revengeance",
+  "page": "https://wiki.rpcs3.net/index.php?title=Metal_Gear_Rising%3A_Revengeance",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01750",
+    "BLUS31045",
+    "BLJM60554",
+    "NPEB01228",
+    "NPUB31057",
+    "NPJB00281",
+    "BLJX94009",
+    "NPEB90462",
+    "NPUB90925",
+    "NPUB90930",
+    "NPJB90548"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.audio_buffer",
+      "value": "10",
+      "note": "Fixes stuttering in pre-rendered cutscenes, values above 10ms introduce stuttering however."
+    }
+  ],
+  "patches": []
+}

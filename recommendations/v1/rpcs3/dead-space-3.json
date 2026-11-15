@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Dead Space 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Dead_Space_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01733",
+    "BLUS31053",
+    "NPEB01146",
+    "NPUB30906",
+    "NPEB90455",
+    "NPUB90844"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes some minor graphical issues."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "512x512"
+    }
+  ]
+}

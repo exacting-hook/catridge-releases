@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tom Clancy's EndWar",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tom_Clancy's_EndWar",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00326",
+    "BLUS30180",
+    "NPEB01170",
+    "NPUB30913",
+    "BLES00487",
+    "NPEB90118",
+    "NPUB90171"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes white screen in-game."
+    }
+  ],
+  "patches": []
+}

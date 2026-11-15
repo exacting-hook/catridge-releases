@@ -1,0 +1,46 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Red Dead Redemption: Undead Nightmare",
+  "page": "https://wiki.rpcs3.net/index.php?title=Red_Dead_Redemption%3A_Undead_Nightmare",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01179",
+    "BLUS30711",
+    "NPUB30639",
+    "BLJM60314",
+    "BLAS50296",
+    "NPEB00832",
+    "NPHB00466"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Improves performance but makes foliage look worse."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance with no noticeable issues."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance with no noticeable issues."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken effect in pause menu and broken lighting in night-time scenarios."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

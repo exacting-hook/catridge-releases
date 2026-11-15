@@ -1,0 +1,51 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Disney Infinity 3.0",
+  "page": "https://wiki.rpcs3.net/index.php?title=Disney_Infinity_3.0",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02147",
+    "BLJS10323",
+    "NPUB31657",
+    "BLES02148",
+    "BLUS31522",
+    "NPEB02230",
+    "NPEB02231"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Currently required for the game to boot."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Improves overly bright lighting"
+    },
+    {
+      "id": "rpcs3.rdb",
+      "value": "true",
+      "note": "Improves overly bright lighting"
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Improves overly bright lighting"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Improves overly bright lighting"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    }
+  ]
+}

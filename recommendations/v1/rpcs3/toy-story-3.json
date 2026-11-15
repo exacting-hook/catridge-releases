@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Toy Story 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Toy_Story_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00876",
+    "BLES00877",
+    "BLES00878",
+    "BLUS30480",
+    "NPEB00659",
+    "NPUB30555"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Required to prevent flickering."
+    }
+  ],
+  "patches": []
+}

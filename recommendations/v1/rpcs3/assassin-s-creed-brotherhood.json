@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Assassin's Creed: Brotherhood",
+  "page": "https://wiki.rpcs3.net/index.php?title=Assassin's_Creed%3A_Brotherhood",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00909",
+    "BLUS30537",
+    "NPUB30522",
+    "NPEB00600",
+    "BLES00910",
+    "BLES00911",
+    "BLJM60250",
+    "BLKS20231",
+    "BLET70013",
+    "NPUB90483"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Fixes Freezes"
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes low performance in-game."
+    }
+  ],
+  "patches": []
+}

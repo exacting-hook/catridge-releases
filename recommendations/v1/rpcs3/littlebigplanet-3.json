@@ -1,0 +1,57 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "LittleBigPlanet 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=LittleBigPlanet_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01663",
+    "BCES02068",
+    "BCUS98362",
+    "NPUA81116",
+    "BCUS81138",
+    "BCJS30095",
+    "BCAS20322",
+    "NPEA00515",
+    "NPJA00123",
+    "NPHA80277",
+    "NPUA81199",
+    "NPUA81174"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing image when saving costumes and black image when saving pictures as stickers"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes some missing visuals."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "normal",
+      "note": "Improves performance and allows for resolution scaling to be used.",
+      "only": [
+        "BCAS20322",
+        "BCES01663",
+        "BCES02068",
+        "BCUS81138",
+        "BCUS98362",
+        "NPEA00515",
+        "NPHA80277",
+        "NPUA81116"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "1 x 1"
+    }
+  ]
+}

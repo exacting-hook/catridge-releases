@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "WipEout HD",
+  "page": "https://wiki.rpcs3.net/index.php?title=WipEout_HD",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00057",
+    "NPUA80105",
+    "NPJA00031",
+    "NPHA80039",
+    "BCES00664",
+    "BCAS20100"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes overbright graphics in some tracks."
+    }
+  ],
+  "patches": []
+}

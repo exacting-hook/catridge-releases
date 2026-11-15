@@ -1,0 +1,35 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ratchet & Clank Future: A Crack in Time",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ratchet_%26_Clank_Future%3A_A_Crack_in_Time",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00511",
+    "BCES00726",
+    "BCUS98124",
+    "NPEA00453",
+    "NPUA80966",
+    "BCES00748",
+    "BCAS20098",
+    "BCJS30038",
+    "BCKS10087",
+    "NPEA90046",
+    "NPUA70083",
+    "NPJA90116",
+    "NPHA80078",
+    "NPEA90051",
+    "NPUA70085",
+    "NPJA90118",
+    "NPHA80079"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes black boxes in particles."
+    }
+  ],
+  "patches": []
+}

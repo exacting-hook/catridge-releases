@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Batman: The Telltale Series",
+  "page": "https://wiki.rpcs3.net/index.php?title=Batman%3A_The_Telltale_Series",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02245",
+    "BLUS31605",
+    "NPUB31845",
+    "NPEB02426"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Improves performance"
+    }
+  ],
+  "patches": []
+}

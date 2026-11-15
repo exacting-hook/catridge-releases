@@ -1,0 +1,31 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Cars: Race-O-Rama",
+  "page": "https://wiki.rpcs3.net/index.php?title=Cars%3A_Race-O-Rama",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00620",
+    "BLUS30319"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing bloom and random overly bright sky in Radiator Springs."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

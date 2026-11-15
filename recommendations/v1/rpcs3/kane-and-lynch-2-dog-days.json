@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Kane & Lynch 2: Dog Days",
+  "page": "https://wiki.rpcs3.net/index.php?title=Kane_%26_Lynch_2%3A_Dog_Days",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00604",
+    "BLUS30383",
+    "NPEB00843",
+    "NPUB30685",
+    "BLES00947",
+    "BLJM60252",
+    "NPEB90233",
+    "NPUB90385",
+    "NPJB90265"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes broken Chromatic Aberration in Split-Screen Co-op."
+    }
+  ],
+  "patches": []
+}

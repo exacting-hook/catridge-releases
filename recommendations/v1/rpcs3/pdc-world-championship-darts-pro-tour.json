@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "PDC World Championship Darts: Pro Tour",
+  "page": "https://wiki.rpcs3.net/index.php?title=PDC_World_Championship_Darts%3A_Pro_Tour",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01090"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black screen."
+    }
+  ],
+  "patches": []
+}

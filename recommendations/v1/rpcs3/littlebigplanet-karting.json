@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "LittleBigPlanet Karting",
+  "page": "https://wiki.rpcs3.net/index.php?title=LittleBigPlanet_Karting",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS98254",
+    "BCES01422",
+    "NPUA80848",
+    "NPEA00421",
+    "BCES01423",
+    "BCJS30085",
+    "BCUS99141",
+    "BCAS20205",
+    "NPEA90117",
+    "NPUA70249",
+    "NPJA90244",
+    "NPHA80239",
+    "BCET70048",
+    "NPUA70208"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to fix black ingame graphics and broken geometry in races."
+    }
+  ],
+  "patches": []
+}

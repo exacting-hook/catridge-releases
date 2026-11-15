@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fast & Furious: Showdown",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fast_%26_Furious%3A_Showdown",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31153",
+    "NPUB31224",
+    "BLES01810",
+    "BLES01861",
+    "NPEB01375",
+    "NPEB01377"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing menu highlight."
+    }
+  ],
+  "patches": []
+}

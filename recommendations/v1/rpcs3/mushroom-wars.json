@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Mushroom Wars",
+  "page": "https://wiki.rpcs3.net/index.php?title=Mushroom_Wars",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00120",
+    "NPUB30099",
+    "NPEB90204",
+    "NPUB90352"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.accurate_dma",
+      "value": "true",
+      "note": "Required for Creat Engine games."
+    }
+  ],
+  "patches": []
+}

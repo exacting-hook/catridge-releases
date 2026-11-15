@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Macross 30 Ginga o Tsunagu Utagoe",
+  "page": "https://wiki.rpcs3.net/index.php?title=Macross_30_Ginga_o_Tsunagu_Utagoe",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10184"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to render graphics properly."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "enable buffering",
+      "value": "Off"
+    }
+  ]
+}

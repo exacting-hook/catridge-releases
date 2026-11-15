@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "MLB 15: The Show",
+  "page": "https://wiki.rpcs3.net/index.php?title=MLB_15%3A_The_Show",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS00236",
+    "NPUA81156"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Helps to decrease minor graphical glitches"
+    }
+  ],
+  "patches": []
+}

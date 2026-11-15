@@ -1,0 +1,28 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Army of TWO: The Devil's Cartel",
+  "page": "https://wiki.rpcs3.net/index.php?title=Army_of_TWO%3A_The_Devil's_Cartel",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01763",
+    "BLUS31069",
+    "NPEB01216",
+    "NPEB01217",
+    "NPUB30987",
+    "BLES01767",
+    "BLJM60578",
+    "NPJB00332",
+    "NPEB90470",
+    "NPUB90862"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Partially fixes half screen and other issues."
+    }
+  ],
+  "patches": []
+}

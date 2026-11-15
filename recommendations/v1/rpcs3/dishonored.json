@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Dishonored",
+  "page": "https://wiki.rpcs3.net/index.php?title=Dishonored",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01674",
+    "BLES01675",
+    "BLES01714",
+    "BLUS30501",
+    "NPEB01111",
+    "NPUB30888",
+    "BLJM60520",
+    "BLES01924",
+    "BLES01925",
+    "BLJM61114",
+    "BLES01926",
+    "BLUS41038"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Helps chain climbing physics."
+    }
+  ],
+  "patches": []
+}

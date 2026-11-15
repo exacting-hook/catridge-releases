@@ -1,0 +1,64 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Uncharted: Drake's Fortune",
+  "page": "https://wiki.rpcs3.net/index.php?title=Uncharted%3A_Drake's_Fortune",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00065",
+    "BCUS98103",
+    "BCJS30015",
+    "BCAS20024",
+    "NPEA00363",
+    "NPUA80697",
+    "NPHA80193",
+    "NPEA90018",
+    "NPUA98103",
+    "NPJA90063"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "May improve performance."
+    },
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Improves image quality."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "false",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes blurry screen in some chapters."
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Enable this when Write color buffers is enabled, if enabling Write color buffers results in effects like smoke appearing/clipping through objects that should block their visibility."
+    },
+    {
+      "id": "rpcs3.depth_compare",
+      "value": "true",
+      "note": "Fixes offscreen Z-Fighting."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "160x160"
+    }
+  ]
+}

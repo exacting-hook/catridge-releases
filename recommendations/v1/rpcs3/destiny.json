@@ -1,0 +1,44 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Destiny",
+  "page": "https://wiki.rpcs3.net/index.php?title=Destiny",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01857",
+    "BLUS31181",
+    "BCJS35001",
+    "NPEB02021",
+    "NPUB31202",
+    "NPEB02097",
+    "NPUB31545",
+    "NPJA90277",
+    "NPEB90553",
+    "NPJA90286"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "LLVM is broken"
+    },
+    {
+      "id": "rpcs3.spu_decoder",
+      "value": "Recompiler (ASMJIT)",
+      "note": "LLVM is broken"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "Auto"
+    }
+  ]
+}

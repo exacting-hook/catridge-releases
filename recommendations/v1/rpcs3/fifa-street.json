@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "FIFA Street",
+  "page": "https://wiki.rpcs3.net/index.php?title=FIFA_Street",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01493",
+    "BLUS30882",
+    "NPEB00822",
+    "NPEB90378"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to fix player portraits and inaccurate crowd colors at the expense of causing audio crackling."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "preferred spu threads",
+      "value": "1 - 3"
+    },
+    {
+      "key": "framelimit",
+      "value": "PS3 Native"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Far Cry 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=Far_Cry_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01137",
+    "BLES01138",
+    "BLUS30687",
+    "BLJM60532",
+    "NPEB01096",
+    "NPUB30825",
+    "BLES01995",
+    "BLUS31393",
+    "NPJB00559",
+    "BLET70025"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required for correct graphics rendering"
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Prevents game from freezing"
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Required for correct graphics rendering"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "delay each odd mfc command",
+      "value": "On"
+    },
+    {
+      "key": "allow host gpu labels",
+      "value": "On"
+    }
+  ]
+}

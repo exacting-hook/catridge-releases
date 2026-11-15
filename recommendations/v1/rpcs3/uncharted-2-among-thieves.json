@@ -1,0 +1,154 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Uncharted 2: Among Thieves",
+  "page": "https://wiki.rpcs3.net/index.php?title=Uncharted_2%3A_Among_Thieves",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES00509",
+    "BCES00727",
+    "BCES00757",
+    "BCUS98123",
+    "BCJS30035",
+    "BCAS20097",
+    "NPEA00364",
+    "NPEA00365",
+    "NPUA80698",
+    "NPHA80194",
+    "BCKS10086",
+    "NPEA00369",
+    "NPEA90055",
+    "NPUA70092",
+    "NPJA90127",
+    "BCET70015",
+    "NPUA70051",
+    "NPUA70049"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "true",
+      "note": "Required for reflections and heat wave effects"
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "false",
+      "note": "Required for reflections and heat wave effects"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes some overly bright scenes."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Improves performance depending on the GPU. Causes graphical issues without Read Depth Buffers enabled."
+    },
+    {
+      "id": "rpcs3.rdb",
+      "value": "true",
+      "note": "Fixes flickering. Required only if you are using Async Texture Streaming."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable SPU Post-processing",
+      "level": "high",
+      "note": "Improves performance and allows Resolution Scaling to work properly.",
+      "only": [
+        "BCAS20097",
+        "BCES00509",
+        "BCES00727",
+        "BCES00757",
+        "BCJS30035",
+        "BCUS98123",
+        "NPEA00364",
+        "NPEA00365",
+        "NPEA90055",
+        "NPHA80194",
+        "NPUA80698"
+      ]
+    },
+    {
+      "name": "Disable Mesh Trimming",
+      "level": "high",
+      "note": "Improves performance and allows Resolution Scaling to work properly.",
+      "only": [
+        "BCAS20097",
+        "BCES00509",
+        "BCES00727",
+        "BCES00757",
+        "BCJS30035",
+        "BCUS98123",
+        "NPEA00364",
+        "NPEA00365",
+        "NPEA90055",
+        "NPHA80194",
+        "NPUA80698"
+      ]
+    },
+    {
+      "name": "Enable GPU Lighting",
+      "level": "high",
+      "note": "Improves performance and allows Resolution Scaling to work properly.",
+      "only": [
+        "BCAS20097",
+        "BCES00509",
+        "BCES00727",
+        "BCES00757",
+        "BCJS30035",
+        "BCUS98123",
+        "NPEA00364",
+        "NPEA00365",
+        "NPEA90055",
+        "NPHA80194",
+        "NPUA80698"
+      ]
+    },
+    {
+      "name": "Disable Motion Blur",
+      "level": "normal",
+      "only": [
+        "BCAS20097",
+        "BCES00509",
+        "BCES00727",
+        "BCES00757",
+        "BCJS30035",
+        "BCUS98123",
+        "NPEA00364",
+        "NPEA00365",
+        "NPEA90055",
+        "NPHA80194",
+        "NPUA80698"
+      ]
+    },
+    {
+      "name": "Skip Intro",
+      "level": "normal",
+      "only": [
+        "BCAS20097",
+        "BCES00509",
+        "BCES00727",
+        "BCES00757",
+        "BCJS30035",
+        "BCUS98123",
+        "NPEA00364",
+        "NPEA00365",
+        "NPHA80194",
+        "NPUA80698"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "160 x 160"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Naruto Shippuden: Ultimate Ninja Storm 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Naruto_Shippuden%3A_Ultimate_Ninja_Storm_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30495",
+    "BLES00952",
+    "NPEB90241",
+    "NPJB90253",
+    "NPUB90433"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Low",
+      "note": "This is needed to fix a graphical issue during the Kakashi bell test boss fight."
+    }
+  ],
+  "patches": []
+}

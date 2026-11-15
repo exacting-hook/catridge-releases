@@ -1,0 +1,31 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "From Dust",
+  "page": "https://wiki.rpcs3.net/index.php?title=From_Dust",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB30418",
+    "NPEB00466"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_threads",
+      "value": "2",
+      "note": "May improve performance on weaker CPUs."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "1024 x 1024"
+    }
+  ]
+}

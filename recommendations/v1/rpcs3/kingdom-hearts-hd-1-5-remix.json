@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Kingdom Hearts HD 1.5 ReMIX",
+  "page": "https://wiki.rpcs3.net/index.php?title=Kingdom_Hearts_HD_1.5_ReMIX",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS31212",
+    "BLES01897",
+    "BLJM60589"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes Dalmatian spots from flickering"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes black squares in pause menu and black patches on the ground. Noticeable in Re Chain of Memories."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "128 x 128"
+    }
+  ]
+}

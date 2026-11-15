@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ratchet & Clank Future: Quest for Booty",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ratchet_%26_Clank_Future%3A_Quest_for_Booty",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCAS20052",
+    "BCES00301",
+    "NPUA80145",
+    "NPEA00088",
+    "NPEA00106",
+    "NPJA00033",
+    "NPHA80046"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Anti-Aliasing causes this game to look pixelated."
+    }
+  ],
+  "patches": []
+}

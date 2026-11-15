@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hyperdimension Neptunia",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hyperdimension_Neptunia",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJM60247",
+    "BLES01178",
+    "BLUS30701",
+    "BLKS20241"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_decoder",
+      "value": "Recompiler (ASMJIT)",
+      "note": "Use with \"Allow Host GPU Labels\" to eliminate lockups upon formation change."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Required for some character sprites to render properly."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "allow host gpu labels",
+      "value": "On"
+    }
+  ]
+}

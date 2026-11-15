@@ -1,0 +1,40 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Kingdoms of Amalur: Reckoning",
+  "page": "https://wiki.rpcs3.net/index.php?title=Kingdoms_of_Amalur%3A_Reckoning",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01251",
+    "BLUS30710",
+    "BLJS10191",
+    "NPEB01055",
+    "NPUB30814",
+    "NPEB90385",
+    "NPUB90707"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Ultra",
+      "note": "Required on NVIDIA cards to properly render background on character creation"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Renders lighting and bloom correctly."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "256 x 256"
+    }
+  ]
+}

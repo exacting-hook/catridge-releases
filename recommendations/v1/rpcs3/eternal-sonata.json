@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Eternal Sonata",
+  "page": "https://wiki.rpcs3.net/index.php?title=Eternal_Sonata",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00444",
+    "BLUS30161",
+    "BLJS10017",
+    "NPUB90168",
+    "NPJB90132",
+    "NPHB00056"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes a black screen caused by Force CPU Blit Emulation"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "PS3 Native"
+    },
+    {
+      "key": "disable asynchronous memory manager",
+      "value": "On"
+    },
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

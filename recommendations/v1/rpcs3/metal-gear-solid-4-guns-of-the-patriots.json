@@ -1,0 +1,71 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Metal Gear Solid 4: Guns of the Patriots",
+  "page": "https://wiki.rpcs3.net/index.php?title=Metal_Gear_Solid_4%3A_Guns_of_the_Patriots",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00246",
+    "BLUS30109",
+    "BLJM67001",
+    "NPEB02182",
+    "NPUB31633",
+    "NPJB00698",
+    "NPEB90116",
+    "NPUB90176",
+    "NPJB90149",
+    "NPHB00065",
+    "NPHB00067",
+    "NPEB00027",
+    "NPUB90126",
+    "NPJB90113"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes bright scenes while in-game, but expect a small performance hit."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Improves performance, and should help with stability."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "normal",
+      "note": "Unlocks the FPS + can improve performance.",
+      "only": [
+        "BLES00246",
+        "BLJM67001",
+        "BLUS30109",
+        "NPEB02182",
+        "NPJB00698",
+        "NPUB31633"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "PS3 Native"
+    },
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    }
+  ]
+}

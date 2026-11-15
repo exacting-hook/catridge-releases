@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Fist of the North Star: Ken's Rage",
+  "page": "https://wiki.rpcs3.net/index.php?title=Fist_of_the_North_Star%3A_Ken's_Rage",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30504",
+    "BLES01062",
+    "BLJM60196",
+    "BLJM60303",
+    "NPEB90285",
+    "NPUB90456",
+    "NPJB90575"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.shader_mode",
+      "value": "Legacy Recompiler (single-threaded)",
+      "note": "Fixes the missing shaders on the first boot."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes lighting issue"
+    }
+  ],
+  "patches": []
+}

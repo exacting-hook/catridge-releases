@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Battle Princess of Arcadias",
+  "page": "https://wiki.rpcs3.net/index.php?title=Battle_Princess_of_Arcadias",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10224",
+    "NPUB31486",
+    "NPEB02001",
+    "NPJB00391"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Needed for digital edition to not crash on boot"
+    }
+  ],
+  "patches": []
+}

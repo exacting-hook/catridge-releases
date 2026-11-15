@@ -1,0 +1,39 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Saints Row 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Saints_Row_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00373",
+    "BLES00375",
+    "BLJM60089",
+    "BLUS30201",
+    "NPEB00637",
+    "NPEB00638",
+    "NPUB30575",
+    "BLES00374",
+    "BLES00377",
+    "BLKS20076",
+    "BLES00376"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes flood."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "256x256"
+    },
+    {
+      "key": "allow host gpu labels",
+      "value": "On"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Pro Evolution Soccer 2018",
+  "page": "https://wiki.rpcs3.net/index.php?title=Pro_Evolution_Soccer_2018",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02252",
+    "BLUS31612",
+    "BLJM61357",
+    "BLAS57001",
+    "BLES02253",
+    "NPEB02448",
+    "NPUB31864",
+    "NPJB00836",
+    "NPUB31870",
+    "NPJB00840",
+    "NPEB90569",
+    "NPUB91038"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Required for game to work."
+    }
+  ],
+  "patches": []
+}

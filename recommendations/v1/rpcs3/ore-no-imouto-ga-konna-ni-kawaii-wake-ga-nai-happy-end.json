@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ore No Imouto Ga Konna Ni Kawaii Wake Ga Nai Happy End",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ore_No_Imouto_Ga_Konna_Ni_Kawaii_Wake_Ga_Nai_Happy_End",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10238",
+    "BLAS50638",
+    "NPJB00412"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken graphics"
+    }
+  ],
+  "patches": []
+}

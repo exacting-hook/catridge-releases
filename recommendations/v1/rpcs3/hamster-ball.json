@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hamster Ball",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hamster_Ball",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00179",
+    "NPUB30101",
+    "NPUB90418"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.accurate_dma",
+      "value": "true",
+      "note": "Needed for Creat Engine games"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    }
+  ]
+}

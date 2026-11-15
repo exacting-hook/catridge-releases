@@ -1,0 +1,30 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Final Fantasy XIII-2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Final_Fantasy_XIII-2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCAS20224",
+    "BLES01269",
+    "BLUS30776",
+    "NPUB31083",
+    "BLJM60382",
+    "NPEB01223",
+    "NPJB00285",
+    "NPHB00528",
+    "NPHB00584",
+    "NPEB90359",
+    "NPUB90630",
+    "BLJM60510"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Required for 2D UI elements which are otherwise missing."
+    }
+  ],
+  "patches": []
+}

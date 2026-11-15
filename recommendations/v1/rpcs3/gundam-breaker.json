@@ -1,0 +1,20 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Gundam Breaker",
+  "page": "https://wiki.rpcs3.net/index.php?title=Gundam_Breaker",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJS10197",
+    "NPJB90590"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to fix graphics"
+    }
+  ],
+  "patches": []
+}

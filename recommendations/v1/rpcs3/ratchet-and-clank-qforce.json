@@ -1,0 +1,35 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ratchet & Clank: QForce",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ratchet_%26_Clank%3A_QForce",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCES01594",
+    "BCUS98380",
+    "NPEA00378",
+    "NPUA80642",
+    "BCES01626",
+    "NPUA70224",
+    "BCET70051"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Approximate",
+      "note": "Prevents characters from turning invisible."
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes HUD meter rendering issues where only one meter can be displayed at a time causing the health/weapon XP bars to render incorrectly and the mini-map to flicker"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes white boxes on some particle effects."
+    }
+  ],
+  "patches": []
+}

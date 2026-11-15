@@ -1,0 +1,41 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Journey",
+  "page": "https://wiki.rpcs3.net/index.php?title=Journey",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00288",
+    "NPUA80275",
+    "NPHA80188",
+    "NPJA00070",
+    "BCES01740",
+    "BCUS98377",
+    "NPEA00438",
+    "NPUA70218",
+    "NPUA70230",
+    "BCET70037",
+    "NPUA70160",
+    "NPEA00388",
+    "NPHA80216"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    },
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    }
+  ]
+}

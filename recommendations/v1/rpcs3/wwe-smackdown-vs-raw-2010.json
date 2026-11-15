@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "WWE SmackDown vs. RAW 2010",
+  "page": "https://wiki.rpcs3.net/index.php?title=WWE_SmackDown_vs._RAW_2010",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30412",
+    "BLES00651",
+    "BLJM60179"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

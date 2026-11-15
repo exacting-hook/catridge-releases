@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "The Darkness",
+  "page": "https://wiki.rpcs3.net/index.php?title=The_Darkness",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00058",
+    "BLUS30035",
+    "BLJS10023",
+    "BLES00059",
+    "NPEB90006",
+    "NPUB90032"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.depth_compare",
+      "value": "true",
+      "note": "Fixes Z-Fighting on some parts of the game. Currently causes some visual issues."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    },
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

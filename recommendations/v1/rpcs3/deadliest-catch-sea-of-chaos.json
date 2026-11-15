@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Deadliest Catch: Sea of Chaos",
+  "page": "https://wiki.rpcs3.net/index.php?title=Deadliest_Catch%3A_Sea_of_Chaos",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30633"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rdb",
+      "value": "true",
+      "note": "Fixes an issue causing missing or broken text in menus and loading screens"
+    },
+    {
+      "id": "rpcs3.wdb",
+      "value": "true",
+      "note": "Fixes an issue causing missing or broken text in menus and loading screens"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Haze",
+  "page": "https://wiki.rpcs3.net/index.php?title=Haze",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00157",
+    "BLES00169",
+    "BLUS30094",
+    "BLES00164",
+    "BLJS10019",
+    "BCAS20030",
+    "NPEB90068",
+    "NPUB90031",
+    "NPJB90100"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes blinding white haze in chapter 8; Beach."
+    }
+  ],
+  "patches": []
+}

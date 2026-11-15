@@ -1,0 +1,38 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Def Jam: Icon",
+  "page": "https://wiki.rpcs3.net/index.php?title=Def_Jam%3A_Icon",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30024",
+    "BLES00042",
+    "BLJM60029",
+    "BLAS50012",
+    "NPUB90004"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes visual issues in-game."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes problems with custom character textures breaking."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    },
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

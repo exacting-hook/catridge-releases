@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "SSX",
+  "page": "https://wiki.rpcs3.net/index.php?title=SSX",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLUS30849",
+    "BLES01437",
+    "NPUB30892",
+    "NPEB01121",
+    "NPUB90732",
+    "NPEB90392",
+    "NPJB90434"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required for Core Temp mechanic to properly work"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Toro! Let's Party!",
+  "page": "https://wiki.rpcs3.net/index.php?title=Toro!_Let's_Party!",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCAS20087",
+    "BCJS30034"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Solves issues where bloom/lighting is way too bright"
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Solves issues where bloom/lighting is way too bright"
+    }
+  ],
+  "patches": []
+}

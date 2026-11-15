@@ -1,0 +1,65 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Grand Theft Auto: Episodes from Liberty City",
+  "page": "https://wiki.rpcs3.net/index.php?title=Grand_Theft_Auto%3A_Episodes_from_Liberty_City",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00887",
+    "NPEB00907",
+    "NPUB30704",
+    "BLUS30524",
+    "BLJM60235",
+    "NPJB00498"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Fixes missing collision. Requires SPU LLVM recompiler. Expect audio stutter."
+    },
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "When enabled, outlines seen on characters and objects under shadows will be visible. Additionally, buildings in the distance are not rendered correctly."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance without any noticeable issues."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance without any noticeable issues."
+    },
+    {
+      "id": "rpcs3.shader_precision",
+      "value": "Low",
+      "note": "Fixes lines on the sky on NVIDIA Turing GPUs or newer."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing reflections."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "If you have a stronger GPU, this can give substantial performance boost."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

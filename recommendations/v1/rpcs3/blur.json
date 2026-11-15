@@ -1,0 +1,43 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Blur",
+  "page": "https://wiki.rpcs3.net/index.php?title=Blur",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00759",
+    "BLUS30295",
+    "BLJM60244",
+    "NPEB90250",
+    "NPUB90428"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Accurate",
+      "note": "Fixes audio cutting out and crashes related to audio."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "The game hangs on boot with black screen without this option enabled."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "true",
+      "note": "Fixes brightness issues on night tracks"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "false",
+      "note": "Causes visual issues (off by default)"
+    }
+  ],
+  "patches": []
+}

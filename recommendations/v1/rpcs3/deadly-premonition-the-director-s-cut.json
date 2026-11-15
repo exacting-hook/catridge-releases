@@ -1,0 +1,44 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Deadly Premonition: The Director's Cut",
+  "page": "https://wiki.rpcs3.net/index.php?title=Deadly_Premonition%3A_The_Director's_Cut",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01776",
+    "BLUS31064",
+    "BLJS10073",
+    "NPEB01352",
+    "NPUB31179"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Recommended to get the best performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Recommended to get the best performance."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Recommended to get the best performance."
+    },
+    {
+      "id": "rpcs3.depth_compare",
+      "value": "true",
+      "note": "Fixes flickering shadows."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

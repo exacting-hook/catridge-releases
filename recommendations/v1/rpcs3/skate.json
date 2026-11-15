@@ -1,0 +1,23 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Skate",
+  "page": "https://wiki.rpcs3.net/index.php?title=Skate",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00124",
+    "BLES00125",
+    "BLJM60070",
+    "BLUS30059",
+    "NPUB90057"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes dynamic lighting bloom."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Hitman: Absolution",
+  "page": "https://wiki.rpcs3.net/index.php?title=Hitman%3A_Absolution",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01403",
+    "BLES01641",
+    "BLUS31142",
+    "BLJM61003",
+    "NPEB00914",
+    "NPEB00992",
+    "NPEB00993",
+    "NPUB30744",
+    "BLES01778"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes dark visuals."
+    }
+  ],
+  "patches": []
+}

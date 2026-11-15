@@ -1,0 +1,24 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "FIFA Street 3",
+  "page": "https://wiki.rpcs3.net/index.php?title=FIFA_Street_3",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00188",
+    "BLUS30099",
+    "BLJM60079",
+    "BLAS50041",
+    "NPEB90054",
+    "NPUB90068"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Required to boot and get ingame."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,59 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Saints Row: The Third",
+  "page": "https://wiki.rpcs3.net/index.php?title=Saints_Row%3A_The_Third",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01342",
+    "BLUS30666",
+    "NPEB00888",
+    "NPEB00890",
+    "NPUB30700",
+    "BLES01343",
+    "BLKS20333",
+    "BLES01747",
+    "BLES01748",
+    "BLUS31062",
+    "NPEB90361",
+    "NPUB90632"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Approximate",
+      "note": "Fixes weird audio bugs."
+    },
+    {
+      "id": "rpcs3.shader_mode",
+      "value": "Legacy Recompiler (single-threaded)",
+      "note": "Async mode will make player's character textures black."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing graphics ingame."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes water on the distance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale",
+      "value": "100"
+    },
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

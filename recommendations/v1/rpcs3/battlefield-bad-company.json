@@ -1,0 +1,48 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Battlefield: Bad Company",
+  "page": "https://wiki.rpcs3.net/index.php?title=Battlefield%3A_Bad_Company",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00259",
+    "BLUS30118",
+    "BLJM60071",
+    "BLES00261",
+    "BLUS30121",
+    "NPEB90073",
+    "NPUB90070",
+    "NPJB90112"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to fix dark graphics."
+    }
+  ],
+  "patches": [
+    {
+      "name": "60 FPS",
+      "level": "normal",
+      "note": "Requires the game to be updated to 1.20. It may introduce some minor flickering issues. Game speed in multiplayer will also be doubled.",
+      "only": [
+        "BLES00259",
+        "BLES00261",
+        "BLJM60071",
+        "BLUS30118",
+        "BLUS30121",
+        "NPEB90073",
+        "NPJB90112",
+        "NPUB90070"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320 x 320"
+    }
+  ]
+}

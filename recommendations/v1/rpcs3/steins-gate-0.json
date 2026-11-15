@@ -1,0 +1,26 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Steins;Gate 0",
+  "page": "https://wiki.rpcs3.net/index.php?title=Steins%3BGate_0",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJM61303",
+    "NPJB00752"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required for the thumbnails to save properly in the Save/Load Menu."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Stealth Inc 2: A Game of Clones",
+  "page": "https://wiki.rpcs3.net/index.php?title=Stealth_Inc_2%3A_A_Game_of_Clones",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUB31632"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes player visibility for in-game enemies to detect"
+    }
+  ],
+  "patches": []
+}

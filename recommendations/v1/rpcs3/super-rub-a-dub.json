@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Super Rub'a'Dub",
+  "page": "https://wiki.rpcs3.net/index.php?title=Super_Rub'a'Dub",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEA00016",
+    "NPJA00013",
+    "NPUA80063",
+    "NPEA00003"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing lighting in the main menu."
+    }
+  ],
+  "patches": []
+}

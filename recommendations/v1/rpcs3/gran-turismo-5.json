@@ -1,0 +1,48 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Gran Turismo 5",
+  "page": "https://wiki.rpcs3.net/index.php?title=Gran_Turismo_5",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS98114",
+    "BCES00569",
+    "BCAS20108",
+    "BCJS30001",
+    "NPEA90052",
+    "NPUA70087",
+    "NPHA80080",
+    "NPJA90121",
+    "NPUA70115",
+    "NPEA90056"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.accurate_rsx",
+      "value": "true",
+      "note": "Prevents desyncs while playing the game."
+    },
+    {
+      "id": "rpcs3.zcull_off",
+      "value": "true",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    },
+    {
+      "key": "disable blit engine upscaling",
+      "value": "On"
+    }
+  ]
+}

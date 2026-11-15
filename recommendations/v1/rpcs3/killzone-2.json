@@ -1,0 +1,69 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Killzone 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Killzone_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS98116",
+    "BCES00081",
+    "BCAS20066",
+    "BCJS30032",
+    "NPEA90034",
+    "NPUA70034",
+    "NPJA90092",
+    "NPEA90041",
+    "NPUA70041",
+    "BCET00006",
+    "NPUA98116"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_block_size",
+      "value": "Mega",
+      "note": "Small performance gain."
+    },
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Big performance boost."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Big performance boost."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Only required to properly render graphics if you're not using the \"Disable Post Processing on SPU\" Patch. Reduces performance."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "false",
+      "note": "Hurts performance even on a 13900K."
+    },
+    {
+      "id": "rpcs3.async_textures",
+      "value": "false",
+      "note": "Hurts performance even on an RTX 4090."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Disable Post Processing on SPU",
+      "level": "normal",
+      "note": "Improves performance",
+      "only": [
+        "BCAS20066",
+        "BCES00081",
+        "BCET00006",
+        "BCJS30032",
+        "BCUS98116",
+        "NPEA90034",
+        "NPUA70034"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "SOCOM 4: U.S. Navy SEALs",
+  "page": "https://wiki.rpcs3.net/index.php?title=SOCOM_4%3A_U.S._Navy_SEALs",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS98135",
+    "BCES00938",
+    "BCES00939",
+    "BCJS30052",
+    "BCAS20121",
+    "BCKS10137",
+    "NPEA00307"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.depth_compare",
+      "value": "true",
+      "note": "Fixes various cases of Z-Fighting."
+    }
+  ],
+  "patches": []
+}

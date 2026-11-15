@@ -1,0 +1,50 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Batman: Arkham Asylum",
+  "page": "https://wiki.rpcs3.net/index.php?title=Batman%3A_Arkham_Asylum",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00503",
+    "BLUS30279",
+    "BLJM60193",
+    "NPEB01156",
+    "NPUB30920",
+    "BLAS50135",
+    "BLES00827",
+    "BLUS30515",
+    "NPEB90170",
+    "NPUB90285",
+    "NPJB90221",
+    "NPUB90214"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required when analyzing the flask and nightmare stages."
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes minor graphical bug on electric gates."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Required when analyzing the flask and nightmare stages. Also fixes permanent vignette effect on screen."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "512x512"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    }
+  ]
+}

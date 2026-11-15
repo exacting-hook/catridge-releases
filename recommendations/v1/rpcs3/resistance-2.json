@@ -1,0 +1,46 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Resistance 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Resistance_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCAS20055",
+    "BCES00226",
+    "BCUS98120",
+    "NPEA00431",
+    "BCJS30029",
+    "BCET70007",
+    "NPUA70018"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes bug present on some sections (e.g. \"Holar Tower, Iceland\") consisting on the appearance of smoke (not present on PS3) when running and disappearing when walking."
+    }
+  ],
+  "patches": [
+    {
+      "name": "Unlock FPS",
+      "level": "high",
+      "note": "Can cause issues with physics in-game. Not allowed in online play.",
+      "only": [
+        "BCES00226",
+        "BCUS98120",
+        "NPEA00431"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "resolution scale threshold",
+      "value": "320x320"
+    },
+    {
+      "key": "vblank rate",
+      "value": "60"
+    }
+  ]
+}

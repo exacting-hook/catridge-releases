@@ -1,0 +1,27 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Buzz! Quiz Player",
+  "page": "https://wiki.rpcs3.net/index.php?title=Buzz!_Quiz_Player",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUA80483",
+    "NPEA00201",
+    "NPEA00194",
+    "NPEA00196",
+    "NPEA00195",
+    "NPEA00198",
+    "NPEA00204",
+    "NPEA00197",
+    "NPEA00187"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.xfloat",
+      "value": "Relaxed",
+      "note": "Gives a 7% performance boost"
+    }
+  ],
+  "patches": []
+}

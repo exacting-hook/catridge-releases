@@ -1,0 +1,36 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Final Fantasy X/X-2 HD Remaster",
+  "page": "https://wiki.rpcs3.net/index.php?title=Final_Fantasy_X%2FX-2_HD_Remaster",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01880",
+    "BLUS31211",
+    "NPUB31247",
+    "NPEB01391",
+    "BLJM61093",
+    "BCAS20289",
+    "NPJB00458",
+    "NPHB00575"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required for the pause menu to render"
+    },
+    {
+      "id": "rpcs3.strict",
+      "value": "true",
+      "note": "Fixes broken shadows"
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Required for the pause menu to render"
+    }
+  ],
+  "patches": []
+}

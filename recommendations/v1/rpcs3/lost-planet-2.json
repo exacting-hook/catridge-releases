@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Lost Planet 2",
+  "page": "https://wiki.rpcs3.net/index.php?title=Lost_Planet_2",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES00710",
+    "BLUS30434",
+    "BLJM60177",
+    "BLAS50173",
+    "NPEB90189",
+    "NPUB90321",
+    "NPHB00138",
+    "NPEB90181",
+    "NPUB90300"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing graphics while in-game."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes water/sky artifacts while in-game."
+    }
+  ],
+  "patches": []
+}

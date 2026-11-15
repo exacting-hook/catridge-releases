@@ -1,0 +1,45 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Far Cry 4",
+  "page": "https://wiki.rpcs3.net/index.php?title=Far_Cry_4",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES02011",
+    "BLES02012",
+    "BLUS31420",
+    "NPEB01982",
+    "BLJM61179",
+    "NPEB02272",
+    "NPUB31470",
+    "NPJB00603"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Improves Performance"
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes some visual issues"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "delay each odd mfc command",
+      "value": "On"
+    },
+    {
+      "key": "allow host gpu labels",
+      "value": "On"
+    },
+    {
+      "key": "force cpu blit emulation",
+      "value": "On"
+    }
+  ]
+}

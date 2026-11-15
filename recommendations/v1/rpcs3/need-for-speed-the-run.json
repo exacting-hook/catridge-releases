@@ -1,0 +1,77 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Need for Speed The Run",
+  "page": "https://wiki.rpcs3.net/index.php?title=Need_for_Speed_The_Run",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01298",
+    "BLUS30757",
+    "NPEB00851",
+    "NPUB30664",
+    "BLJM60386",
+    "BLAS50337",
+    "NPJB00185",
+    "NPHB00454",
+    "NPUB90646"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance without any noticeable issues."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance without any noticeable issues."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken visuals. Significant stability loss."
+    },
+    {
+      "id": "rpcs3.mt_rsx",
+      "value": "true",
+      "note": "Slightly improves performance."
+    },
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes missing ground and lighting."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "framelimit",
+      "value": "Infinite"
+    },
+    {
+      "key": "sleep timers accuracy",
+      "value": "As Host"
+    },
+    {
+      "key": "firmware libraries",
+      "value": "libvdec.sprx"
+    },
+    {
+      "key": "handle rsx memory tiling",
+      "value": "On"
+    },
+    {
+      "key": "rsx fifo accuracy",
+      "value": "Ordered & Atomic"
+    },
+    {
+      "key": "driver wake-up delay",
+      "value": "200"
+    },
+    {
+      "key": "vblank rate",
+      "value": "6000"
+    }
+  ]
+}

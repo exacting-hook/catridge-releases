@@ -1,0 +1,45 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Saints Row IV",
+  "page": "https://wiki.rpcs3.net/index.php?title=Saints_Row_IV",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01889",
+    "BLES01954",
+    "BLUS31205",
+    "NPEB01404",
+    "NPUB31257",
+    "BLJS10246",
+    "NPJB00551",
+    "BLES02019",
+    "BLUS31416",
+    "NPEB90502",
+    "NPUB90965"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.spu_decoder",
+      "value": "Recompiler (ASMJIT)",
+      "note": "Fixes some loud noises during gameplay."
+    },
+    {
+      "id": "rpcs3.shader_mode",
+      "value": "Legacy Recompiler (single-threaded)",
+      "note": "Async mode will make player's character textures black."
+    },
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes missing graphics ingame."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "disable vertex cache",
+      "value": "On"
+    }
+  ]
+}

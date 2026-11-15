@@ -1,0 +1,47 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Asura's Wrath",
+  "page": "https://wiki.rpcs3.net/index.php?title=Asura's_Wrath",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01227",
+    "BLUS30721",
+    "BLJM60409",
+    "NPUB90612",
+    "NPEB90381",
+    "NPHB00451"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "Disable Motion Blur",
+      "level": "normal",
+      "only": [
+        "BLES01227",
+        "BLJM60409",
+        "BLUS30721"
+      ]
+    },
+    {
+      "name": "Unlock FPS",
+      "level": "normal",
+      "only": [
+        "BLES01227",
+        "BLJM60409",
+        "BLUS30721"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "key": "anisotropic filter",
+      "value": "Auto"
+    },
+    {
+      "key": "resolution scale threshold",
+      "value": "512 x 512"
+    }
+  ]
+}

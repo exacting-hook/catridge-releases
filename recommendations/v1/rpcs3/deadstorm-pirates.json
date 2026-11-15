@@ -1,0 +1,19 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Deadstorm Pirates",
+  "page": "https://wiki.rpcs3.net/index.php?title=Deadstorm_Pirates",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPEB00409"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Required to be able to shoot enemies and objects"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "NeverDead",
+  "page": "https://wiki.rpcs3.net/index.php?title=NeverDead",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01303",
+    "BLUS30654",
+    "BLJM60354",
+    "BLAS50442"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes black screen during gameplay."
+    }
+  ],
+  "patches": []
+}

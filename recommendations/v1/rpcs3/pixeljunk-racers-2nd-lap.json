@@ -1,0 +1,22 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "PixelJunk Racers 2nd Lap",
+  "page": "https://wiki.rpcs3.net/index.php?title=PixelJunk_Racers_2nd_Lap",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "NPUA80395",
+    "NPEA00182",
+    "NPJB00063",
+    "NPHB00201"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.rcb",
+      "value": "true",
+      "note": "Fixes missing car and \"speed zone\" textures"
+    }
+  ],
+  "patches": []
+}

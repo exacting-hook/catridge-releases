@@ -1,0 +1,33 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Duke Nukem Forever",
+  "page": "https://wiki.rpcs3.net/index.php?title=Duke_Nukem_Forever",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01147",
+    "BLUS30615",
+    "NPEB00828",
+    "NPUB30655",
+    "BLES01297",
+    "BLJS10121",
+    "NPHB00484",
+    "NPEB90334",
+    "NPUB90573"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.wcb",
+      "value": "true",
+      "note": "Fixes broken graphics."
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "resolution scale",
+      "value": "100"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Ar Tonelico Qoga: Knell of Ar Ciel",
+  "page": "https://wiki.rpcs3.net/index.php?title=Ar_Tonelico_Qoga%3A_Knell_of_Ar_Ciel",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLES01102",
+    "BLUS30639",
+    "BLJS10075"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.ppu_decoder",
+      "value": "Interpreter (static)",
+      "note": "Solves emulator crashes that randomly occur on scene transitions."
+    }
+  ],
+  "patches": []
+}

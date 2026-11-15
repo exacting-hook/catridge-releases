@@ -1,0 +1,34 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Heavenly Sword",
+  "page": "https://wiki.rpcs3.net/index.php?title=Heavenly_Sword",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCUS98132",
+    "BCES00078",
+    "BCAS20016",
+    "BCJS30016",
+    "BCKS10010",
+    "NPUA80103",
+    "NPEA90016",
+    "NPJA90048",
+    "NPJA90049",
+    "NPHA20003"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.msaa",
+      "value": "Disabled",
+      "note": "Anti-Aliasing uses a lot of VRAM especially when paired with resolution scaling and can introduce crashes"
+    }
+  ],
+  "patches": [],
+  "unmapped": [
+    {
+      "key": "vblank rate",
+      "value": "120"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Tokyo Jungle",
+  "page": "https://wiki.rpcs3.net/index.php?title=Tokyo_Jungle",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BCAS20233",
+    "NPEA00275",
+    "NPJA00075",
+    "NPUA80523",
+    "BCJS30069",
+    "NPHA80203",
+    "NPJB60125"
+  ],
+  "settings": [],
+  "patches": [
+    {
+      "name": "Disable MLAA",
+      "level": "high",
+      "note": "Allows the game to render properly at high resolutions (>720p).",
+      "only": [
+        "BCAS20233",
+        "BCJS30069",
+        "NPEA00275",
+        "NPJA00075",
+        "NPUA80523"
+      ]
+    }
+  ]
+}

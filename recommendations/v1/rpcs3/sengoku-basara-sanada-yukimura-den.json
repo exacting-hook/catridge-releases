@@ -1,0 +1,25 @@
+{
+  "console": "ps3",
+  "emulator": "rpcs3",
+  "title": "Sengoku Basara: Sanada Yukimura-Den",
+  "page": "https://wiki.rpcs3.net/index.php?title=Sengoku_Basara%3A_Sanada_Yukimura-Den",
+  "source": "RPCS3 Wiki",
+  "license": "CC BY-SA 4.0",
+  "serials": [
+    "BLJM61332",
+    "NPJB00805"
+  ],
+  "settings": [
+    {
+      "id": "rpcs3.zcull_precise",
+      "value": "false",
+      "note": "Improves performance."
+    },
+    {
+      "id": "rpcs3.zcull_relaxed",
+      "value": "true",
+      "note": "Improves performance."
+    }
+  ],
+  "patches": []
+}
