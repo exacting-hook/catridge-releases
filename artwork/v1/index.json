@@ -1,0 +1,26 @@
+{
+ "version": 1,
+ "games": [
+  {
+   "console": "switch2",
+   "ids": [
+    "0400486024DEC000"
+   ],
+   "title": "The Legend of Zelda: Ocarina of Time (2026, Switch 2)",
+   "art": {
+    "cover": {
+     "file": "switch2/0400486024DEC000/cover.png",
+     "sha256": "a1071bf5cfd8c72688c95221e22bd5fe1ffe16f7b46a209595f299f917f6b231"
+    },
+    "background": {
+     "file": "switch2/0400486024DEC000/background.png",
+     "sha256": "ee00dc49157e0abe25ec512dc2510ce3a04b03bf5de9bb9ca72285a63babbf67"
+    },
+    "logo": {
+     "file": "switch2/0400486024DEC000/logo.png",
+     "sha256": "fc313a33e3e68e0645b4702bed5cac24ecc330dda0fb34bd863d16a279eb4e56"
+    }
+   }
+  }
+ ]
+}
