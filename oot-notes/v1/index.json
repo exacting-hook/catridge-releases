@@ -1,0 +1,1130 @@
+{
+ "from": "Zelda Wiki (zeldawiki.wiki), the OoTNS2_ files: Ocarina of Time for Nintendo Switch 2. 256 px thumbnails where the original is larger.",
+ "icons": {
+  "adult_wallet": {
+   "file": "icons/adult_wallet.png",
+   "sha256": "f6b890756775aa70d0485b02d37c18c566c95b01642251eb06ddc9c61692ebfa",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8e/OoTNS2_Adult%27s_Wallet_Icon.png/256px-OoTNS2_Adult%27s_Wallet_Icon.png"
+  },
+  "amiibo": {
+   "file": "icons/amiibo.png",
+   "sha256": "68970ac735888a6bd8a6067e2d01a230060b2f02c29cc51c4081708982d1a0c1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b6/OoTNS2_amiibo_Icon.png"
+  },
+  "amy": {
+   "file": "icons/amy.png",
+   "sha256": "7a748670758afa0a3786815451644d741820778880d36433c678973c0b71641a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/90/OoTNS2_Amy_Model.png/256px-OoTNS2_Amy_Model.png"
+  },
+  "arrow": {
+   "file": "icons/arrow.png",
+   "sha256": "78fbe2e3f21c725ea7c217491020d4371a756d6b6ab4c7545b72aad775133e6d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6d/OoTNS2_Arrow_Icon.png/256px-OoTNS2_Arrow_Icon.png"
+  },
+  "beth": {
+   "file": "icons/beth.png",
+   "sha256": "91fbef4325067a0f87a111081d82311ad294cf3abf41cf9b38ddb4d78c56cebc",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/52/OoTNS2_Beth_Model.png/256px-OoTNS2_Beth_Model.png"
+  },
+  "big_poe": {
+   "file": "icons/big_poe.png",
+   "sha256": "cda95287195df3d84f3ac37e35cc2d6c9709e8cef9abc17a6f51d5dc844ad825",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/36/OoTNS2_Big_Poe_Icon.png/256px-OoTNS2_Big_Poe_Icon.png"
+  },
+  "biggoron_sword": {
+   "file": "icons/biggoron_sword.png",
+   "sha256": "f07a6e3363d5f4759d207d5954cc96583ec7836a9197ef97b48db4cd49485295",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/21/OoTNS2_Biggoron_Sword_Icon.png/256px-OoTNS2_Biggoron_Sword_Icon.png"
+  },
+  "blue_fire": {
+   "file": "icons/blue_fire.png",
+   "sha256": "efe71c70775c7a0354a0bbe2654f2bba539e79cbae6f121f90fd7082c88a1f37",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ae/OoTNS2_Blue_Fire_Icon.png/256px-OoTNS2_Blue_Fire_Icon.png"
+  },
+  "blue_potion": {
+   "file": "icons/blue_potion.png",
+   "sha256": "e066492ee519d0fda946822cdee7133585d416669e250854b3404ab88b6a6685",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fe/OoTNS2_Blue_Potion_Icon.png/256px-OoTNS2_Blue_Potion_Icon.png"
+  },
+  "bomb": {
+   "file": "icons/bomb.png",
+   "sha256": "38bf5f3a840482a5b9da8bd36446cf7a0921c3ce1ce3fb420e9066e792f63856",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/OoTNS2_Bomb_Icon.png/256px-OoTNS2_Bomb_Icon.png"
+  },
+  "bomb_bag": {
+   "file": "icons/bomb_bag.png",
+   "sha256": "28c2b7042dde659d0b99e45088d98f8e30468e333643443c8e18d4bfb70cf40c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cd/OoTNS2_Bomb_Bag_Icon.png/256px-OoTNS2_Bomb_Bag_Icon.png"
+  },
+  "bomb_bag2": {
+   "file": "icons/bomb_bag2.png",
+   "sha256": "f949d0160ac7cff5db6bcf39b2a5221d6c1bb97c0d1c61307457c4017eafc327",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1a/OoTNS2_Bigger_Bomb_Bag_Icon.png/256px-OoTNS2_Bigger_Bomb_Bag_Icon.png"
+  },
+  "bomb_bag3": {
+   "file": "icons/bomb_bag3.png",
+   "sha256": "d64f54a4246b3942a248b5ad0ed971cf41a7998161ccbac360f5e46af04fe402",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/da/OoTNS2_Biggest_Bomb_Bag_Icon.png/256px-OoTNS2_Biggest_Bomb_Bag_Icon.png"
+  },
+  "bombchu": {
+   "file": "icons/bombchu.png",
+   "sha256": "16a080f6ac0a7544f6926c2eae49e5fe01f87bcbd1ee46ea48a28cdc4817c9e5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1e/OoTNS2_Bombchu_Icon.png/256px-OoTNS2_Bombchu_Icon.png"
+  },
+  "bongo_bongo": {
+   "file": "icons/bongo_bongo.png",
+   "sha256": "4a8d4e8332ecbb1a35cb0401620f86c591cf203cf0242c33c5345b4895808acf",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/OoTNS2_Bongo_Bongo_Model.png/256px-OoTNS2_Bongo_Bongo_Model.png"
+  },
+  "boomerang": {
+   "file": "icons/boomerang.png",
+   "sha256": "7a47bd195573d3b5e056fe52335355febd216aa056d7e44f81e175aaab354df7",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/85/OoTNS2_Boomerang_Icon.png/256px-OoTNS2_Boomerang_Icon.png"
+  },
+  "boss": {
+   "file": "icons/boss.png",
+   "sha256": "46aa450e158e11b17d51d9e9f73b87ced08ecc703ab883c876d0fedd879ba72f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/ed/OoTNS2_Boss_Icon.png"
+  },
+  "boss_key": {
+   "file": "icons/boss_key.png",
+   "sha256": "e4ea62e442fc06c4224dc35204f55afcf1f19088612b34d313fe55763e48390c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/32/OoTNS2_Boss_Key_Icon.png/256px-OoTNS2_Boss_Key_Icon.png"
+  },
+  "bottle": {
+   "file": "icons/bottle.png",
+   "sha256": "920e9b6f446828201d0ae735a3eb5b0ac7ec25f6c658bf80216a518f7fe3c9b5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/04/OoTNS2_Empty_Bottle_Icon.png/256px-OoTNS2_Empty_Bottle_Icon.png"
+  },
+  "bottle_letter": {
+   "file": "icons/bottle_letter.png",
+   "sha256": "30ff01d1ea1b66c3a8756a55bbc5bbcf47524a427f42c04ed7e71a553dcaaca5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/eb/OoTNS2_Bottled_Letter_Icon.png/256px-OoTNS2_Bottled_Letter_Icon.png"
+  },
+  "bow": {
+   "file": "icons/bow.png",
+   "sha256": "97149a5f046305757364a1814ccce36eae59c35289d2cd4eb5a2878b3f68f03d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7a/OoTNS2_Fairy_Bow_Icon.png/256px-OoTNS2_Fairy_Bow_Icon.png"
+  },
+  "bow_fire": {
+   "file": "icons/bow_fire.png",
+   "sha256": "f410b70dddb41011790c5e000b2e2c4a7ebefa6bea97defad846b6bec1997456",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6f/OoTNS2_Bow_%2B_Fire_Arrow_Icon.png/256px-OoTNS2_Bow_%2B_Fire_Arrow_Icon.png"
+  },
+  "bow_ice": {
+   "file": "icons/bow_ice.png",
+   "sha256": "68551a64876499864a0c7c7abd5cf5fdddbfdee5b571437945d52090471e56ba",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/22/OoTNS2_Bow_%2B_Ice_Arrow_Icon.png/256px-OoTNS2_Bow_%2B_Ice_Arrow_Icon.png"
+  },
+  "bow_light": {
+   "file": "icons/bow_light.png",
+   "sha256": "1aafc807d6e9af6f11d7568375d1296c019f5aaa6d272fdbd8a7e0ff2a1799cb",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/60/OoTNS2_Bow_%2B_Light_Arrow_Icon.png/256px-OoTNS2_Bow_%2B_Light_Arrow_Icon.png"
+  },
+  "broken_goron_sword": {
+   "file": "icons/broken_goron_sword.png",
+   "sha256": "0b24405e49ad78672ef2dcf3688e014a7098413b3505d10cd4a58f368b399ed7",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/OoTNS2_Broken_Goron_Sword_Icon.png/256px-OoTNS2_Broken_Goron_Sword_Icon.png"
+  },
+  "broken_knife": {
+   "file": "icons/broken_knife.png",
+   "sha256": "70d5a2ecc4bd3ef563a0045aeb65f2437510068f55fd383fd1158bbee773de7f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/06/OoTNS2_Broken_Giant%27s_Knife_Icon.png/256px-OoTNS2_Broken_Giant%27s_Knife_Icon.png"
+  },
+  "bug": {
+   "file": "icons/bug.png",
+   "sha256": "7f076e47b97d30ca9c6577b4d7b689256e3c58eeed5c7dcf640a1d4ea833b901",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2a/OoTNS2_Bug_Icon.png/256px-OoTNS2_Bug_Icon.png"
+  },
+  "bunny_hood": {
+   "file": "icons/bunny_hood.png",
+   "sha256": "f85c10e52d97ccd35536e6c7d56ddc4019e3de4fa325700c6813a97907ada6b4",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/23/OoTNS2_Bunny_Hood_Icon.png/256px-OoTNS2_Bunny_Hood_Icon.png"
+  },
+  "claim_check": {
+   "file": "icons/claim_check.png",
+   "sha256": "b7b155708c0aa69d20b2023adf9da3f9df5bf7ba92c0ae071debb320825fae66",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/76/OoTNS2_Biggoron_Receipt_Icon.png/256px-OoTNS2_Biggoron_Receipt_Icon.png"
+  },
+  "cojiro": {
+   "file": "icons/cojiro.png",
+   "sha256": "59c7cb7a3dd7fecbbc117cd7dc2faeb06eb519c7ee79a02bc58eb4acb6cbcf87",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4a/OoTNS2_Cojiro_Icon.png/256px-OoTNS2_Cojiro_Icon.png"
+  },
+  "compass": {
+   "file": "icons/compass.png",
+   "sha256": "5440c3563817db2838ef99121496fff06f89a38337ca00efa36f5c1d238f4317",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/07/OoTNS2_Compass_Icon.png/256px-OoTNS2_Compass_Icon.png"
+  },
+  "dark_link": {
+   "file": "icons/dark_link.png",
+   "sha256": "72a0909dc4514aefedd61196fa91827fe386c738de6346c2c020119963a34340",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/OoTNS2_Dark_Link_Model.png/256px-OoTNS2_Dark_Link_Model.png"
+  },
+  "defense_double": {
+   "file": "icons/defense_double.png",
+   "sha256": "c2abc022553f00d1d2cadc8296382f0352134491a7706dfedddff22cf8f2b7b0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8e/OoTNS2_Gift_of_Halved_Damage_Icon.png/256px-OoTNS2_Gift_of_Halved_Damage_Icon.png"
+  },
+  "deku_nut": {
+   "file": "icons/deku_nut.png",
+   "sha256": "d8202f525f61e6bd3e71f598ef5c5d5f415f0e17c87e9b998cc06522a79347fa",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f8/OoTNS2_Deku_Nut_Icon.png/256px-OoTNS2_Deku_Nut_Icon.png"
+  },
+  "deku_seed": {
+   "file": "icons/deku_seed.png",
+   "sha256": "277a3967886775ce507dd8a5de86454144c45d7a6131d2e84561d7fb9e0d81bb",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a9/OoTNS2_Deku_Seed_Icon.png/256px-OoTNS2_Deku_Seed_Icon.png"
+  },
+  "deku_shield": {
+   "file": "icons/deku_shield.png",
+   "sha256": "58472011e02dcbfb5a983dd885d3f1a609f5b4da77ce5f36fa48670194835bea",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/06/OoTNS2_Deku_Shield_Icon.png/256px-OoTNS2_Deku_Shield_Icon.png"
+  },
+  "deku_stick": {
+   "file": "icons/deku_stick.png",
+   "sha256": "a609844b865d1eaa2c663b2049be318a43862dbe93d3ee472bcf3a3bfe2dbe1b",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f7/OoTNS2_Deku_Stick_Icon.png/256px-OoTNS2_Deku_Stick_Icon.png"
+  },
+  "dins_fire": {
+   "file": "icons/dins_fire.png",
+   "sha256": "91e0182bea6062e1a34fd113405cbd5bdbf5bb49f5e700b6093835a4d71e93ad",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1e/OoTNS2_Din%27s_Fire_Icon.png/256px-OoTNS2_Din%27s_Fire_Icon.png"
+  },
+  "dungeon_map": {
+   "file": "icons/dungeon_map.png",
+   "sha256": "f3a857232e00b5615a2f76ac4bfb39594c96135ac72695a9138af6822f1ae514",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/ef/OoTNS2_Dungeon_Map_Icon.png"
+  },
+  "e_beamos": {
+   "file": "icons/e_beamos.png",
+   "sha256": "9b8ee990fed15e2249571e9e69d8da0e57c82ad2b61cd28851607ffc2920dee9",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/OoTNS2_Beamos_Model.png"
+  },
+  "e_big_poe": {
+   "file": "icons/e_big_poe.png",
+   "sha256": "98aa80c35a630435f4f9065c69decb5792dd361e236393170e5007a8c36c1d3f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d7/OoTNS2_Big_Poe_Model.png/256px-OoTNS2_Big_Poe_Model.png"
+  },
+  "e_biri": {
+   "file": "icons/e_biri.png",
+   "sha256": "e598ce2ec2a1d4fb2ce52e42adea15068e09b145d6f496034b88878fcd697719",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6e/OoTNS2_Biri_Model.png/256px-OoTNS2_Biri_Model.png"
+  },
+  "e_dead_hand": {
+   "file": "icons/e_dead_hand.png",
+   "sha256": "7b1ce2131b8abb922f18156977dc7090f7c54e4624263fdfdfc254ee9a80bff9",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/20/OoTNS2_Dead_Hand_Model.png/256px-OoTNS2_Dead_Hand_Model.png"
+  },
+  "e_deku_baba": {
+   "file": "icons/e_deku_baba.png",
+   "sha256": "2a7d7f2d8a44519636176546522b6cb985fa63fe18545ae6acfe502f7e97340d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c5/OoTNS2_Deku_Baba_Model.png/256px-OoTNS2_Deku_Baba_Model.png"
+  },
+  "e_deku_scrub": {
+   "file": "icons/e_deku_scrub.png",
+   "sha256": "653bd0a55e31284da6d5c7b412b52d8709cf09b44ee13db58c3aa73a3e9a6685",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/17/OoTNS2_Deku_Scrub_Render.png/256px-OoTNS2_Deku_Scrub_Render.png"
+  },
+  "e_dinolfos": {
+   "file": "icons/e_dinolfos.png",
+   "sha256": "08937f048c44f99369848063b31f1a242202b8c4180fab6a266865be7330cff0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7c/OoTNS2_Dinolfos_Model.png/256px-OoTNS2_Dinolfos_Model.png"
+  },
+  "e_guay": {
+   "file": "icons/e_guay.png",
+   "sha256": "f309fa86ebf67e6ed605036de46ca39f8b3efb593e4a668f1acf28f791adee2d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/79/OoTNS2_Guay_Model.png/256px-OoTNS2_Guay_Model.png"
+  },
+  "e_iron_knuckle": {
+   "file": "icons/e_iron_knuckle.png",
+   "sha256": "f09240485c35b336e27af42d8804fe8e17ae912671521185eeb888e5edc3a5b8",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/34/OoTNS2_Iron_Knuckle_Model_2.png/256px-OoTNS2_Iron_Knuckle_Model_2.png"
+  },
+  "e_keese": {
+   "file": "icons/e_keese.png",
+   "sha256": "77dea686adc3811027b84f14a832f1d8bb049b9157f100fcb71f89351c8787d4",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5e/OoTNS2_Keese_Model.png/256px-OoTNS2_Keese_Model.png"
+  },
+  "e_leever": {
+   "file": "icons/e_leever.png",
+   "sha256": "210c2f993aa7d78848b5da5b040cadd624284f1dc3a0f1d27dc6dcd2038ec391",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cb/OoTNS2_Leever_Model.png/256px-OoTNS2_Leever_Model.png"
+  },
+  "e_like_like": {
+   "file": "icons/e_like_like.jpg",
+   "sha256": "baaafed9227ade146131dcd085d635e21a4e3e3cdf41fb0f14430d01b382af4b",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/28/OoTNS2_Like_Like_Model.jpg/256px-OoTNS2_Like_Like_Model.jpg"
+  },
+  "e_lizalfos": {
+   "file": "icons/e_lizalfos.png",
+   "sha256": "a99edfc4e27bda0ef5e1aea800af6b9651cfbe7dac36a314df544980384bd17f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/01/OoTNS2_Lizalfos_Model.png/256px-OoTNS2_Lizalfos_Model.png"
+  },
+  "e_peahat": {
+   "file": "icons/e_peahat.png",
+   "sha256": "0f808faae692096a51d35f9fd8230f82bf6d8139513dc6f3da86c70852be79d9",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d8/OoTNS2_Peahat_Model.png/256px-OoTNS2_Peahat_Model.png"
+  },
+  "e_peahat_larva": {
+   "file": "icons/e_peahat_larva.png",
+   "sha256": "e21feeb8f88b290ad5db6d8d214eee2cbb27f1aaba3169da5182deed353343ed",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/67/OoTNS2_Peahat_Larva_Model.png/256px-OoTNS2_Peahat_Larva_Model.png"
+  },
+  "e_redead": {
+   "file": "icons/e_redead.png",
+   "sha256": "a587dd45f683555872d02113d8c02f8fae8de4fd0d60fbca2d9e798c2855cab5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1a/OoTNS2_ReDead_Model.png/256px-OoTNS2_ReDead_Model.png"
+  },
+  "e_shell_blade": {
+   "file": "icons/e_shell_blade.png",
+   "sha256": "a619b0e2e417cc2685e3ef4b22ebf27a0f5c80194ed953d63ecd9d6eb27c54bf",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b9/OoTNS2_Shell_Blade_Model.png"
+  },
+  "e_skulltula": {
+   "file": "icons/e_skulltula.png",
+   "sha256": "d07f6c2039f458de7accb2f3236a9a7a7c2f3448a9d578c700aa5b80ec445fbc",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/54/OoTNS2_Skulltula_Model.png/256px-OoTNS2_Skulltula_Model.png"
+  },
+  "e_skullwalltula": {
+   "file": "icons/e_skullwalltula.png",
+   "sha256": "2952b8a13d26242f66ab297a47147fa9acdeaf835ebc176505edf787bf11616a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8f/OoTNS2_Skullwalltula_Model.png/256px-OoTNS2_Skullwalltula_Model.png"
+  },
+  "e_stalchild": {
+   "file": "icons/e_stalchild.png",
+   "sha256": "a4c4e3d2336757505f8bbb3015ae7ddf63ac254ce687059c3a2b770a5b32b3e0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b0/OoTNS2_Stalchild_Model.png/256px-OoTNS2_Stalchild_Model.png"
+  },
+  "e_stalfos": {
+   "file": "icons/e_stalfos.png",
+   "sha256": "a5e281da7a0e07286814d90f8a399dc741ca7b480a1a6f4dbd44745c24e368cc",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/12/OoTNS2_Stalfos_Model.png/256px-OoTNS2_Stalfos_Model.png"
+  },
+  "e_tektite_blue": {
+   "file": "icons/e_tektite_blue.png",
+   "sha256": "991ef5e734c46c6b9d6f77b7e0e7ff79ff62e9915c1d0e9f60be73a094b56704",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/89/OoTNS2_Blue_Tektite_Model.png/256px-OoTNS2_Blue_Tektite_Model.png"
+  },
+  "e_tektite_red": {
+   "file": "icons/e_tektite_red.png",
+   "sha256": "ec9a1b139d563cadfa0acbc40d91b75c7872202b16ba8b2f811aecfdcf634adf",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d0/OoTNS2_Red_Tektite_Model.png/256px-OoTNS2_Red_Tektite_Model.png"
+  },
+  "e_tentacle": {
+   "file": "icons/e_tentacle.png",
+   "sha256": "d262fa646bc5095d46d0eb1f3796cdf33cd4f3ce06d584d5014267a2c5595cd5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/54/OoTNS2_Green_Tentacle_Model.png/256px-OoTNS2_Green_Tentacle_Model.png"
+  },
+  "e_torch_slug": {
+   "file": "icons/e_torch_slug.png",
+   "sha256": "3840f0cbb4b9280e46d5cd5d9740a67c185edd7de75088bcd1e9334b1c4b83ab",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/OoTNS2_Torch_Slug_Model.png"
+  },
+  "e_wolfos": {
+   "file": "icons/e_wolfos.png",
+   "sha256": "2b62da0d92bee67e7c5fc3e8951bc60c8887b8a6a8623b6a23c3cf7157068124",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/OoTNS2_Wolfos_Model.png/256px-OoTNS2_Wolfos_Model.png"
+  },
+  "eyeball_frog": {
+   "file": "icons/eyeball_frog.png",
+   "sha256": "ec77fa95593f1521c98d9dec7e8794c0edb675ac964cd06ebcfd605b00b16ee3",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/11/OoTNS2_Eyeball_Frog_Icon.png/256px-OoTNS2_Eyeball_Frog_Icon.png"
+  },
+  "eyedrops": {
+   "file": "icons/eyedrops.png",
+   "sha256": "3d701063f538b9b4e25da8ba413328fb2b54148625d31bae7f97ef4551ee2251",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b3/OoTNS2_Specialty_Eye_Drops_Icon.png/256px-OoTNS2_Specialty_Eye_Drops_Icon.png"
+  },
+  "fairy": {
+   "file": "icons/fairy.png",
+   "sha256": "9eaf6160ae9b71ed501000638d09c74c289dd96e5b59048be9b3364dacf19297",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/81/OoTNS2_Fairy_Icon.png/256px-OoTNS2_Fairy_Icon.png"
+  },
+  "fairy_ocarina": {
+   "file": "icons/fairy_ocarina.png",
+   "sha256": "c04a53c3f4e717619bd398efe9ea3fef3a40d2f5f9368fb3cfd721ea317ed42d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6a/OoTNS2_Fairy_Ocarina_Icon.png/256px-OoTNS2_Fairy_Ocarina_Icon.png"
+  },
+  "farores_wind": {
+   "file": "icons/farores_wind.png",
+   "sha256": "8341fc46abbb9d476a73c99a72f9b9ec273e37774e5f61205f1ebc79c074bae2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e1/OoTNS2_Farore%27s_Wind_Icon.png/256px-OoTNS2_Farore%27s_Wind_Icon.png"
+  },
+  "fire_arrow": {
+   "file": "icons/fire_arrow.png",
+   "sha256": "0f0fbe5ef78b10bae97bc2f38db522c9206cf9a84826e8e26024e7a5709b84a6",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6c/OoTNS2_Fire_Arrow_Icon.png/256px-OoTNS2_Fire_Arrow_Icon.png"
+  },
+  "fire_medallion": {
+   "file": "icons/fire_medallion.png",
+   "sha256": "be955a89c2403cb47fd3db35c5616e52b3236b1bb75a85e8f70c9460cf724c56",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/eb/OoTNS2_Fire_Medallion_Icon.png"
+  },
+  "fish": {
+   "file": "icons/fish.png",
+   "sha256": "248ef002415bb985c94928b0c97f98ab4de67550d4d56c3c0ff66ecab3862c5e",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d2/OoTNS2_Fish_Icon.png/256px-OoTNS2_Fish_Icon.png"
+  },
+  "fishing_rod": {
+   "file": "icons/fishing_rod.png",
+   "sha256": "7bbfcd8e9c1b7000936ebb07196fb04fdb8fb26befe8587276c67444173d6c8c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/59/OoTNS2_Fishing_Rod_Icon.png/256px-OoTNS2_Fishing_Rod_Icon.png"
+  },
+  "forest_medallion": {
+   "file": "icons/forest_medallion.png",
+   "sha256": "d1e19014bf4dc32fbe7f3956e17a8ee64139895301338a4401e790159a249834",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/32/OoTNS2_Forest_Medallion_Icon.png"
+  },
+  "ganondorf": {
+   "file": "icons/ganondorf.png",
+   "sha256": "9780de085c357aba67f7d9727f1ad83e404b8daeae1c3820efe5200749a3b50d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/34/OoTNS2_Ganondorf_Model.png/256px-OoTNS2_Ganondorf_Model.png"
+  },
+  "gerudo_card": {
+   "file": "icons/gerudo_card.png",
+   "sha256": "1824fb34035142bbfa7b2eb42885e992c71e67c9e90206664a73b3aa0be785ef",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/01/OoTNS2_Gerudo_Pass_Icon.png/256px-OoTNS2_Gerudo_Pass_Icon.png"
+  },
+  "gerudo_mask": {
+   "file": "icons/gerudo_mask.png",
+   "sha256": "5c4b2d9f9ffc6afdcf9187cd42fc7da39a335b800071933ae4707131fa5e7e0c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0c/OoTNS2_Gerudo_Mask_Icon.png/256px-OoTNS2_Gerudo_Mask_Icon.png"
+  },
+  "giant_wallet": {
+   "file": "icons/giant_wallet.png",
+   "sha256": "96dc31b9c849e1e992a673b18bb81eb84bd38548416bc3fa915d37da9600e6d0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3f/OoTNS2_Giant%27s_Wallet_Icon.png/256px-OoTNS2_Giant%27s_Wallet_Icon.png"
+  },
+  "giants_knife": {
+   "file": "icons/giants_knife.png",
+   "sha256": "769f5f5fe41424ddb7f1f2dc48c1649b6bfba8d56fecfa38731ebe3307a7d1ab",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6a/OoTNS2_Giant%27s_Knife_Icon.png/256px-OoTNS2_Giant%27s_Knife_Icon.png"
+  },
+  "gohma": {
+   "file": "icons/gohma.png",
+   "sha256": "6f90ce4b0382b1b235613eba69f86247406a544102f6418ff021c2e7270d44ec",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/OoTNS2_Gohma_Model.png/256px-OoTNS2_Gohma_Model.png"
+  },
+  "gold_skulltula": {
+   "file": "icons/gold_skulltula.png",
+   "sha256": "d4144c5dca99c4562d70cbce0fc7230ec02ce57e6ad2a482dd426a208fbde128",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f3/OoTNS2_Gold_Skulltula_Model.png/256px-OoTNS2_Gold_Skulltula_Model.png"
+  },
+  "gold_token": {
+   "file": "icons/gold_token.png",
+   "sha256": "d9de3b7e60e44b56abdebff6915ff174693417d3eb8868ec7da4ffa25e4397c2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bf/OoTNS2_Token_Icon.png/256px-OoTNS2_Token_Icon.png"
+  },
+  "golden_gauntlets": {
+   "file": "icons/golden_gauntlets.png",
+   "sha256": "3276971c11922f37bf0ec9832fb11fef5b86be52825c1bfd5c4e701fd3cbedba",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3e/OoTNS2_Golden_Gauntlets_Icon.png/256px-OoTNS2_Golden_Gauntlets_Icon.png"
+  },
+  "golden_scale": {
+   "file": "icons/golden_scale.png",
+   "sha256": "d2ba7e54e46a7cbedb140606f140553b9d647d4f124485cbcd3eac98145836d5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/48/OoTNS2_Golden_Scale_Icon.png/256px-OoTNS2_Golden_Scale_Icon.png"
+  },
+  "goron_bracelet": {
+   "file": "icons/goron_bracelet.png",
+   "sha256": "83cb1558df2bd760973b87e8519d19939812b5073e82f4aa69e7b99684ce37aa",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/34/OoTNS2_Goron_Bracelet_Icon.png/256px-OoTNS2_Goron_Bracelet_Icon.png"
+  },
+  "goron_mask": {
+   "file": "icons/goron_mask.png",
+   "sha256": "a945984bb7c8737107cd9dbd10cd4d9c9d7835e88b9dd7138959b7bade6dbbd1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/db/OoTNS2_Goron_Mask_Icon.png/256px-OoTNS2_Goron_Mask_Icon.png"
+  },
+  "goron_ruby": {
+   "file": "icons/goron_ruby.png",
+   "sha256": "712c59508477622867452a50a13e51433da8df312962e435bbd9b63f78d87592",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/9/93/OoTNS2_Goron_Ruby_Icon.png"
+  },
+  "goron_tunic": {
+   "file": "icons/goron_tunic.png",
+   "sha256": "1a5d258f2e95a4e17d2d27058fd2e3037eb19961beb53b09078d167086f9a444",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b7/OoTNS2_Goron_Tunic_Icon.png/256px-OoTNS2_Goron_Tunic_Icon.png"
+  },
+  "gossip_stone": {
+   "file": "icons/gossip_stone.png",
+   "sha256": "3081d5463f4c92fe107477c20735c7bbe5b500dba182949d8101bae3f2ab266a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6d/OoTNS2_Gossip_Stone_Model.png"
+  },
+  "great_fairy": {
+   "file": "icons/great_fairy.png",
+   "sha256": "34ca87ee0c16ed5800395f3881b9de04430d4636f0aed8e2b0b20a8d3fd5ca50",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/OoTNS2_Great_Fairy%27s_Fountain_Icon.png"
+  },
+  "green_potion": {
+   "file": "icons/green_potion.png",
+   "sha256": "ef030ec49ba4b30346b022a50b4b260ca7639b350d206cf8427641d5218fe2ad",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/50/OoTNS2_Green_Potion_Icon.png/256px-OoTNS2_Green_Potion_Icon.png"
+  },
+  "half_milk": {
+   "file": "icons/half_milk.png",
+   "sha256": "082cce7af825e1bd176f872475a01007538b0199b77474a4e1a4de92ca6fa8d6",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f6/OoTNS2_Half-Full_Lon_Lon_Milk_Icon.png/256px-OoTNS2_Half-Full_Lon_Lon_Milk_Icon.png"
+  },
+  "heart_container": {
+   "file": "icons/heart_container.png",
+   "sha256": "45c0bbc8a5677adcb7d45cfc12bd4ce8b7ca285e65d64c81310d5ccb5f59c063",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/1d/OoTNS2_Heart_Icon.png"
+  },
+  "heros_clothes": {
+   "file": "icons/heros_clothes.png",
+   "sha256": "7f3906986254c0d18bc4a5ff36feb3d89cf36b7bd7400f8c731f2f99eee94c55",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b3/OoTNS2_Hero%27s_Clothes_Icon.png/256px-OoTNS2_Hero%27s_Clothes_Icon.png"
+  },
+  "hookshot": {
+   "file": "icons/hookshot.png",
+   "sha256": "c38d40327949c8b22f7a9239dbccebc9934949a3f7cf897248f1f2e69217b17f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ef/OoTNS2_Hookshot_Icon.png/256px-OoTNS2_Hookshot_Icon.png"
+  },
+  "hover_boots": {
+   "file": "icons/hover_boots.png",
+   "sha256": "d584d57255a41efd04e3570acaa7b7231c0d1378f211fae9b98218b244ee7914",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/72/OoTNS2_Hover_Boots_Icon.png/256px-OoTNS2_Hover_Boots_Icon.png"
+  },
+  "hylian_shield": {
+   "file": "icons/hylian_shield.png",
+   "sha256": "8667e2c8831be7a995ec96beb29b4f9b08cf7df61ee91b7992ccb44fd5b29287",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c5/OoTNS2_Hylian_Shield_Icon.png/256px-OoTNS2_Hylian_Shield_Icon.png"
+  },
+  "ice_arrow": {
+   "file": "icons/ice_arrow.png",
+   "sha256": "3427bbb44325f96a0e7433569f2577003c1b6a8d3b3249ecdaefed81e6dbfaf9",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bc/OoTNS2_Ice_Arrow_Icon.png/256px-OoTNS2_Ice_Arrow_Icon.png"
+  },
+  "iron_boots": {
+   "file": "icons/iron_boots.png",
+   "sha256": "2a54c88c87a93e59fb4246c5e7d2d98e175204a26d4449354ea947238256fb82",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c2/OoTNS2_Iron_Boots_Icon.png/256px-OoTNS2_Iron_Boots_Icon.png"
+  },
+  "joelle": {
+   "file": "icons/joelle.png",
+   "sha256": "a59d00a15081292b64b48b2082b69ffe78bc5c2fea30224ff00b4abdd030cbf2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/48/OoTNS2_Joelle_Model.png/256px-OoTNS2_Joelle_Model.png"
+  },
+  "keaton_mask": {
+   "file": "icons/keaton_mask.png",
+   "sha256": "e14a511d8ace4eb04cd6039910065376bda908e7982a1ae529341c75401d961c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/OoTNS2_Keaton_Mask_Icon.png/256px-OoTNS2_Keaton_Mask_Icon.png"
+  },
+  "king_dodongo": {
+   "file": "icons/king_dodongo.png",
+   "sha256": "e5048a389e1acbfe3cb96ce42984466375e9403246e4ed31498aea057e4c0e2f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d1/OoTNS2_King_Dodongo_Model.png/256px-OoTNS2_King_Dodongo_Model.png"
+  },
+  "kokiri_emerald": {
+   "file": "icons/kokiri_emerald.png",
+   "sha256": "5d83a0bde24964ac56ba4470f51bef6a7f6fa43f50290d40a66cdd95dfe8cbd4",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/81/OoTNS2_Kokiri_Emerald_Icon.png"
+  },
+  "kokiri_sword": {
+   "file": "icons/kokiri_sword.png",
+   "sha256": "7465f484be6e693f02080668cb8f2da5c9522886ca60166e7288d92f1da84e96",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/30/OoTNS2_Kokiri_Sword_Icon.png/256px-OoTNS2_Kokiri_Sword_Icon.png"
+  },
+  "kokiri_tunic": {
+   "file": "icons/kokiri_tunic.png",
+   "sha256": "811a7d2f4775a45fe257427f1558c3b333230e9a5c342e0b15317a02bb94a42a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/76/OoTNS2_Kokiri_Tunic_Icon.png/256px-OoTNS2_Kokiri_Tunic_Icon.png"
+  },
+  "kokiri_wallet": {
+   "file": "icons/kokiri_wallet.png",
+   "sha256": "666f429eba3b5e60f7c7396a298d75dfd3b4db88acc0f39ef14a43ce206ab6b0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/83/OoTNS2_Kokiri_Wallet_Icon.png/256px-OoTNS2_Kokiri_Wallet_Icon.png"
+  },
+  "kotake": {
+   "file": "icons/kotake.png",
+   "sha256": "8e5df6c1081542fe66d5f3fc00ace359578a61e85353c626a848296c89c8a6f1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/ff/OoTNS2_Kotake_Model.png/256px-OoTNS2_Kotake_Model.png"
+  },
+  "koume": {
+   "file": "icons/koume.png",
+   "sha256": "70233cad27bc6f3abc92266c3da7b6532d05b9e934fcdac3e16889d0ee06f1b8",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0e/OoTNS2_Koume_Model.png/256px-OoTNS2_Koume_Model.png"
+  },
+  "lens_of_truth": {
+   "file": "icons/lens_of_truth.png",
+   "sha256": "f7af18c4f27ad4db7d5de6379e02a472e95961b89e0584bf212ce4e0484b9c48",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b0/OoTNS2_Lenses_of_Truth_Icon.png/256px-OoTNS2_Lenses_of_Truth_Icon.png"
+  },
+  "light_arrow": {
+   "file": "icons/light_arrow.png",
+   "sha256": "8565d3a6032f27cce816d6e8ff2ac1cc5cbc5f7a18b5e65da2dcf5254279a462",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a7/OoTNS2_Light_Arrow_Icon.png/256px-OoTNS2_Light_Arrow_Icon.png"
+  },
+  "light_medallion": {
+   "file": "icons/light_medallion.png",
+   "sha256": "283e9e4d887cc432e4b2e2b8f721fee3eae51ce939ff108e29fd8415af79bd3d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/OoTNS2_Light_Medallion_Icon.png"
+  },
+  "longshot": {
+   "file": "icons/longshot.png",
+   "sha256": "644300046812d0a7b6f8baceb4bcd363d2fe3bbb301a46c2338ab95abc424ea6",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/OoTNS2_Longshot_Icon.png/256px-OoTNS2_Longshot_Icon.png"
+  },
+  "lure": {
+   "file": "icons/lure.png",
+   "sha256": "64f3a2a30e8dc42037bc710f55ad75350ebf16a41e66dbe2c38a051658076f98",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/ff/OoTNS2_Lure_Icon.png/256px-OoTNS2_Lure_Icon.png"
+  },
+  "magic_bean": {
+   "file": "icons/magic_bean.png",
+   "sha256": "c8e0b8d1c86d8949fee83f0ba7dc5b84cb3a89520df616709fcf6832aa36b45e",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/13/OoTNS2_Magic_Beans_Icon.png/256px-OoTNS2_Magic_Beans_Icon.png"
+  },
+  "magic_double": {
+   "file": "icons/magic_double.png",
+   "sha256": "294097e6d60bb57a5e08e0ebae48f427211649a1540d74bf52aef0d731a52648",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7c/OoTNS2_Gift_of_Doubled_Magic_Icon.png/256px-OoTNS2_Gift_of_Doubled_Magic_Icon.png"
+  },
+  "magic_spin": {
+   "file": "icons/magic_spin.png",
+   "sha256": "857f53b2ddd60a432ad842e487c4f16337953cc7cd194cb34d3de5d8e618c9b1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/OoTNS2_Gift_of_Improved_Spin_Icon.png/256px-OoTNS2_Gift_of_Improved_Spin_Icon.png"
+  },
+  "mask_of_truth": {
+   "file": "icons/mask_of_truth.png",
+   "sha256": "fe9fd8b172e8bfd9a19cc3aa326432d318a200f909546cd7fe8ae106e7187c8c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a4/OoTNS2_Mask_of_Truth_Icon.png/256px-OoTNS2_Mask_of_Truth_Icon.png"
+  },
+  "master_sword": {
+   "file": "icons/master_sword.png",
+   "sha256": "ff790b95076e1baa4ade0f15c556dc8bf58426a726eff8bba38b6d94483a6f18",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d7/OoTNS2_Master_Sword_Icon.png/256px-OoTNS2_Master_Sword_Icon.png"
+  },
+  "meg": {
+   "file": "icons/meg.png",
+   "sha256": "250b6d017477d5cba0aac4284c2192c16966da421f3b7aece8a171f3dcc96d5f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/60/OoTNS2_Meg_Model.png/256px-OoTNS2_Meg_Model.png"
+  },
+  "megaton_hammer": {
+   "file": "icons/megaton_hammer.png",
+   "sha256": "e913726c9110754914b85662725491e5505a16cfb1d73c838c7f3e469f4c08b6",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/62/OoTNS2_Megaton_Hammer_Icon.png/256px-OoTNS2_Megaton_Hammer_Icon.png"
+  },
+  "milk": {
+   "file": "icons/milk.png",
+   "sha256": "2506e000de7f1e681a71fb6d4ee017d53920ae55ee707df9407c27184f037069",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/OoTNS2_Lon_Lon_Milk_Icon.png/256px-OoTNS2_Lon_Lon_Milk_Icon.png"
+  },
+  "mirror_shield": {
+   "file": "icons/mirror_shield.png",
+   "sha256": "721448fd6e88bdc2385718111fbd284457fc1f06f03cefd393cc7b6f5467c0b4",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c2/OoTNS2_Mirror_Shield_Icon.png/256px-OoTNS2_Mirror_Shield_Icon.png"
+  },
+  "morpha": {
+   "file": "icons/morpha.png",
+   "sha256": "333fad89e5efac0f5049192a75a389b969ef52e4c174b05676394214c1a11be2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d7/OoTNS2_Morpha_Model.png/256px-OoTNS2_Morpha_Model.png"
+  },
+  "navi": {
+   "file": "icons/navi.png",
+   "sha256": "3c90948088bf074b325243501b239e66bc44c95b777c1e77bccb17020274f636",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/28/OoTNS2_Navi_Icon.png"
+  },
+  "nayrus_love": {
+   "file": "icons/nayrus_love.png",
+   "sha256": "9ac838a1bdb8ec7b5f9ed887113f3bde988401d57cbbb88e45130aa55b8a1004",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d7/OoTNS2_Nayru%27s_Love_Icon.png/256px-OoTNS2_Nayru%27s_Love_Icon.png"
+  },
+  "nut_bag": {
+   "file": "icons/nut_bag.png",
+   "sha256": "e8fea52a635f2e05aa322df590bfab3e4c64f0bd4711ed77cb972d15cc095455",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bc/OoTNS2_Deku-Nut_Bag_Icon.png/256px-OoTNS2_Deku-Nut_Bag_Icon.png"
+  },
+  "nut_bag2": {
+   "file": "icons/nut_bag2.png",
+   "sha256": "6465a9ed444d2b3d121a74164f83125be681b35a647adb0891096dcdc251335e",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0b/OoTNS2_Bigger_Deku-Nut_Bag_Icon.png/256px-OoTNS2_Bigger_Deku-Nut_Bag_Icon.png"
+  },
+  "nut_bag3": {
+   "file": "icons/nut_bag3.png",
+   "sha256": "2b879203882089ffa05863dc1e086a6a9cf3ee185b1b44dae61d88cc07cf45d4",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/80/OoTNS2_Biggest_Deku-Nut_Bag_Icon.png/256px-OoTNS2_Biggest_Deku-Nut_Bag_Icon.png"
+  },
+  "ocarina_of_time": {
+   "file": "icons/ocarina_of_time.png",
+   "sha256": "f3e9f412ac42580733b153f905978e8f8b48fe2694f76c61f46483db51962fe5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/57/OoTNS2_Ocarina_of_Time_Icon.png/256px-OoTNS2_Ocarina_of_Time_Icon.png"
+  },
+  "odd_mushroom": {
+   "file": "icons/odd_mushroom.png",
+   "sha256": "a4889b06979dd0675c036fdbe7cf487a17808c809ac4e55cdea0632cafbcca0c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8d/OoTNS2_Odd_Mushroom_Icon.png/256px-OoTNS2_Odd_Mushroom_Icon.png"
+  },
+  "odd_potion": {
+   "file": "icons/odd_potion.png",
+   "sha256": "a790580bdb4b4666a383872b567bf2eb3c1aae5db1109f10318aa0daeeb01858",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/75/OoTNS2_Odd_Poultice_Icon.png/256px-OoTNS2_Odd_Poultice_Icon.png"
+  },
+  "phantom_ganon": {
+   "file": "icons/phantom_ganon.png",
+   "sha256": "151eed9407970879f91d20972ea8477c93384e0e036da366a27730d21348c405",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c6/OoTNS2_Phantom_Ganon_Model.png/256px-OoTNS2_Phantom_Ganon_Model.png"
+  },
+  "piece_map": {
+   "file": "icons/piece_map.png",
+   "sha256": "5bdc768221f6d151550325d3c404c1a77d205e87cd61f7c87c81d0399997291a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/04/OoTNS2_Piece_of_Heart_Map_Icon.png"
+  },
+  "piece_of_heart": {
+   "file": "icons/piece_of_heart.png",
+   "sha256": "3531354fa9810e5aea8a78f774298eb9a21a4f17ea028261dc2b418f706d4d8a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/OoTNS2_Piece_of_Heart_Icon.png/256px-OoTNS2_Piece_of_Heart_Icon.png"
+  },
+  "poachers_saw": {
+   "file": "icons/poachers_saw.png",
+   "sha256": "30ebbae83e61ea983665e7eb162ac5e7dba1fbf2bb9475b7f93d0c977f5da804",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ec/OoTNS2_Poacher%27s_Saw_Icon.png/256px-OoTNS2_Poacher%27s_Saw_Icon.png"
+  },
+  "pocket_cucco": {
+   "file": "icons/pocket_cucco.png",
+   "sha256": "e6ecc8db6974d4df611fb717c51e95dc320ba1872b28d0a39b130f16be18fa55",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a2/OoTNS2_Pocket_Cucco_Icon.png/256px-OoTNS2_Pocket_Cucco_Icon.png"
+  },
+  "poe": {
+   "file": "icons/poe.png",
+   "sha256": "3d746e33a8b3357b522a2032b00d839dc1b2550a19503419a68b5de7e300aab5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6a/OoTNS2_Poe_Icon.png/256px-OoTNS2_Poe_Icon.png"
+  },
+  "prescription": {
+   "file": "icons/prescription.png",
+   "sha256": "c4723ba45390201a4d98b9789f4bfce7291ea991e722a89d1f58c4316e6ef918",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5a/OoTNS2_Prescription_Icon.png/256px-OoTNS2_Prescription_Icon.png"
+  },
+  "quiver": {
+   "file": "icons/quiver.png",
+   "sha256": "a252147021754704679f9f5f04f091adcf9b382647365ed5812ea044872b0b9a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1c/OoTNS2_Quiver_Icon.png/256px-OoTNS2_Quiver_Icon.png"
+  },
+  "quiver2": {
+   "file": "icons/quiver2.png",
+   "sha256": "74ecac705598aaf0b445be3f3a3d12567987f796ff5cad02d71184279ad97ca8",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/41/OoTNS2_Bigger_Quiver_Icon.png/256px-OoTNS2_Bigger_Quiver_Icon.png"
+  },
+  "quiver3": {
+   "file": "icons/quiver3.png",
+   "sha256": "6242380d500296e4e6eb7c8b763a5a763780b9ca785bab2c46821d20ed008854",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/90/OoTNS2_Biggest_Quiver_Icon.png/256px-OoTNS2_Biggest_Quiver_Icon.png"
+  },
+  "red_potion": {
+   "file": "icons/red_potion.png",
+   "sha256": "e89e85bd7bd9d826c5bce4267ba25402484e33ea2de35a59147e6d6695bfacc2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5d/OoTNS2_Red_Potion_Icon.png/256px-OoTNS2_Red_Potion_Icon.png"
+  },
+  "rupee": {
+   "file": "icons/rupee.png",
+   "sha256": "daa5b8bc9f5485b6deea6f031c9b9497701a750a7c7394133812b57a6bd95615",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/4e/OoTNS2_Rupee_Icon.png"
+  },
+  "rupee_blue": {
+   "file": "icons/rupee_blue.png",
+   "sha256": "8d892b101987325e01fc13e020f966fb6bf594815ae5e0b680eca63b4580bbf5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e6/OoTNS2_Blue_Rupee_Icon.png/256px-OoTNS2_Blue_Rupee_Icon.png"
+  },
+  "rupee_gold": {
+   "file": "icons/rupee_gold.png",
+   "sha256": "4f6b8cdd6931d345b2d3d164f20882b3143c4c8cdde36987bf2bd2c3b7a56c33",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/93/OoTNS2_Gold_Rupee_Icon.png/256px-OoTNS2_Gold_Rupee_Icon.png"
+  },
+  "rupee_green": {
+   "file": "icons/rupee_green.png",
+   "sha256": "5add4d7d8a529c4a1dea81a3ab13f8910b14bfe2feb13b8fabc545ff40e9dcba",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/22/OoTNS2_Green_Rupee_Icon.png/256px-OoTNS2_Green_Rupee_Icon.png"
+  },
+  "rupee_purple": {
+   "file": "icons/rupee_purple.png",
+   "sha256": "e0502043e3538f0990509d1f9b406b259f32a07864901c78fbd8f72642fb3813",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/12/OoTNS2_Purple_Rupee_Icon.png/256px-OoTNS2_Purple_Rupee_Icon.png"
+  },
+  "rupee_red": {
+   "file": "icons/rupee_red.png",
+   "sha256": "c491f4bf5e28d3e4fc99fe4c23ce83088a94c32175ee6fc65621443f67bb1eed",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3b/OoTNS2_Red_Rupee_Icon.png/256px-OoTNS2_Red_Rupee_Icon.png"
+  },
+  "scrub_seed": {
+   "file": "icons/scrub_seed.png",
+   "sha256": "44d05998f72344dd7b550d3f988d47ccd8aa6a8aa52901d0f391d6a9a97bb12c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8c/OoTNS2_Business_Scrub_Seed_Icon.png/256px-OoTNS2_Business_Scrub_Seed_Icon.png"
+  },
+  "seed_bag": {
+   "file": "icons/seed_bag.png",
+   "sha256": "ee08a4eb35629438e2926a932a3c9be2b6ed0c4e36b55515161034d2a9b05838",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b5/OoTNS2_Deku-Seed_Bag_Icon.png/256px-OoTNS2_Deku-Seed_Bag_Icon.png"
+  },
+  "seed_bag2": {
+   "file": "icons/seed_bag2.png",
+   "sha256": "7fae5808a106dd04fb6e9a69c77364c15a1f217009d84bf282aaec69b0e6b2ac",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f6/OoTNS2_Bigger_Deku-Seed_Bag_Icon.png/256px-OoTNS2_Bigger_Deku-Seed_Bag_Icon.png"
+  },
+  "seed_bag3": {
+   "file": "icons/seed_bag3.png",
+   "sha256": "addc8469837eb9853aad7767c84b10dd9a31fe0714e000ba53aae6a7f1b58469",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/71/OoTNS2_Biggest_Deku-Seed_Bag_Icon.png/256px-OoTNS2_Biggest_Deku-Seed_Bag_Icon.png"
+  },
+  "shadow_medallion": {
+   "file": "icons/shadow_medallion.png",
+   "sha256": "8395d760690bd21d6c15281c3c5181a2f91ff3d39674f1d5a1220e51230ace0d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b8/OoTNS2_Shadow_Medallion_Icon.png"
+  },
+  "silver_gauntlets": {
+   "file": "icons/silver_gauntlets.png",
+   "sha256": "c21ffd428f167761023f7b7164a7542b075f407fa40a140c773e9cf18eda255f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/OoTNS2_Silver_Gauntlets_Icon.png/256px-OoTNS2_Silver_Gauntlets_Icon.png"
+  },
+  "silver_scale": {
+   "file": "icons/silver_scale.png",
+   "sha256": "63f65457d6299cde5cdbf1c1269a1e388a12293d0bf8a31ba205c0467bc13bbc",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d7/OoTNS2_Silver_Scale_Icon.png/256px-OoTNS2_Silver_Scale_Icon.png"
+  },
+  "sinking_lure": {
+   "file": "icons/sinking_lure.png",
+   "sha256": "5a51f26343d1a1f750c9c0e31f0a488020415232587b82d051b051d08ba96132",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/40/OoTNS2_Sinking_Lure_Icon.png/256px-OoTNS2_Sinking_Lure_Icon.png"
+  },
+  "skull_mask": {
+   "file": "icons/skull_mask.png",
+   "sha256": "3a224d60df8c89ec1412d54d4bf766a9823c8438069078e7f2f005e0e2caab59",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3e/OoTNS2_Skull_Mask_Icon.png/256px-OoTNS2_Skull_Mask_Icon.png"
+  },
+  "slingshot": {
+   "file": "icons/slingshot.png",
+   "sha256": "6078446fb17136ceb4df55ebe8946310afbdd0db49224ba25ac743145227618b",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a4/OoTNS2_Fairy_Slingshot_Icon.png/256px-OoTNS2_Fairy_Slingshot_Icon.png"
+  },
+  "small_key": {
+   "file": "icons/small_key.png",
+   "sha256": "066066583d1ae658f18314be95ee587a22059b877ec2299dcab13f6642ea4886",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/31/OoTNS2_Small_Key_Icon.png/256px-OoTNS2_Small_Key_Icon.png"
+  },
+  "song_bolero": {
+   "file": "icons/song_bolero.png",
+   "sha256": "3a17046fd9b2016e394ae3796d3ab50ca8b387edbcfd01cc637fd7df5f8eecd4",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/OoTNS2_Bolero_of_Fire_Icon.png"
+  },
+  "song_epona": {
+   "file": "icons/song_epona.png",
+   "sha256": "340321b3e01d0ca9c452c269f72b23c6d78a1fbdb96db765f9ad7fcb7bb496d6",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/45/OoTNS2_Epona%27s_Song_Icon.png"
+  },
+  "song_minuet": {
+   "file": "icons/song_minuet.png",
+   "sha256": "d6a747de57c8490dce39212d8ed59cc2ea955e615b741a4e6378785f7f8303ad",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6b/OoTNS2_Minuet_of_the_Forest_Icon.png"
+  },
+  "song_nocturne": {
+   "file": "icons/song_nocturne.png",
+   "sha256": "ce424f2e0aefa70614760e4afdfb2fac786f159f3dc7a93da4d9ca574d66323d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/OoTNS2_Nocturne_of_Shadow_Icon.png"
+  },
+  "song_prelude": {
+   "file": "icons/song_prelude.png",
+   "sha256": "4e4983cfd7a09a0032d037a00de83b307e502288d296d7cad7bec90248dcdab1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoTNS2_Prelude_of_Light_Icon.png"
+  },
+  "song_requiem": {
+   "file": "icons/song_requiem.png",
+   "sha256": "a0c91ec53a41e4972c5df95de532c3a04d2ff1335ec82161dbe6071ead9697f1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/9/90/OoTNS2_Requiem_of_Spirit_Icon.png"
+  },
+  "song_saria": {
+   "file": "icons/song_saria.png",
+   "sha256": "11ef027a3fcd7a0b4f14a91d5c62f9c7549533377df91f950b43b25ba2a25681",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/07/OoTNS2_Saria%27s_Song_Icon.png"
+  },
+  "song_scarecrow": {
+   "file": "icons/song_scarecrow.png",
+   "sha256": "81a159085487eda590812a9cfadd1212459847b68ec1d32409019a5ba7fca456",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/f4/OoTNS2_Scarecrow_Song_Icon.png"
+  },
+  "song_serenade": {
+   "file": "icons/song_serenade.png",
+   "sha256": "b53245cf9aefc21b4f8cd17b34d733d9e7711113f6c8bc6c0da4e4c53a18a720",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/75/OoTNS2_Serenade_of_Water_Icon.png"
+  },
+  "song_storms": {
+   "file": "icons/song_storms.png",
+   "sha256": "53d4ef68b5b5477e7ebf5534cfdd6ec2e376595563fab44ddc48e823294e0ce9",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6d/OoTNS2_Song_of_Storms_Icon.png"
+  },
+  "song_sun": {
+   "file": "icons/song_sun.png",
+   "sha256": "69d9cb548e6ca438d8d75be8714bd66bb7b799be1d195f770969075c2025671e",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/38/OoTNS2_Sun%27s_Song_Icon.png"
+  },
+  "song_time": {
+   "file": "icons/song_time.png",
+   "sha256": "b7cbe4088802f94d5d578a2fd156331314ddcda8f77b4609f2431109c7a8f7e3",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/64/OoTNS2_Song_of_Time_Icon.png"
+  },
+  "song_zelda": {
+   "file": "icons/song_zelda.png",
+   "sha256": "d6e778ca5920f9ce48ba3173e868173f4e2a59cd72710be53758dbc1c77f1180",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/21/OoTNS2_Zelda%27s_Lullaby_Icon.png"
+  },
+  "spirit_medallion": {
+   "file": "icons/spirit_medallion.png",
+   "sha256": "9cdae49a4ec9668cdc1e804579bae306352debd2b262de5c448a856cdb2d96a5",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/18/OoTNS2_Spirit_Medallion_Icon.png"
+  },
+  "spooky_mask": {
+   "file": "icons/spooky_mask.png",
+   "sha256": "7769e23259504b829e89b6ef8c10336f3dfff3996df0eb99339250390d53509d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6b/OoTNS2_Spooky_Mask_Icon.png/256px-OoTNS2_Spooky_Mask_Icon.png"
+  },
+  "stick_bag": {
+   "file": "icons/stick_bag.png",
+   "sha256": "e51ecd7edead39e4252e8ad5ba728fe357b4353bd84b89e6b07043a25ba5de6e",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0c/OoTNS2_Deku-Stick_Bag_Icon.png/256px-OoTNS2_Deku-Stick_Bag_Icon.png"
+  },
+  "stick_bag2": {
+   "file": "icons/stick_bag2.png",
+   "sha256": "0be285076dad4dec0ce34b7bcc76bbe0c7e6b28c85e7bcf75becdb850458d382",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/89/OoTNS2_Bigger_Deku-Stick_Bag_Icon.png/256px-OoTNS2_Bigger_Deku-Stick_Bag_Icon.png"
+  },
+  "stick_bag3": {
+   "file": "icons/stick_bag3.png",
+   "sha256": "683cb75de082b0259377991156659eac168f29c56160c578daf4664ba455a9cd",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2c/OoTNS2_Biggest_Deku-Stick_Bag_Icon.png/256px-OoTNS2_Biggest_Deku-Stick_Bag_Icon.png"
+  },
+  "t_barinade": {
+   "file": "icons/t_barinade.png",
+   "sha256": "759bd6da763f3d657c968524926f6d4de5d66a1e3ba438abc43ea4192846c21f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/OoTNS2_Threads_of_Time_Lord_Jabu-Jabu_and_Barinade_Icon.png"
+  },
+  "t_biggoron": {
+   "file": "icons/t_biggoron.png",
+   "sha256": "2c009ebd4e55cc5eb1b055e09493573028d5e1a6e7ee1a05f97ac17ecbab49f0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/60/OoTNS2_Threads_of_Time_Biggoron_Sword_Icon.png"
+  },
+  "t_bongo": {
+   "file": "icons/t_bongo.png",
+   "sha256": "5eb40f15c315b059e29c412fd5b9a159121a68e26a3200f4f06b70e48482dc7b",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b6/OoTNS2_Threads_of_Time_Bongo_Bongo_and_Impa_Icon.png"
+  },
+  "t_epona": {
+   "file": "icons/t_epona.png",
+   "sha256": "61cfa731760b67fec7b41cf6f32cdd8d9de989897e32d898eb3778fec39853d2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/39/OoTNS2_Threads_of_Time_Epona_Icon.png"
+  },
+  "t_fire_medallion": {
+   "file": "icons/t_fire_medallion.png",
+   "sha256": "5799e111d4fc7904c2d6ae658c16810f8c97f7f490bffafb50b8247f69fb03b2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/0e/OoTNS2_Threads_of_Time_Fire_Medallion_Icon.png"
+  },
+  "t_forest_medallion": {
+   "file": "icons/t_forest_medallion.png",
+   "sha256": "698862c1e894dbbb63d4ff932f08299d6de8767468f44a2aa4515fc7f5ca2592",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/25/OoTNS2_Threads_of_Time_Forest_Medallion_Icon.png"
+  },
+  "t_ganon": {
+   "file": "icons/t_ganon.png",
+   "sha256": "4c81be4eafdfe6cacca1cde8484d6db7540e25e8bf4b8a0b23efbea23dd1c319",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/aa/OoTNS2_Threads_of_Time_Ganon_Icon.png"
+  },
+  "t_ganondorf": {
+   "file": "icons/t_ganondorf.png",
+   "sha256": "9b3f1966e060e429523d8aa1349dd74a03e7904f17739f2bc849d8613028accb",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/50/OoTNS2_Threads_of_Time_Ganondorf_Icon.png"
+  },
+  "t_gohma": {
+   "file": "icons/t_gohma.png",
+   "sha256": "1009b286e01c481a91e31b6c132df6195e916e123f14a5fc3c07d53236e11718",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/df/OoTNS2_Threads_of_Time_Gohma_Icon.png"
+  },
+  "t_goron_ruby": {
+   "file": "icons/t_goron_ruby.png",
+   "sha256": "ed9d948f894909a30dd3d572bda2817137d97b5202916e3fea1db3bf8a27d179",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/OoTNS2_Threads_of_Time_Goron_Ruby_Icon.png"
+  },
+  "t_great_fairies": {
+   "file": "icons/t_great_fairies.png",
+   "sha256": "f2425121debbcc377564a00b9de67fb75428a64a552ab2b05cdadf466778b4a2",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/OoTNS2_Threads_of_Time_Great_Fairies_Icon.png"
+  },
+  "t_kaepora": {
+   "file": "icons/t_kaepora.png",
+   "sha256": "e274b9d2564fda39249948f6e1f4e55b72d8d0029920e62ab6624c0fc6fb27c0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/ad/OoTNS2_Threads_of_Time_Kaepora_Gaebora_Icon.png"
+  },
+  "t_king_dodongo": {
+   "file": "icons/t_king_dodongo.png",
+   "sha256": "3f900831d1f24c256c9597d86030164512ee3548cfba0da9dd2ab0afa6cf6af1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/f8/OoTNS2_Threads_of_Time_King_Dodongo_Icon.png"
+  },
+  "t_kokiri_emerald": {
+   "file": "icons/t_kokiri_emerald.png",
+   "sha256": "6429e05c3e49e61206a6bb752ff644d8a15f20b48d5a4d22c8effd51efe97f5c",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/55/OoTNS2_Threads_of_Time_Kokiri_Emerald_Icon.png"
+  },
+  "t_light_medallion": {
+   "file": "icons/t_light_medallion.png",
+   "sha256": "480d95cce384691d49a79a1e25a697f0e0fe55a2a383d38022aa2f272b0d04ae",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/ed/OoTNS2_Threads_of_Time_Light_Medallion_Icon.png"
+  },
+  "t_link_navi": {
+   "file": "icons/t_link_navi.png",
+   "sha256": "6c2331d4a9ea26137e512b2e1aacc25fa277a9b6c9b389ed512effce4ba45526",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/a0/OoTNS2_Threads_of_Time_Link_and_Navi_Icon.png"
+  },
+  "t_mask_truth": {
+   "file": "icons/t_mask_truth.png",
+   "sha256": "a17aab9f96e3f8202b83ee396cf196695cede0b8ee0e260a63a263f71b4ba73f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/ac/OoTNS2_Threads_of_Time_Mask_of_Truth_Icon.png"
+  },
+  "t_master_sword": {
+   "file": "icons/t_master_sword.png",
+   "sha256": "7b31102403e3b770c93e79cd5e2fbbaa919812fb5725da2c5765a468dc9e4834",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/cf/OoTNS2_Threads_of_Time_Master_Sword_Icon.png"
+  },
+  "t_morpha": {
+   "file": "icons/t_morpha.png",
+   "sha256": "83272745e8a2ec82637e04bd8385226046ded5f010126e8a76c3bdd43c3a0c3f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/dd/OoTNS2_Threads_of_Time_Ruto_and_Morpha_Icon.png"
+  },
+  "t_ocarina": {
+   "file": "icons/t_ocarina.png",
+   "sha256": "c4330bd18a6ade624f85be61ad36d3c50e36bed7b9f44ebf393d4e91cf9fcb08",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/8b/OoTNS2_Threads_of_Time_Ocarina_of_Time_Icon.png"
+  },
+  "t_phantom_ganon": {
+   "file": "icons/t_phantom_ganon.png",
+   "sha256": "c1cb7e822afa25f14e29e7f617fbc8ac8dd4b807ef19b69cc8c622ed3691e6f1",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/1d/OoTNS2_Threads_of_Time_Phantom_Ganon_and_Saria_Icon.png"
+  },
+  "t_rauru": {
+   "file": "icons/t_rauru.png",
+   "sha256": "e6769cbdde17fb0fbf34b8865a3431bf337e5d6ad18fa359c0278e969398c316",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/aa/OoTNS2_Threads_of_Time_Rauru_Icon.png"
+  },
+  "t_saria": {
+   "file": "icons/t_saria.png",
+   "sha256": "c8c5a169be77c834aaa7de5d88afe9fe601787d9259d7ba1acf64bb19f247f36",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/OoTNS2_Threads_of_Time_Saria_Icon.png"
+  },
+  "t_shadow_medallion": {
+   "file": "icons/t_shadow_medallion.png",
+   "sha256": "5184fe6bc0e9e0f2c90383964a3ddec02f7b9b6676a82154008d9e71314cde2a",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/34/OoTNS2_Threads_of_Time_Shadow_Medallion_Icon.png"
+  },
+  "t_sheik": {
+   "file": "icons/t_sheik.png",
+   "sha256": "87aaa03b2406a69a7120004dd1d5bac7c91b2152fa95c7a59112caf792242237",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/5f/OoTNS2_Threads_of_Time_Sheik_Icon.png"
+  },
+  "t_spirit_medallion": {
+   "file": "icons/t_spirit_medallion.png",
+   "sha256": "aa9efb130b40db42000842fa6844777374116f6046aef49853253696ffee4661",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/16/OoTNS2_Threads_of_Time_Spirit_Medallion_Icon.png"
+  },
+  "t_storms": {
+   "file": "icons/t_storms.png",
+   "sha256": "d8ed9f8fb0e3f679d6c752ee645bc595814cb5df691b521efa61e136a2cfabc0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/ff/OoTNS2_Threads_of_Time_Song_of_Storms_Icon.png"
+  },
+  "t_sun": {
+   "file": "icons/t_sun.png",
+   "sha256": "c794a56c5af0e9436954b0fc89f67326b7d5e65640dc65820250d6bdc6ec2b7f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/5d/OoTNS2_Threads_of_Time_Sun%27s_Song_Icon.png"
+  },
+  "t_triforce": {
+   "file": "icons/t_triforce.png",
+   "sha256": "a02f112f3b7bbcc215a168fc5de0a612572422e73cea21f9aad8539773632fba",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/OoTNS2_Threads_of_Time_Triforce_Icon.png"
+  },
+  "t_twinrova": {
+   "file": "icons/t_twinrova.png",
+   "sha256": "4fd8600dca618d6df3364dcc17f6b4a4071d8ef79ece313e9de3ea66e5506cdc",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/9/9c/OoTNS2_Threads_of_Time_Nabooru_and_Twinrova_Icon.png"
+  },
+  "t_volvagia": {
+   "file": "icons/t_volvagia.png",
+   "sha256": "19bb59689317200d565f3ebe3c8a517a13e9e190aba57039154fa478bfb61286",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/d2/OoTNS2_Threads_of_Time_Volvagia_and_Darunia_Icon.png"
+  },
+  "t_water_medallion": {
+   "file": "icons/t_water_medallion.png",
+   "sha256": "adebccf447cfb654cf769ba1536becadbe78582374654d5d5c7950d862df10a8",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/03/OoTNS2_Threads_of_Time_Water_Medallion_Icon.png"
+  },
+  "t_zelda": {
+   "file": "icons/t_zelda.png",
+   "sha256": "309d32938f9a3684618cd68804952b579b976e9c190fd1ae876d29481deb8019",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e6/OoTNS2_Threads_of_Time_Zelda_Icon.png"
+  },
+  "t_zora_sapphire": {
+   "file": "icons/t_zora_sapphire.png",
+   "sha256": "c23360958bcdfe7ae99e9fec0a5df70f4ea0f55264349fd6fc16cf4606cd2f3e",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c5/OoTNS2_Threads_of_Time_Zora_Sapphire_Icon.png"
+  },
+  "token_map": {
+   "file": "icons/token_map.png",
+   "sha256": "26bcd72e2de8f7d88929ecd714ae258a984a5d34aae29c66b966245d7d37e406",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/OoTNS2_Token_Map_Icon.png"
+  },
+  "treasure_chest": {
+   "file": "icons/treasure_chest.png",
+   "sha256": "a900a44d63223d4c983e5a528e536b56a661979386734fd8505d62748b19e0a7",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/23/OoTNS2_Treasure_Chest_Icon.png"
+  },
+  "twinrova": {
+   "file": "icons/twinrova.png",
+   "sha256": "0b7c1420dfa6e388a693b89dce83e7ff0f04a94046654def97fd986d8996ddaa",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f1/OoTNS2_Twinrova_Model.png/256px-OoTNS2_Twinrova_Model.png"
+  },
+  "volvagia": {
+   "file": "icons/volvagia.png",
+   "sha256": "7a95b19768589efe12d0cf7be99b1a3e9466b00132a73f248035b10f94f822c0",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/78/OoTNS2_Volvagia_Model.png/256px-OoTNS2_Volvagia_Model.png"
+  },
+  "water_medallion": {
+   "file": "icons/water_medallion.png",
+   "sha256": "1e093a01cd1a7fecdcdd2e442c888c9b508d142f62dbbe65f32e2a5245da8809",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c2/OoTNS2_Water_Medallion_Icon.png"
+  },
+  "weird_egg": {
+   "file": "icons/weird_egg.png",
+   "sha256": "f708eb792ade30d79adbd9da618aeb0be1755585466b4a3e10d4202a983dfd83",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7f/OoTNS2_Weird_Egg_Icon.png/256px-OoTNS2_Weird_Egg_Icon.png"
+  },
+  "zeldas_letter": {
+   "file": "icons/zeldas_letter.png",
+   "sha256": "b6ba119309f56423c91b99be137119d685104ac098ad59cea76f731809c18caf",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/59/OoTNS2_Zelda%27s_Letter_Icon.png/256px-OoTNS2_Zelda%27s_Letter_Icon.png"
+  },
+  "zn_gossip": {
+   "file": "icons/zn_gossip.png",
+   "sha256": "64490a6dda4766c2515d2d3e7e500d94c500f6c7df097c14d3e8c3c1629b70dd",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/40/OoTNS2_ZN_Gossip_Quests_Icon.png"
+  },
+  "zn_ocarina": {
+   "file": "icons/zn_ocarina.png",
+   "sha256": "c062b3b06577123e33d408d936e2ef6f902ceb98968716540f707fca6dd3767f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/4f/OoTNS2_ZN_Play_Ocarina_Icon.png"
+  },
+  "zn_quiz": {
+   "file": "icons/zn_quiz.png",
+   "sha256": "056d16734dfa87d91b71ec3bb7fca58dcec67480e91bbffd3cc89bf85afd7d63",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/a6/OoTNS2_ZN_Ocarina_of_Time_Quiz_Icon.png"
+  },
+  "zora_mask": {
+   "file": "icons/zora_mask.png",
+   "sha256": "4876249dc5d55f66e0afaed1900796d8f361a2904c745a72c3168faa64c0f664",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/09/OoTNS2_Zora_Mask_Icon.png/256px-OoTNS2_Zora_Mask_Icon.png"
+  },
+  "zora_sapphire": {
+   "file": "icons/zora_sapphire.png",
+   "sha256": "ce7b895d0a10218c9231a80679167095f2430bddb26fdeb3cab005c574a6cf5f",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c7/OoTNS2_Zora_Sapphire_Icon.png"
+  },
+  "zora_tunic": {
+   "file": "icons/zora_tunic.png",
+   "sha256": "43060a42ae3e4e62af25b9d3528a54690e2050dd76433b7e7e255892dab6b50d",
+   "source": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/08/OoTNS2_Zora_Tunic_Icon.png/256px-OoTNS2_Zora_Tunic_Icon.png"
+  }
+ }
+}
